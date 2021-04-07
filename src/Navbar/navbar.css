@@ -1,0 +1,7 @@
+nav a.navbar-brand {
+    width: 350px;
+}
+
+nav img {
+    width: 100% \9; /* IE */
+}

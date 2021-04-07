@@ -2,7 +2,7 @@
 version: '3.7'
     
 services:
-  client:
+  portal-eol:
     build: 
       context: .
       target: dev
