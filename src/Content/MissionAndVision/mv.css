@@ -1,0 +1,18 @@
+section#missionvision {
+    background-color: #00b3ff;
+}
+
+section#missionvision h2.content-header:after {
+    width: 5%;
+    background-color: #ffff;
+}
+
+section#missionvision, 
+section#missionvision h2.content-header {
+    color: #ffff;
+}
+
+section#missionvision img {
+    max-width: 140px;
+    max-height: 130px;
+}

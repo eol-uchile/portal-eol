@@ -1,3 +1,30 @@
 body {
-  font-family: brandon-grotesque, sans-serif !important;
+  font-family: soleil, sans-serif !important;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+section h2.content-header {
+  color: #00b3ff;
+  padding-bottom: 8px;
+}
+
+
+section h2.content-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #00b3ff;
+  transition: 0.35s;
+}
+
+section div.content-info {
+  margin-top: 30px;
 }

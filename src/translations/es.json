@@ -3,5 +3,14 @@
     "navbar.platform": "Plataforma",
     "navbar.projects": "Proyectos",
     "navbar.teaching_support": "Apoyo Docente",
-    "navbar.we": "Nosotros"
+    "navbar.we": "Nosotros",
+    "teams.header": "Equipo",
+    "teams.desc": "Nuestra oficina está compuesta por profesionales del ámbito de la educación y de las tecnologías de la información",
+    "about.header": "¿Qué es la Oficina de Educación Online?",
+    "about.content.one": "La Oficina de Educación Online (EOL) de la Vicerrectoría de Tecnologías de la Información, es una oficina creada con el objetivo de desarrollar capacidades al interior de la Universidad para complementar y enriquecer la práctica docente, mediante la aplicación de nuevas tecnologías de educación online. ",
+    "about.content.two": "La Oficina EOL busca contribuir a mejorar el proceso de enseñanza-aprendizaje de los alumnos de la Universidad para todos los niveles de la educación: pregrado, postgrado y educación continua, entregando educación no presencial de excelencia.",
+    "about.content.three": "Ofrecemos soporte técnico y pedagógico, proveyendo una plataforma para la gestión del aprendizaje (Learning Management System o LMS), así como también apoyo en diseño instruccional para educación online y producción de cursos en este formato.",
+    "mv.header": "Misión/Vision",
+    "mv.mission": "Apoyar a la Universidad en su labor de formación, docencia y extensión a través de e-learning, mediante la entrega de servicios y herramientas a las unidades académicas y organismos que lo soliciten",
+    "mv.vision": "Queremos que la Universidad sea El referente en educación online, no solo en tecnología, sino en el proceso de transformación de la educación presencial a digital en todos los niveles."
 }

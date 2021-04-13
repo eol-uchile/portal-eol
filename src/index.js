@@ -19,10 +19,8 @@ const translation = {
 const language = navigator.language.split(/[-_]/)[0];
 
 ReactDOM.render(
-  <React.StrictMode>
     <IntlProvider locale={language} messages={translation[language]}>
       <MainApp />
-    </IntlProvider>
-  </React.StrictMode>,
+    </IntlProvider>,
   document.getElementById('root')
 );

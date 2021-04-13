@@ -24,17 +24,17 @@ nav img {
 
 .button-menu.active .top {
   transform: translateY(10px) translateX(0) rotate(45deg);
-  background: #FFF;
+  background: #00b3ff;
 }
 
 .button-menu.active .middle {
   opacity: 0;
-  background: #FFF;
+  background: #00b3ff;
 }
 
 .button-menu.active .bottom {
   transform: translateY(-10px) translateX(0) rotate(-45deg);
-  background: #FFF;
+  background: #00b3ff;
 }
 
 .button-menu span {
@@ -71,7 +71,7 @@ nav img {
 
 .overlay:before {
   content: "";
-  background: #00b3ff;
+  background: #ffff;
   left: -55%;
   top: 0;
   width: 50%;
@@ -82,7 +82,7 @@ nav img {
 
 .overlay:after {
   content: "";
-  background: #00b3ff;
+  background: #ffff;
   right: -55%;
   top: 0;
   width: 50%;
@@ -92,7 +92,7 @@ nav img {
 }
 
 .overlay.open {
-  opacity: 0.5;
+  opacity: 0.95;
   visibility: visible;
   height: 100%;
 }
@@ -138,13 +138,13 @@ nav img {
   top: 50%;
   transform: translateY(-50%);
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   z-index: 100;
 }
 
 .overlay nav li:hover {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .overlay ul {
@@ -168,7 +168,7 @@ nav img {
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #FFF;
+  color: #00b3ff;
   text-decoration: none;
   overflow: hidden;
 }
@@ -185,7 +185,7 @@ nav img {
   width: 0%;
   transform: translateX(-50%);
   height: 3px;
-  background: #FFF;
+  background: #00b3ff;
   transition: 0.35s;
 }
 
