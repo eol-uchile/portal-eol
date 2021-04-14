@@ -1,5 +1,4 @@
 import React from 'react';
-import { MenuList } from '../Navbar/MenuList';
 import "./footer.css";
 
 export const FooterComponent = () => {

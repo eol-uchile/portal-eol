@@ -1,0 +1,15 @@
+div.language-container {
+    background: rgb(0,179,255);
+    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    color: #ffff;
+}
+
+.language-container select {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    color: #ffff;
+    position: sticky;
+    top: 3%;
+    right: 4%;
+}

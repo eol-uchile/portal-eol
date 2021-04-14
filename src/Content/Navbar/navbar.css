@@ -8,7 +8,8 @@ nav img {
 }
 
 .button-menu {
-  position: fixed;
+  /* position: fixed; */
+  position: sticky;
   top: 3%;
   right: 4%;
   height: 27px;

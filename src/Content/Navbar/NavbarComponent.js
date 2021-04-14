@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import { scrollToTop } from '../Extras/ScrollToTopButton/scrolltop';
+import { scrollToTop } from '../../Extras/ScrollToTopButton/scrolltop';
 import { MenuList } from './MenuList';
 
 import './navbar.css';
@@ -18,7 +18,7 @@ export const NavbarComponent = () => {
             collapseOnSelect 
             expand="lg"
             className="py-2 px-lg-5"
-            fixed="top"
+            // fixed="top"
         >
             <NavLink className="navbar-brand mx-lg-auto" to="/">
                 <img 

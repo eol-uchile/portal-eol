@@ -5,19 +5,23 @@ import {
     Route,
     Redirect
   } from 'react-router-dom';
-import { NavbarComponent } from './Navbar/NavbarComponent';
-import { FooterComponent } from './Footer/FooterComponent';
+import { NavbarComponent } from './Content/Navbar/NavbarComponent';
+import { FooterComponent } from './Content/Footer/FooterComponent';
 import { HomePage } from './Pages/HomePage';
 import { ProjectsPage } from './Pages/ProjectsPage';
-import { ScrollToTopButtonComponent } from './Extras/ScrollToTopButton/ScrollToTopButtonComponent';
 import { WePage } from './Pages/WePage';
+import { ScrollToTopButtonComponent } from './Extras/ScrollToTopButton/ScrollToTopButtonComponent';
+import { LanguageProvider } from './Extras/Language/LanguageProvider';
+import { LanguageSelectorComponent } from './Extras/Language/LanguageSelectorComponent';
 
 export const MainApp = () => {
+
     return (
-        <>
+        <LanguageProvider>
             <Router>
+                <LanguageSelectorComponent />
                 <NavbarComponent />
-                <div className="mt-5 pt-4">
+                <div className="">
                     <Switch>
                         <Route exact path="/home" component={ HomePage } />
                         <Route exact path="/projects" component={ ProjectsPage } />
@@ -28,6 +32,6 @@ export const MainApp = () => {
                 <FooterComponent />
                 <ScrollToTopButtonComponent />
             </Router>
-        </>
+        </LanguageProvider>
     )
 }
