@@ -2,9 +2,6 @@ section#team {
     background-color: #ecf0f5;
 }
 
-section#team h2.content-header:after {
-    width: 5%;
-}
 
 .team-member .name {
     color: #00b3ff;

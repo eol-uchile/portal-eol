@@ -3,7 +3,6 @@ section#missionvision {
 }
 
 section#missionvision h2.content-header:after {
-    width: 5%;
     background-color: #ffff;
 }
 
@@ -14,5 +13,5 @@ section#missionvision h2.content-header {
 
 section#missionvision img {
     max-width: 140px;
-    max-height: 130px;
+    max-height: 120px;
 }

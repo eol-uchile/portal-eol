@@ -10,6 +10,6 @@ div.language-container {
     padding: 5px;
     color: #ffff;
     position: sticky;
-    top: 3%;
     right: 4%;
+    cursor: pointer;
 }

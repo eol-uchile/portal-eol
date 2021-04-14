@@ -1,0 +1,32 @@
+section#services {
+    background-color: #00b3ff;
+}
+
+section#services h2.content-header:after {
+    background-color: #ffff;
+}
+
+section#services, 
+section#services h2.content-header,
+section#services p {
+    color: #ffff;
+}
+
+section#services p.title {
+    font-weight: 600;
+}
+
+section#services p.info {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+section#services img {
+    max-height: 80px;
+}
+
+section#services a {
+    color: #ffff;
+    text-decoration: none !important;
+    font-weight: 400;
+}
