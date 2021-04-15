@@ -13,6 +13,7 @@ import { WePage } from './Pages/WePage';
 import { ScrollToTopButtonComponent } from './Extras/ScrollToTopButton/ScrollToTopButtonComponent';
 import { LanguageProvider } from './Extras/Language/LanguageProvider';
 import { LanguageSelectorComponent } from './Extras/Language/LanguageSelectorComponent';
+import { PlatformPage } from './Pages/PlatformPage';
 
 export const MainApp = () => {
 
@@ -24,6 +25,7 @@ export const MainApp = () => {
                 <div className="">
                     <Switch>
                         <Route exact path="/home" component={ HomePage } />
+                        <Route exact path="/platform" component={ PlatformPage } />
                         <Route exact path="/projects" component={ ProjectsPage } />
                         <Route exact path="/we" component={ WePage } />
                         <Redirect to="/home" />

@@ -33,5 +33,13 @@
     "services_2.3.title": "Programa Emprende Bien",
     "services_2.3.info": "La oficina EOL ha apoyado la creación de cursos en línea del programa Emprende Bien de la Corporación Construyendo Mis Sueños.",
     "services_2.4.title": "Convenio de colaboración con CTeC",
-    "services_2.4.info": "La Vicerrectoría de Tecnologías de la Información, a través de la oficina EOL."
+    "services_2.4.info": "La Vicerrectoría de Tecnologías de la Información, a través de la oficina EOL.",
+    "mp.header": "Plataformas administradas por EOL",
+    "mp.eol.title": "Educación Online",
+    "mp.eduonline.title": "EduOnline",
+    "mp.uabierta.title": "UAbierta",
+    "mp.cmmedu.title": "CMM Eduformación",
+    "openedx.header": "Open edX",
+    "openedx.content.one": "La plataforma LMS (Learning Management System) que ofrece la oficina EOL se basa en el proyecto de código abierto Open edX, desarrollado inicialmente por la Universidad de Harvard y el MIT, y clasifica como un sistema de cursos abiertos masivos en línea (Massive Open Online Course, MOOC). Esta característica lo hace estable y escalable para soportar decenas de miles de usuarios." ,
+    "openedx.content.two": "Esta plataforma ha sido implementada y configurada específicamente para el manejo de los cursos de la Universidad, que en su mayoría son privados y con un grupo acotado de alumnos. Para esto se han desarrollado componentes que permiten gestionar de mejor forma el aprendizaje en estas condiciones."
 }
