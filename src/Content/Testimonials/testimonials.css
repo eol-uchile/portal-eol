@@ -1,0 +1,42 @@
+section#testimonials .owl-carousel .nav-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 100px !important;
+    background-color: rgb(51, 59, 71, 0.3);
+    color: #ffff;
+    padding: 15px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+@media (min-width: 800px) {
+    section#testimonials .owl-carousel .nav-btn {
+        display: flex;
+    }
+}
+
+section#testimonials .owl-carousel .owl-prev.disabled, section#testimonials .owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+section#testimonials .owl-carousel .prev-slide {
+    left: -40px;
+}
+
+section#testimonials .owl-carousel .next-slide {
+    right: -40px;
+}
+
+section#testimonials .owl-carousel img {
+    width: auto !important;
+}
+
+section#testimonials .owl-carousel .card-subtitle {
+    color: #00b3ff;
+    font-weight: 300;
+}

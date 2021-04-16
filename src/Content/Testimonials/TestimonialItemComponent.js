@@ -1,0 +1,17 @@
+import React from 'react';
+import { Button, Card } from 'react-bootstrap';
+
+export const TestimonialItemComponent = ({ name, position, text, img }) => {
+    return (
+        <div className='item mx-auto'>
+            <Card className="mx-4 mx-lg-1">
+                <Card.Img className="m-2" variant="top" src={ img } />
+                <Card.Body>
+                    <Card.Title>{ name }</Card.Title>
+                    <Card.Subtitle className="mb-2 text-uppercase">{ position }</Card.Subtitle>
+                    <Card.Text>{ text }</Card.Text>
+                </Card.Body>
+            </Card>
+        </div>
+    )
+}
