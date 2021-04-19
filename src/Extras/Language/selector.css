@@ -6,6 +6,7 @@ div.language-container {
 
 .language-container select {
     border: none;
+    background: none;
     background-color: transparent;
     padding: 5px;
     color: #ffff;
