@@ -1,8 +1,8 @@
 import React from 'react';
 import { team_members } from './data';
-import { MemberComponent } from './MemberComponent';
+import { MemberComponent } from './MemberComponent2';
 import { FormattedMessage } from 'react-intl';
-import './team.css';
+import './team2.css';
 
 export const TeamComponent = () => {
     return (

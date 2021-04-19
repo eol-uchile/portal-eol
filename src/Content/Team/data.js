@@ -71,7 +71,8 @@ export const team_members = [
         'position'      : 'Diseñadora Gráfica',
         'description'   : 'Diseñador gráfico - DuocUC.<br/>Diseñadora UX UI.<br/>Diplomada en Dirección y gestión de comunicación, marketing y publicidad, Pontificia Universidad Católica.',
         'links'         : {
-            'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/'
+            'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
+            'behance'   : 'https://www.behance.net/cocalderon'
         }
     },
     {
