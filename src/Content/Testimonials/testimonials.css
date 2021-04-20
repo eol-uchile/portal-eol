@@ -40,3 +40,21 @@ section#testimonials .owl-carousel .card-subtitle {
     color: #00b3ff;
     font-weight: 300;
 }
+
+section#testimonials .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.testimonialModal .modal-body .modal-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialModal .modal-body .subtitle {
+    color: #00b3ff;
+    font-weight: 600;
+}

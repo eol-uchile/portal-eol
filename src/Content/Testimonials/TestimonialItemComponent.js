@@ -1,7 +1,19 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 
-export const TestimonialItemComponent = ({ name, position, text, img }) => {
+export const TestimonialItemComponent = ({ name, position, text, img, setModalData }) => {
+    const handleModal = () => {
+        setModalData({
+            showModal: true,
+            data: {
+                name: name,
+                position: position,
+                text: text,
+                img: img
+            }
+        });
+    }
+
     return (
         <div className='item mx-auto'>
             <Card className="mx-4 mx-lg-1">
@@ -10,6 +22,14 @@ export const TestimonialItemComponent = ({ name, position, text, img }) => {
                     <Card.Title>{ name }</Card.Title>
                     <Card.Subtitle className="mb-2 text-uppercase">{ position }</Card.Subtitle>
                     <Card.Text>{ text }</Card.Text>
+                    <Button 
+                        size="sm" 
+                        variant="outline-primary" 
+                        block
+                        onClick={handleModal}
+                    >
+                        Ver más
+                    </Button>
                 </Card.Body>
             </Card>
         </div>

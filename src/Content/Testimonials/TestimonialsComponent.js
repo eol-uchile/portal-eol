@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { testimonials_data } from './data';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';  
 import './testimonials.css';
 import { TestimonialItemComponent } from './TestimonialItemComponent';
+import { TestimonialModalComponent } from './TestimonialModalComponent';
 
 export const TestimonialsComponent = () => {
 
@@ -35,6 +36,16 @@ export const TestimonialsComponent = () => {
         }
     }
 
+    const [modalData, setModalData] = useState({
+        showModal: false,
+        data: {
+            name: '',
+            position: '',
+            text: '',
+            img: ''
+        }
+    });
+
     return (
         <section id="testimonials">
             <div className="container text-center">
@@ -50,12 +61,14 @@ export const TestimonialsComponent = () => {
                                 <TestimonialItemComponent 
                                     key={t.name}
                                     {...t}
+                                    setModalData = { setModalData }
                                 />
                             ) ) }
                         </OwlCarousel>
                     </div>
                 </div>
             </div>
+            <TestimonialModalComponent {...modalData} setModalData={ setModalData } />
         </section>
     )
 }
