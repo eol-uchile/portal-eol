@@ -1,5 +1,4 @@
 import React from 'react';
-import { Figure } from 'react-bootstrap';
 import Parser from 'html-react-parser';
 
 export const MemberComponent = ({ name, email, position, description, links}) => {

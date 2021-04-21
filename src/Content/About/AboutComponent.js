@@ -8,7 +8,7 @@ export const AboutComponent = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header">
+                        <h2 className="content-header animate__animated animate__fadeInUp">
                             <FormattedMessage id="about.header" />
                         </h2>
                     </div>

@@ -29,7 +29,7 @@ export const TestimonialModalComponent = ( {showModal, data, setModalData} ) => 
                 <Container>
                     <Row>
                         <Col lg={6} className="modal-col">
-                            <img className="img-fluid" src={ img }/>
+                            <img className="img-fluid" src={ img } alt={ name }/>
                         </Col>
                         <Col lg={6} className="modal-col">
                             <p className="text-justify">

@@ -1,3 +1,7 @@
+section#testimonials {
+    background-color: #ecf0f5;
+}
+
 section#testimonials .owl-carousel .nav-btn {
     position: absolute;
     cursor: pointer;

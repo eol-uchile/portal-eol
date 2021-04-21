@@ -1,0 +1,14 @@
+section#statistics img {
+    max-height: 130px;
+}
+
+section#statistics .number {
+    color: #00b3ff;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+section#statistics .title {
+    font-size: 1.3em;
+    font-weight: 300;
+}
