@@ -1,0 +1,39 @@
+.carousel-caption {
+    top: 0; 
+}
+
+.carousel-caption span {
+    display: block;
+    font-size: 3.5vw;
+    text-align: left !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 300;
+    line-height: 110%;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.carousel-caption span.caption-left {
+    float: left;
+}
+
+.carousel-caption span.caption-right {
+    float: right;
+}
+
+.carousel-caption strong {
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) { 
+
+    .carousel-item img {
+        width: auto !important;
+        max-height: 300px;
+    }
+
+    .carousel-caption span {
+        font-size: max(3.5vw, 2em);
+    }
+}
