@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Card } from 'react-bootstrap';
 
 export const TestimonialItemComponent = ({ name, position, text, img, setModalData }) => {
@@ -28,7 +29,7 @@ export const TestimonialItemComponent = ({ name, position, text, img, setModalDa
                         block
                         onClick={handleModal}
                     >
-                        Ver más
+                        <FormattedMessage id="testimonials.showmore" />
                     </Button>
                 </Card.Body>
             </Card>

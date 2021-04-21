@@ -1,5 +1,6 @@
-import React from 'react';
 import { testimonials_data } from './data';
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';  
@@ -38,7 +39,7 @@ export const TestimonialListComponent = React.memo(( {setModalData} ) => {
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header">
-                            Testimonios
+                            <FormattedMessage id="testimonials.header" />
                         </h2>
                     </div>
                     <div className="content-info col-12">

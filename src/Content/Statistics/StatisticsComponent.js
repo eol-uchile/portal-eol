@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
 import './statistics.css';
@@ -10,7 +11,7 @@ export const StatisticsComponent = () => {
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header animate__animated animate__fadeIn">
-                            Estadísticas Plataformas 2020
+                            <FormattedMessage id="statistics.header" />
                         </h2>
                     </div>
                     <div className="content-info col-md-4">
@@ -29,7 +30,7 @@ export const StatisticsComponent = () => {
                             </CountUp>
                         </p>
                         <p className="title mt-1 px-1 animate__animated animate__fadeIn">
-                            Usuarios Registrados
+                            <FormattedMessage id="statistics.users" />
                         </p>
                     </div>
                     <div className="content-info col-md-4">
@@ -48,7 +49,7 @@ export const StatisticsComponent = () => {
                             </CountUp>
                         </p>
                         <p className="title mt-1 px-1 animate__animated animate__fadeIn">
-                            Cursos
+                            <FormattedMessage id="statistics.courses" />
                         </p>
                     </div>
                     <div className="content-info col-md-4">
@@ -67,7 +68,7 @@ export const StatisticsComponent = () => {
                             </CountUp>
                         </p>
                         <p className="title mt-1 px-1 animate__animated animate__fadeIn">
-                            Certificados
+                            <FormattedMessage id="statistics.certificates" />
                         </p>
                     </div>
                 </div>

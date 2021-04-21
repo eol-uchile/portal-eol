@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import "./footer.css";
 
 export const FooterComponent = () => {
@@ -7,7 +8,9 @@ export const FooterComponent = () => {
             <div className="container">
                 <div className="row text-center text-md-left">
                     <div className="col-md-6 pt-4">
-                        <h4>PLATAFORMAS</h4>
+                        <h4 className="text-uppercase">
+                            <FormattedMessage id="footer.platforms" />
+                        </h4>
                         <ul>
                             <li><a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">Educación Online (EOL)</a></li>
                             <li><a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">CMM Edu Formación</a></li>
@@ -16,7 +19,9 @@ export const FooterComponent = () => {
                         </ul>
                     </div>
                     <div className="col-md-6 pt-4">
-                        <h4>CONTACTO</h4>
+                        <h4 className="text-uppercase">
+                            <FormattedMessage id="footer.contact" />
+                        </h4>
                         <ul>
                             <li><a href="mailto:eol-ayuda@uchile.cl" target="_blank" rel="noreferrer"><i className="far fa-envelope mr-2 pt-1"></i>eol-ayuda@uchile.cl</a></li>
                         </ul>
@@ -27,7 +32,7 @@ export const FooterComponent = () => {
                             alt="Oficina de Educación Online Universidad de Chile" 
                             className="img-fluid"
                         />
-                        <p className="copyright text-center">© 2021 Oficina de Educación Online, Vicerrectoría de Tecnologías de la Información, Universidad de Chile. Todos los derechos reservados.</p>
+                        <p className="copyright text-center"><FormattedMessage id="footer.copyright" /></p>
                     </div>
                 </div>
             </div>

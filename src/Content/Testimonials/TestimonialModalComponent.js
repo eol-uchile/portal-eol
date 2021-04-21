@@ -41,7 +41,7 @@ export const TestimonialModalComponent = ( {showModal, data, setModalData} ) => 
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="primary" onClick={handleClose}>
-                <FormattedMessage id="testimonials.modal.close" />
+                    <FormattedMessage id="testimonials.modal.close" />
                 </Button>
             </Modal.Footer>
         </Modal>

@@ -42,6 +42,16 @@
     "openedx.header": "Open edX",
     "openedx.content.one": "La plataforma LMS (Learning Management System) que ofrece la oficina EOL se basa en el proyecto de código abierto Open edX, desarrollado inicialmente por la Universidad de Harvard y el MIT, y clasifica como un sistema de cursos abiertos masivos en línea (Massive Open Online Course, MOOC). Esta característica lo hace estable y escalable para soportar decenas de miles de usuarios." ,
     "openedx.content.two": "Esta plataforma ha sido implementada y configurada específicamente para el manejo de los cursos de la Universidad, que en su mayoría son privados y con un grupo acotado de alumnos. Para esto se han desarrollado componentes que permiten gestionar de mejor forma el aprendizaje en estas condiciones.",
+    "footer.platforms": "Plataformas",
+    "footer.contact": "Contacto",
+    "footer.copyright": "© 2021 Oficina de Educación Online, Vicerrectoría de Tecnologías de la Información, Universidad de Chile. Todos los derechos reservados.",
+    "statistics.header": "Estadísticas Plataformas 2020",
+    "statistics.users": "Usuarios Registrados",
+    "statistics.courses": "Cursos",
+    "statistics.certificates": "Certificados Emitidos",
+    "testimonials.header": "Testimonios",
+    "testimonials.showmore": "Ver más",
     "testimonials.modal.header": "Testimonio de {name}",
     "testimonials.modal.close": "Cerrar"
+    
 }
