@@ -24,11 +24,11 @@ export const NavbarComponent = () => {
                 <img 
                     src="/images/logo-eol.svg" 
                     alt="Oficina de Educación Online Universidad de Chile" 
-                    className="img-fluid"
+                    className="img-fluid animate__animated animate__fadeInDown"
                 />
             </NavLink>
             <div 
-                className={ menuState ? "button-menu active" : "button-menu" } 
+                className={ menuState ? "button-menu active" : "button-menu animate__animated animate__tada" } 
                 onClick={() => toggleMenuState(false)} 
             >
                 <span className="top"></span>

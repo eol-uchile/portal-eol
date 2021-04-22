@@ -18,7 +18,7 @@ export const ScrollToTopButtonComponent = () => {
             { visible && (
                 <button 
                     onClick={ scrollToTop }
-                    className="scroll-button shadow"
+                    className="scroll-button shadow animate__animated animate__zoomInUp animate__slow"
                     title="Go to top"
                 >
                     <i className="fas fa-chevron-up fa-2x"></i>

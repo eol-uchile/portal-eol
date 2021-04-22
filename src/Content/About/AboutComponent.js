@@ -12,7 +12,7 @@ export const AboutComponent = () => {
                             <FormattedMessage id="about.header" />
                         </h2>
                     </div>
-                    <div className="content-info col-12">
+                    <div className="content-info col-12 animate__animated animate__fadeIn">
                         <p>
                             <FormattedMessage id="about.content.one" />
                         </p>

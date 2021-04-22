@@ -5,17 +5,17 @@ export const Services1 = () => {
     return (
         <div className="row">
             <div className="col-12">
-                <h2 className="content-header">
+                <h2 className="content-header animate__animated animate__fadeInUp">
                     <FormattedMessage id="services_1.header" />
                 </h2>
             </div>
             <div className="col-12">
-                <p className="pt-2">
+                <p className="pt-2 animate__animated animate__fadeInUp">
                     <FormattedMessage id="services_1.desc" />
                 </p>
             </div>
 
-            <div className="content-info col-md-6 col-lg-3">
+            <div className="content-info col-md-6 col-lg-3 animate__animated animate__fadeIn">
                 <img 
                     src="/images/services_1_1.svg" 
                     alt="Servicios 1" 
@@ -28,7 +28,7 @@ export const Services1 = () => {
                     <FormattedMessage id="services_1.1.info" />
                 </p>
             </div>
-            <div className="content-info col-md-6 col-lg-3">
+            <div className="content-info col-md-6 col-lg-3 animate__animated animate__fadeIn">
                 <img 
                     src="/images/services_1_2.svg" 
                     alt="Servicios 2" 
@@ -41,7 +41,7 @@ export const Services1 = () => {
                     <FormattedMessage id="services_1.2.info" />
                 </p>
             </div>
-            <div className="content-info col-md-6 col-lg-3">
+            <div className="content-info col-md-6 col-lg-3 animate__animated animate__fadeIn">
                 <img 
                     src="/images/services_1_3.svg" 
                     alt="Servicios 3" 
@@ -54,7 +54,7 @@ export const Services1 = () => {
                     <FormattedMessage id="services_1.3.info" />
                 </p>
             </div>
-            <div className="content-info col-md-6 col-lg-3">
+            <div className="content-info col-md-6 col-lg-3 animate__animated animate__fadeIn">
                 <img 
                     src="/images/services_1_4.svg" 
                     alt="Servicios 4" 

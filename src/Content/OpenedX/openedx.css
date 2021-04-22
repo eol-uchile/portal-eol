@@ -11,7 +11,21 @@ section#openedx::after {
     z-index: -1;  
 }
 
+section#openedx .show-more {
+    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    border: none;
+}
+
 section#openedx a {
     color: #77797b !important;
     text-decoration: none !important;
+}
+
+section#openedx .card {
+    background-color: #48b3ff1a;
+}
+
+section#openedx .card-text {
+    font-size: 0.9em;
+    text-align: justify;
 }
