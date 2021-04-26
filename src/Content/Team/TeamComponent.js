@@ -3,6 +3,7 @@ import { team_members } from './data';
 import { MemberComponent } from './MemberComponent2';
 import { FormattedMessage } from 'react-intl';
 import './team2.css';
+import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
 
 export const TeamComponent = () => {
     return (
@@ -29,6 +30,8 @@ export const TeamComponent = () => {
                     ) ) }
                 </div>
             </div>
+
+            <SeparatorTopComponent />
         </section>
     )
 }

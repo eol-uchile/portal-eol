@@ -1,5 +1,6 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { SeparatorBottomComponent } from '../../Extras/Separators/SeparatorBottomComponent';
 import "./footer.css";
 
 export const FooterComponent = () => {

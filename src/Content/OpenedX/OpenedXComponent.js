@@ -42,7 +42,9 @@ export const OpenedXComponent = () => {
                         visible && (
                             <>
                                 <div className="col-12 animate__animated animate__fadeInUp">
-                                    <p>Para crear y ejecutar cursos en línea, la plataforma se separa en dos aplicaciones:</p>
+                                    <p>
+                                        <FormattedMessage id="openedx.content.three" />
+                                    </p>
                                 </div>
                                 <div className="col-md-6 animate__animated animate__fadeInLeft">
                                     <Card className="h-100 shadow">
