@@ -2,6 +2,16 @@ section#testimonials {
     background-color: #ecf0f5;
 }
 
+section#testimonials .main-container { 
+    padding-bottom: 10em;
+}
+
+@media (max-width: 800px) {
+    section#testimonials .main-container { 
+        padding-bottom: 1em;
+    }
+}
+
 section#testimonials .owl-carousel .nav-btn {
     position: absolute;
     cursor: pointer;
@@ -40,9 +50,20 @@ section#testimonials .owl-carousel img {
     width: auto !important;
 }
 
+section#testimonials .show-more {
+    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    border: none;
+    border-radius: 15px;
+}
+
+section#testimonials .owl-carousel .card {
+    min-height: 500px;
+}
+
 section#testimonials .owl-carousel .card-subtitle {
     color: #00b3ff;
     font-weight: 300;
+    font-size: 0.8em;
 }
 
 section#testimonials .card-text {
@@ -50,12 +71,14 @@ section#testimonials .card-text {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
+    font-size: 0.7em;
 }
 
 .testimonialModal .modal-body .modal-col {
     display: flex;
     justify-content: center;
     align-items: center;
+    word-spacing:-2px;
 }
 
 .testimonialModal .modal-body .subtitle {

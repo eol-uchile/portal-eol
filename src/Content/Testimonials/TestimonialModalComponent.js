@@ -28,11 +28,9 @@ export const TestimonialModalComponent = ( {showModal, data, setModalData} ) => 
                 <p className="text-center text-uppercase subtitle">{ position }</p>
                 <Container>
                     <Row>
-                        <Col lg={6} className="modal-col">
-                            <img className="img-fluid" src={ img } alt={ name }/>
-                        </Col>
-                        <Col lg={6} className="modal-col">
+                        <Col lg={12} className="modal-col">
                             <p className="text-justify">
+                                <img className="img-fluid float-left mr-4" src={ img } alt={ name }/>
                                 { text }
                             </p>
                         </Col>

@@ -4,6 +4,7 @@ import { Button, Card } from 'react-bootstrap';
 
 export const TestimonialItemComponent = ({ name, position, text, img, setModalData }) => {
     const handleModal = () => {
+        console.log("dsdsa");
         setModalData({
             showModal: true,
             data: {
@@ -19,18 +20,19 @@ export const TestimonialItemComponent = ({ name, position, text, img, setModalDa
         <div className='item mx-auto'>
             <Card className="mx-4 mx-lg-1">
                 <Card.Img className="m-2" variant="top" src={ img } />
-                <Card.Body>
+                <Card.Body className="d-flex flex-column">
                     <Card.Title>{ name }</Card.Title>
                     <Card.Subtitle className="mb-2 text-uppercase">{ position }</Card.Subtitle>
-                    <Card.Text>{ text }</Card.Text>
-                    <Button 
-                        size="sm" 
-                        variant="outline-primary" 
-                        block
-                        onClick={handleModal}
-                    >
-                        <FormattedMessage id="testimonials.showmore" />
-                    </Button>
+                    <div className="mt-auto">
+                        <Card.Text>{ text }</Card.Text>
+                        <Button 
+                            size="sm" 
+                            className="show-more"
+                            onClick={handleModal}
+                        >
+                            <FormattedMessage id="testimonials.showmore" />
+                        </Button>
+                    </div>
                 </Card.Body>
             </Card>
         </div>

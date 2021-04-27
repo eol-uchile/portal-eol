@@ -9,7 +9,7 @@ import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopCompo
 
 export const TestimonialListComponent = React.memo(( {setModalData} ) => {
     const options = {
-        loop: true,
+        loop: false,
         margin: 10,
         nav: true,
         autoplay:true,
@@ -36,7 +36,7 @@ export const TestimonialListComponent = React.memo(( {setModalData} ) => {
     }
     return (
         <section id="testimonials">
-            <div className="container text-center">
+            <div className="container main-container text-center">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header animate__animated animate__fadeInUp">
