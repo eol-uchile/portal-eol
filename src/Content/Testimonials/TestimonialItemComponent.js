@@ -4,7 +4,6 @@ import { Button, Card } from 'react-bootstrap';
 
 export const TestimonialItemComponent = ({ name, position, text, img, setModalData }) => {
     const handleModal = () => {
-        console.log("dsdsa");
         setModalData({
             showModal: true,
             data: {

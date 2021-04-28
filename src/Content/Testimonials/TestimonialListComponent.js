@@ -10,6 +10,7 @@ import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopCompo
 export const TestimonialListComponent = React.memo(( {setModalData} ) => {
     const options = {
         loop: false,
+        rewind: true,
         margin: 10,
         nav: true,
         autoplay:true,
