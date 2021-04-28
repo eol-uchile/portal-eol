@@ -17,7 +17,7 @@ export const OpenedXComponent = () => {
                     </div>
                     <div className="col-12">
                         <p className="text-muted pt-2 animate__animated animate__fadeInUp">
-                        <FormattedMessage id="openedx.desc" /> (<a href="https://open.edx.org/" target="_blank" rel="noreferrer">https://open.edx.org/</a>)
+                            <FormattedMessage id="openedx.desc" /> (<a href="https://open.edx.org/" target="_blank" rel="noreferrer">https://open.edx.org/</a>)
                         </p>
                     </div>
                     <div className="content-info col-12">
