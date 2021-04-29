@@ -62,7 +62,7 @@ export const FooterComponent = () => {
                                 </table>
                         </ul>
                     </div>
-                    <div className="col-12 mt-2">
+                    <div className="col-12 mt-2 text-center">
                         <img 
                             src="/images/logo-eol-white.svg" 
                             alt="Oficina de Educación Online Universidad de Chile" 
