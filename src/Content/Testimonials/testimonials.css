@@ -85,3 +85,9 @@ section#testimonials .card-text {
     color: #00b3ff;
     font-weight: 600;
 }
+
+.testimonialModal .modal-footer button {
+    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    border: none;
+    border-radius: 15px;
+}
