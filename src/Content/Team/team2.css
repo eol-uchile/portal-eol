@@ -2,6 +2,16 @@ section#team {
     background-color: #ecf0f5;
 }
 
+section#team .main-container { 
+    padding-bottom: 10em;
+}
+
+@media (max-width: 800px) {
+    section#team .main-container { 
+        padding-bottom: 1em;
+    }
+}
+
 .team-member {
     height: 420px;
     max-height: 420px;

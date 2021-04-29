@@ -44,7 +44,7 @@
 
 #functionalities .card-header .card-title {
     margin: 0;
-    padding: 20px 40px 20px 80px;
+    padding: 15px 40px 15px 80px;
     font-size: 18px;
     position: relative;
     cursor: pointer;
@@ -56,7 +56,7 @@
     font-weight: bold;
     position: absolute;
     left: 27px;
-    top: 20px;
+    top: 15px;
 }
 
 #functionalities .card-header .card-title > .fa-plus {

@@ -1,13 +1,20 @@
 import { testimonials_data } from './data';
-import React from 'react';
+import React, { useContext } from 'react';
 import { FormattedMessage } from 'react-intl';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';  
 import 'owl.carousel/dist/assets/owl.theme.default.css';  
 import { TestimonialItemComponent } from './TestimonialItemComponent';
 import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
+import { getData } from '../../Extras/GetData/getData';
+import { LanguageContext } from '../../Extras/Language/LanguageContext';
 
 export const TestimonialListComponent = React.memo(( {setModalData} ) => {
+    const { language } = useContext(LanguageContext);
+    const testimonials = getData({
+        data: testimonials_data,
+        language: language
+    });
     const options = {
         loop: false,
         rewind: true,
@@ -46,7 +53,7 @@ export const TestimonialListComponent = React.memo(( {setModalData} ) => {
                     </div>
                     <div className="content-info col-12">
                         <OwlCarousel className='owl-theme owl-dot mx-auto animate__animated animate__fadeIn' {...options}>
-                            { testimonials_data.map( (t) => (
+                            { testimonials?.map( (t) => (
                                 <TestimonialItemComponent 
                                     key={t.name}
                                     {...t}

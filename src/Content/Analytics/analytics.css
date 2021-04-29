@@ -1,0 +1,14 @@
+section#analytics .disclaimer {
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+section#analytics .main-container { 
+    padding-bottom: 10em;
+}
+
+@media (max-width: 800px) {
+    section#analytics .main-container { 
+        padding-bottom: 1em;
+    }
+}

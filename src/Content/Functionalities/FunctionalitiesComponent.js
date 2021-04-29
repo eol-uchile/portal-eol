@@ -1,5 +1,6 @@
 import React from 'react';
 import { FunctionalitiesListComponent } from './FunctionalitiesListComponent';
+import { FormattedMessage } from 'react-intl';
 import './functionalities.css';
 
 export const FunctionalitiesComponent = () => {
@@ -9,12 +10,12 @@ export const FunctionalitiesComponent = () => {
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header animate__animated animate__fadeInUp">
-                            Funcionalidades e Integraciones
+                            <FormattedMessage id="functionalities.header" />
                         </h2>
                     </div>
                     <div className="col-12">
                         <p className="text-muted pt-2 animate__animated animate__fadeInUp">
-                            A pesar de ser una plataforma bastante completa en lo que respecta a las funcionalidades, nuestro equipo de ingeniería constantemente está desarrollando y adaptando nuevas soluciones acorde a las necesidades que van presentando los docentes y estudiantes de nuestra Universidad.
+                            <FormattedMessage id="functionalities.desc" />
                         </p>
                     </div>
                     <div className="content-info text-justify col-12 animate__animated animate__fadeIn">

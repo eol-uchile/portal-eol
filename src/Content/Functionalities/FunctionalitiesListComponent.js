@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion, Card } from 'react-bootstrap';
+import { FormattedMessage } from 'react-intl';
 
 export const FunctionalitiesListComponent = () => {
     return (
@@ -7,13 +8,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="0">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Certificación
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.cert.title" />
                     </div>
                     <Accordion.Collapse eventKey="0">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                            <FormattedMessage id="functionalities.list.cert.desc" />
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -21,13 +22,14 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="1">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Compatibilidad con estándar SCORM
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.scorm.title" />
+                        
                     </div>
                     <Accordion.Collapse eventKey="1">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                            <FormattedMessage id="functionalities.list.scorm.desc" />
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -35,13 +37,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="2">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Compatibilidad con estándar LTI 1 & 2
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.lti.title" />                        
                     </div>
                     <Accordion.Collapse eventKey="2">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.lti.desc" />
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -49,13 +51,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="3">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Preguntas en videos
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.invideoquiz.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="3">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.invideoquiz.desc" />
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -63,13 +65,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="4">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Evaluación de discusiones
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.forum.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="4">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.forum.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -77,13 +79,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="5">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        U-Cursos
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.ucursos.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="5">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus. 
+                        <FormattedMessage id="functionalities.list.ucursos.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -91,13 +93,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="6">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Pasaporte UChile 
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.uchile.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="6">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.uchile.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -105,13 +107,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="7">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Clave única
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.gobpass.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="7">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.gobpass.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -119,13 +121,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="8">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Google Docs
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.googledocs.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="8">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.googledocs.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -133,13 +135,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="9">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Youtube
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.youtube.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="9">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.youtube.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -147,13 +149,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="10">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Zoom
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.zoom.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="10">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.zoom.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -161,13 +163,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="11">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Sence
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.sence.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="11">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.sence.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -175,13 +177,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="12">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Perusall
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.perusall.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="12">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.perusall.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>
@@ -189,13 +191,13 @@ export const FunctionalitiesListComponent = () => {
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="13">
                     <div className="card-title">
-                        <span className="toggle-arrow"><i class="fas fa-chevron-right"></i></span>
-                        <i class="fas fa-plus"></i>
-                        Sistemas de pago Webpay/Paypal
+                        <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
+                        <i className="fas fa-plus"></i>
+                        <FormattedMessage id="functionalities.list.payment.title" /> 
                     </div>
                     <Accordion.Collapse eventKey="13">
                         <>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit, cursus ridiculus nunc turpis odio faucibus varius pretium, facilisis a pellentesque potenti morbi fusce. Porta montes eleifend non vehicula sem netus eget aenean feugiat, sagittis nisi sodales fames posuere magnis curabitur est, hendrerit euismod semper placerat gravida sollicitudin lectus duis. Enim hendrerit leo condimentum cum accumsan tincidunt natoque imperdiet non, rhoncus auctor per iaculis nam diam scelerisque tortor, neque velit laoreet phasellus facilisis dictum sociis cursus.
+                        <FormattedMessage id="functionalities.list.payment.desc" /> 
                         </>
                     </Accordion.Collapse>
                 </Accordion.Toggle>

@@ -42,21 +42,23 @@ export const FooterComponent = () => {
                         </h4>
                         <ul>
                                 <table>
-                                    <tr className="mb-2">
-                                        <td className="pr-2"><i className="fas fa-map-marker-alt mx-auto"></i></td>
-                                        <td>Diagonal Paraguay 265, Torre 15, Oficina 1004, Santiago, Chile</td>
-                                    </tr>
-                                    <tr className="mb-2">
-                                        <td className="pr-2"><i className="far fa-envelope mx-auto"></i></td>
-                                        <td><a href="mailto:eol-ayuda@uchile.cl" target="_blank" rel="noreferrer">eol-ayuda@uchile.cl</a></td>
-                                    </tr>
-                                    <tr className="mb-2">
-                                        <td className="pr-2"><i className="far fa-calendar-alt mx-auto"></i></td>
-                                        <td>
-                                            <FormattedMessage id="footer.schedule_1" />
-                                            <br/>
-                                            <FormattedMessage id="footer.schedule_2" /></td>
-                                    </tr>
+                                    <tbody>
+                                        <tr className="mb-2">
+                                            <td className="pr-2"><i className="fas fa-map-marker-alt mx-auto"></i></td>
+                                            <td>Diagonal Paraguay 265, Torre 15, Oficina 1004, Santiago, Chile</td>
+                                        </tr>
+                                        <tr className="mb-2">
+                                            <td className="pr-2"><i className="far fa-envelope mx-auto"></i></td>
+                                            <td><a href="mailto:eol-ayuda@uchile.cl" target="_blank" rel="noreferrer">eol-ayuda@uchile.cl</a></td>
+                                        </tr>
+                                        <tr className="mb-2">
+                                            <td className="pr-2"><i className="far fa-calendar-alt mx-auto"></i></td>
+                                            <td>
+                                                <FormattedMessage id="footer.schedule_1" />
+                                                <br/>
+                                                <FormattedMessage id="footer.schedule_2" /></td>
+                                        </tr>
+                                    </tbody>
                                 </table>
                         </ul>
                     </div>
