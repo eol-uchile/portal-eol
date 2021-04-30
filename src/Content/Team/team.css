@@ -4,6 +4,8 @@ section#team {
 
 section#team .main-container {
     padding-bottom: 10em;
+    z-index: 2;
+    position: relative;
 }
 
 @media (max-width: 800px) {

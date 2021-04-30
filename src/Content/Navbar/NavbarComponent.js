@@ -20,7 +20,7 @@ export const NavbarComponent = () => {
             className="py-2 px-lg-5"
             // fixed="top"
         >
-            <NavLink className="navbar-brand mx-lg-auto" to="/">
+            <NavLink className="navbar-brand mx-lg-auto" to="/home">
                 <img 
                     src="/images/logo-eol.svg" 
                     alt="Oficina de Educación Online Universidad de Chile" 

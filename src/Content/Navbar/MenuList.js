@@ -22,7 +22,7 @@ export const MenuList = ({toggleMenuState}) => {
                 </NavLink>
             </li>
             <li>
-                <NavLink onClick={toggleMenuState} className="nav-link" to="/projects">
+                <NavLink onClick={toggleMenuState} className="nav-link" to="/">
                     <FormattedMessage
                         id="navbar.projects"
                         defaultMessage="Proyectos"
@@ -30,7 +30,7 @@ export const MenuList = ({toggleMenuState}) => {
                 </NavLink>
             </li>
             <li>
-                <NavLink onClick={toggleMenuState} className="nav-link" to="/support">
+                <NavLink onClick={toggleMenuState} className="nav-link" to="/">
                     <FormattedMessage
                         id="navbar.teaching_support"
                         defaultMessage="Apoyo Docente"

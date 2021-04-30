@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { ListGroup } from 'react-bootstrap';
 import { FormattedMessage } from 'react-intl';
 import "./platforms.css";
 
@@ -8,74 +8,42 @@ export const ManagedPlatformsComponent = () => {
         <section id="managedplatforms">
             <div className="container text-center">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 mb-3">
                         <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="mp.header" />
                         </h2>
                     </div>
-                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">
-                            <Card body className="h-100 shadow">
-                                <div className="mt-auto">
-                                    <img 
-                                        src="/images/platforms_eol.png" 
-                                        alt="EOL" 
-                                        className="img-fluid"
-                                    />
-                                    <p className="mt-4 px-3">
-                                        <FormattedMessage id="mp.eol.title" />
-                                    </p>
-                                </div>
-                            </Card>
-                        </a>
+                    <div className="content-info col-md-6 my-auto" data-aos="fade-right" data-aos-duration="1000">
+                        <ListGroup className="mt-3">
+                            <a className="mb-3 shadow-lg text-left pl-2 rounded-right" href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">
+                                <ListGroup.Item>
+                                    <FormattedMessage id="mp.eol.title" />
+                                </ListGroup.Item>
+                            </a>
+                            <a className="mb-3 shadow-lg text-left pl-2 rounded-right" href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">
+                                <ListGroup.Item>
+                                    <FormattedMessage id="mp.uabierta.title" />
+                                </ListGroup.Item>
+                            </a>
+                            <a className="mb-3 shadow-lg text-left pl-2 rounded-right" href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">
+                                <ListGroup.Item>
+                                    <FormattedMessage id="mp.cmmedu.title" />
+                                </ListGroup.Item>
+                            </a>
+                            <a className="mb-3 shadow-lg text-left pl-2 rounded-right" href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">
+                                <ListGroup.Item>
+                                    <FormattedMessage id="mp.eduonline.title" />
+                                </ListGroup.Item>
+                            </a>
+                            <a className="mb-3 shadow-lg text-left pl-2 rounded-right" href="https://virtual-labx.cl/" target="_blank" rel="noreferrer">
+                                <ListGroup.Item>
+                                    <FormattedMessage id="mp.virtuallabx.title" />
+                                </ListGroup.Item>
+                            </a>
+                        </ListGroup>
                     </div>
-                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">
-                            <Card body className="h-100 shadow">
-                                <div className="mt-auto">
-                                    <img 
-                                        src="/images/platforms_eduonline.png" 
-                                        alt="EduOnline" 
-                                        className="img-fluid"
-                                    />
-                                    <p className="mt-4 px-3">
-                                        <FormattedMessage id="mp.eduonline.title" />
-                                    </p>
-                                </div>
-                            </Card>
-                        </a>
-                    </div>
-                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">
-                            <Card body className="h-100 shadow">
-                                <div className="mt-auto">
-                                    <img 
-                                        src="/images/platforms_uabierta.png" 
-                                        alt="UAbierta" 
-                                        className="img-fluid"
-                                    />
-                                    <p className="mt-4 px-3">
-                                        <FormattedMessage id="mp.uabierta.title" />
-                                    </p>
-                                </div>
-                            </Card>
-                        </a>
-                    </div>
-                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">
-                            <Card body className="h-100 shadow">
-                                <div className="mt-auto">
-                                    <img 
-                                        src="/images/platforms_cmmedu.png" 
-                                        alt="CMM Eduformación" 
-                                        className="img-fluid"
-                                    />
-                                    <p className="mt-4 px-3">
-                                        <FormattedMessage id="mp.cmmedu.title" />
-                                    </p>
-                                </div>
-                            </Card>
-                        </a>
+                    <div className="content-info col-md-6 my-auto" data-aos="fade-left" data-aos-duration="1000">
+                        <img src="https://icountryschool.cl/wp-content/uploads/2020/08/placeholder.png" alt="platforms" className="img-fluid" />
                     </div>
                 </div>
             </div>

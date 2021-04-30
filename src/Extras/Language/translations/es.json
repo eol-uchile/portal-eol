@@ -39,6 +39,7 @@
     "mp.eduonline.title": "EduOnline",
     "mp.uabierta.title": "UAbierta",
     "mp.cmmedu.title": "CMM Eduformación",
+    "mp.virtuallabx.title": "Virtual LabX",
     "openedx.header": "Nuestra plataforma",
     "openedx.desc": "Basada en Open edX",
     "openedx.content.one": "La plataforma que ofrece la Oficina EOL para la educación a distancia se basa en el proyecto de código abierto Open edX, desarrollado inicialmente por la Universidad de Harvard y el MIT, y clasifica como un sistema de cursos abiertos masivos en línea (Massive Open Online Course, MOOC). Esta característica lo hace estable y escalable para soportar decenas de miles de usuarios." ,

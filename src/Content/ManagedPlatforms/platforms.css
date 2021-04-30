@@ -10,34 +10,22 @@ section#managedplatforms, section#managedplatforms h2.content-header {
     color: #ffff;
 }
 
-section#managedplatforms img {
-    max-height: 100px;
-}
-
-section#managedplatforms p {
+section#managedplatforms .content-info {
     color: #00b3ff;
 }
 
-section#managedplatforms .card-body {
-    display: flex;
-    justify-content: center;
-}
-
 section#managedplatforms a {
+    background-color: #3f5465;
     text-decoration: none;
+    color: #3f5465;
 }
 
-section#managedplatforms a .card {
+section#managedplatforms a .list-group-item{
     transition: all 0.2s;
 }
 
-section#managedplatforms a .card:hover {
+section#managedplatforms a .list-group-item:hover {
     opacity: 0.9;
     margin-top: -.3rem;
     margin-bottom: .3rem;
-}
-
-section#managedplatforms a .card p {
-    font-size: 1.4em;
-    font-weight: 600;
 }
