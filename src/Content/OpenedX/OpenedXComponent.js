@@ -11,16 +11,16 @@ export const OpenedXComponent = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header animate__animated animate__fadeInUp">
+                        <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="openedx.header" />
                         </h2>
                     </div>
                     <div className="col-12">
-                        <p className="text-muted pt-2 animate__animated animate__fadeInUp">
+                        <p className="text-muted pt-2" data-aos="fade-up">
                             <FormattedMessage id="openedx.desc" /> (<a href="https://open.edx.org/" target="_blank" rel="noreferrer">https://open.edx.org/</a>)
                         </p>
                     </div>
-                    <div className="content-info col-12">
+                    <div className="content-info col-12" data-aos="zoom-in" data-aos-duration="1000">
                         <p>
                             <FormattedMessage id="openedx.content.one" />
                         </p>
@@ -41,12 +41,12 @@ export const OpenedXComponent = () => {
                     {
                         visible && (
                             <>
-                                <div className="col-12 animate__animated animate__fadeInUp">
+                                <div className="col-12" data-aos="zoom-in">
                                     <p>
                                         <FormattedMessage id="openedx.content.three" />
                                     </p>
                                 </div>
-                                <div className="col-md-6 animate__animated animate__fadeInLeft">
+                                <div className="col-md-6" data-aos="fade-right" data-aos-duration="1000">
                                     <Card className="h-100 shadow">
                                         <Card.Body>
                                             <Card.Title>LMS (Learning Management System)</Card.Title>
@@ -56,7 +56,7 @@ export const OpenedXComponent = () => {
                                         </Card.Body>
                                     </Card>
                                 </div>
-                                <div className="col-md-6 animate__animated animate__fadeInRight">
+                                <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                                     <Card className="h-100 shadow">
                                         <Card.Body>
                                             <Card.Title>CMS (Content Management System)</Card.Title>

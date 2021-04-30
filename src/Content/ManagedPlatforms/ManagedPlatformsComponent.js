@@ -9,11 +9,11 @@ export const ManagedPlatformsComponent = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header">
+                        <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="mp.header" />
                         </h2>
                     </div>
-                    <div className="content-info col-md-6">
+                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">
                             <Card body className="h-100 shadow">
                                 <div className="mt-auto">
@@ -29,7 +29,7 @@ export const ManagedPlatformsComponent = () => {
                             </Card>
                         </a>
                     </div>
-                    <div className="content-info col-md-6">
+                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <a href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">
                             <Card body className="h-100 shadow">
                                 <div className="mt-auto">
@@ -45,7 +45,7 @@ export const ManagedPlatformsComponent = () => {
                             </Card>
                         </a>
                     </div>
-                    <div className="content-info col-md-6">
+                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">
                             <Card body className="h-100 shadow">
                                 <div className="mt-auto">
@@ -61,7 +61,7 @@ export const ManagedPlatformsComponent = () => {
                             </Card>
                         </a>
                     </div>
-                    <div className="content-info col-md-6">
+                    <div className="content-info col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">
                             <Card body className="h-100 shadow">
                                 <div className="mt-auto">

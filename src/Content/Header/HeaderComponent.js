@@ -22,7 +22,7 @@ export const HeaderComponent = () => {
                     src={header.url}
                     alt="Header"
                     />
-                    <Carousel.Caption className="animate__animated animate__fadeInLeft">
+                    <Carousel.Caption className="animated fadeInLeft">
                         <span className="caption-left">
                             { Parser(header.title) }
                         </span>

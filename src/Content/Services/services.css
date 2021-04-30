@@ -6,9 +6,7 @@ section#services h2.content-header:after {
     background-color: #ffff;
 }
 
-section#services, 
-section#services h2.content-header,
-section#services p {
+section#services, section#services h2.content-header, section#services p {
     color: #ffff;
 }
 

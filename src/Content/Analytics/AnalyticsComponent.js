@@ -10,24 +10,24 @@ export const AnalyticsComponent = () => {
             <div className="container main-container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header animate__animated animate__fadeInUp">
+                        <h2 className="content-header" data-aos="fade-up">
                         <FormattedMessage id="analytics.header" />
                         </h2>
                     </div>
                     <div className="col-12">
-                        <p className="text-muted pt-2 animate__animated animate__fadeInUp">
+                        <p className="text-muted pt-2" data-aos="fade-up">
                         <FormattedMessage id="analytics.desc" />
                         </p>
                     </div>
                 </div>
                 <div className="row align-items-end">
-                    <div className="col-md-6 animate__animated animate__fadeIn">
+                    <div className="col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <img src="/images/analytics_1.svg" alt="graphic_1" className="img-fluid" />
                     </div>
-                    <div className="col-md-6 animate__animated animate__fadeIn">
+                    <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                         <img src="/images/analytics_2.svg" alt="graphic_2" className="img-fluid" />                        
                     </div>
-                    <div className="disclaimer col-12 animate__animated animate__fadeIn mt-2">
+                    <div className="disclaimer col-12" data-aos="zoom-in" data-aos-duration="1000">
                         <p>
                         <FormattedMessage id="analytics.disclaimer" /> 
                         </p>                      

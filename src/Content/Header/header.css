@@ -1,5 +1,5 @@
 .carousel-caption {
-    top: 0; 
+    top: 0;
 }
 
 .carousel-caption span {
@@ -26,14 +26,52 @@
     font-weight: 600;
 }
 
-@media (max-width: 1000px) { 
-
+@media (max-width: 1000px) {
     .carousel-item img {
         width: auto !important;
         max-height: 300px;
     }
-
     .carousel-caption span {
         font-size: max(3.5vw, 2em);
     }
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-200px);
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-200px);
+        -ms-transform: translateX(-200px);
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
 }

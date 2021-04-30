@@ -2,105 +2,108 @@ section#team {
     background-color: #ecf0f5;
 }
 
-
-.team-member .name {
-    color: #00b3ff;
+section#team .main-container {
+    padding-bottom: 10em;
 }
 
-.team-member .position {
-    font-weight: 300;
+@media (max-width: 800px) {
+    section#team .main-container {
+        padding-bottom: 1em;
+    }
 }
 
-.team-member figure {
-    position: relative;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+.team-member {
+    height: 420px;
+    max-height: 420px;
+    max-width: 300px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #ffff;
 }
 
-.team-member figure img {
-    min-width: 100%;
+.team-member .card-footer {
+    padding: 0 !important;
+    border-top: none !important;
 }
 
-.team-member figcaption ul {
+.team-member .card-footer .user-data {
+    padding: .75rem 0.1rem !important;
+    margin-bottom: 30px;
+}
+
+.team-member .card-footer .user-data .limited-height {
+    height: 70px;
+}
+
+.team-member:not(:hover) .card-footer .user-data {
+    background-color: rgb(44 147 213 / 80%);
+}
+
+.team-member .card-footer .name {
+    font-weight: 600;
+    text-shadow: 1px 4px 8px #000000;
+    margin: 0px;
+}
+
+.team-member .card-footer .position {
+    font-weight: 400;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin: 10px 0px;
+}
+
+.team-member ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 0.5em;
 }
 
-.team-member figcaption ul {
-    visibility: visible;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-}
-
-.team-member figcaption ul li {
+.team-member ul li {
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
+    border: solid 1px #ffff;
+    margin: 2px;
 }
 
-.team-member figcaption ul li a {
+.team-member ul a {
     color: #fff;
 }
 
-.team-member figcaption {
-    color: transparent;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 98;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
+.team-member ul a:hover {
+    color: rgb(44 147 213);
+}
+
+.team-member ul a:hover li {
+    background-color: #fff;
+}
+
+.team-member:not(:hover) .description {
+    height: 0px;
+    transition: height .4s;
+    opacity: 0;
+    padding: 0;
     overflow: hidden;
-    visibility: hidden;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
 }
 
-.team-member figure:hover figcaption {
-    visibility: visible;
-    color: #fff;
-    background: rgba(0, 179, 255, 0.9);
-    /* Primary color, can be changed via colors.css */
-    height: 100%;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+.team-member:hover .description {
+    height: 180px;
+    transition: height .4s;
+    font-size: 0.7em;
+    padding: 0px 10px;
 }
 
-.team-member figure:hover figcaption ul li a:hover {
-    color: rgba(49, 49, 49, .97);
+.team-member .card-body, .team-member .card-footer {
+    transition: background-color .4s;
 }
 
-.team-member figure img {
-    -webkit-transform: scale(1) rotate(0) translateY(0);
-    -moz-transform: scale(1) rotate(0) translateY(0);
-    -o-transform: scale(1) rotate(0) translateY(0);
-    -ms-transform: scale(1) rotate(0) translateY(0);
-    transform: scale(1) rotate(0) translateY(0);
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+.team-member:hover .card-body, .team-member:hover .card-footer {
+    background-color: rgb(44 147 213 / 80%) !important;
+    transition: background-color .4s;
 }
 
-.team-member figure:hover img {
-    -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
-    -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
-    -o-transform: scale(1.1) rotate(1deg) translateY(12px);
-    -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
-    transform: scale(1.1) rotate(1deg) translateY(12px);
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+.team-member:hover .card-footer .user-data {
+    background-color: none !important;
 }

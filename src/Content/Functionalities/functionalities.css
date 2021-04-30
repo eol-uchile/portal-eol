@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: relative;    
+    position: relative;
     background: #48b3ff24;
     color: #3a99dc;
 }
@@ -25,7 +25,7 @@
     z-index: 1;
 }
 
-#functionalities .collapse.show + .card-header {
+#functionalities .collapse.show+.card-header {
     background: red;
 }
 
@@ -35,7 +35,7 @@
     height: 100%;
     border-right: 2px solid transparent;
     border-radius: 10px;
-    background: rgba(72,179,255,.1);
+    background: rgba(72, 179, 255, .1);
     position: absolute;
     left: 0;
     top: 0;
@@ -59,7 +59,7 @@
     top: 15px;
 }
 
-#functionalities .card-header .card-title > .fa-plus {
+#functionalities .card-header .card-title>.fa-plus {
     font-size: 17px;
     line-height: 17px;
     display: block;
@@ -72,17 +72,16 @@
     color: #3a99dc;
 }
 
-#functionalities .card-header .collapse { 
+#functionalities .card-header .collapse {
     padding: 0 40px 20px 80px;
     overflow: hidden;
 }
 
-
-#functionalities .card-header .collapsing{ 
+#functionalities .card-header .collapsing {
     padding: 0 40px 20px 80px;
 }
 
-#functionalities .card-header .collapse .card-body { 
-    padding: 0 ;
+#functionalities .card-header .collapse .card-body {
+    padding: 0;
     overflow: hidden;
 }

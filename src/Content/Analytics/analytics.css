@@ -3,12 +3,12 @@ section#analytics .disclaimer {
     font-weight: 300;
 }
 
-section#analytics .main-container { 
+section#analytics .main-container {
     padding-bottom: 10em;
 }
 
 @media (max-width: 800px) {
-    section#analytics .main-container { 
+    section#analytics .main-container {
         padding-bottom: 1em;
     }
 }

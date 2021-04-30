@@ -6,8 +6,7 @@ section#managedplatforms h2.content-header:after {
     background-color: #ffff;
 }
 
-section#managedplatforms, 
-section#managedplatforms h2.content-header {
+section#managedplatforms, section#managedplatforms h2.content-header {
     color: #ffff;
 }
 
@@ -27,14 +26,17 @@ section#managedplatforms .card-body {
 section#managedplatforms a {
     text-decoration: none;
 }
+
 section#managedplatforms a .card {
     transition: all 0.2s;
 }
+
 section#managedplatforms a .card:hover {
     opacity: 0.9;
     margin-top: -.3rem;
     margin-bottom: .3rem;
 }
+
 section#managedplatforms a .card p {
     font-size: 1.4em;
     font-weight: 600;

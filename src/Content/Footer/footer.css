@@ -1,6 +1,6 @@
 footer {
-    background: rgb(0,179,255);
-    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    background: rgb(0, 179, 255);
+    background: linear-gradient(90deg, rgba(0, 179, 255, 1) 0%, rgba(0, 241, 255, 1) 100%);
     color: #ffff;
 }
 
@@ -22,11 +22,11 @@ footer h4 {
 }
 
 footer ul {
-    list-style-type:none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     padding-top: 10px;
-    font-size: 0.9em;    
+    font-size: 0.9em;
     display: inline-block;
     text-align: left;
 }

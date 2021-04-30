@@ -9,16 +9,16 @@ export const FunctionalitiesComponent = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header animate__animated animate__fadeInUp">
+                        <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="functionalities.header" />
                         </h2>
                     </div>
                     <div className="col-12">
-                        <p className="text-muted pt-2 animate__animated animate__fadeInUp">
+                        <p className="text-muted pt-2" data-aos="fade-up">
                             <FormattedMessage id="functionalities.desc" />
                         </p>
                     </div>
-                    <div className="content-info text-justify col-12 animate__animated animate__fadeIn">
+                    <div className="content-info text-justify col-12" data-aos="fade-right" data-aos-duration="1000">
                         <FunctionalitiesListComponent />
                     </div>
                 </div>

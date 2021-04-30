@@ -1,5 +1,3 @@
-@import 'animate.css';
-
 body {
   font-family: soleil, sans-serif !important;
 }
@@ -34,9 +32,8 @@ section, footer {
   position: relative;
 }
 
-
-
 /* Scroll */
+
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -55,13 +52,13 @@ body::-webkit-scrollbar-thumb:hover {
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
- /* Estilos track de scroll */
+/* Estilos track de scroll */
+
 body::-webkit-scrollbar-track {
   background: #e1e1e1;
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-track:hover, 
-body::-webkit-scrollbar-track:active {
+body::-webkit-scrollbar-track:hover, body::-webkit-scrollbar-track:active {
   background: #d4d4d4;
 }

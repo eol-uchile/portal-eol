@@ -6,8 +6,7 @@ section#missionvision h2.content-header:after {
     background-color: #ffff;
 }
 
-section#missionvision, 
-section#missionvision h2.content-header {
+section#missionvision, section#missionvision h2.content-header {
     color: #ffff;
 }
 

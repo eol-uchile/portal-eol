@@ -8,7 +8,7 @@ export const MissionAndVisionComponent = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header">
+                        <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="mv.header" />
                         </h2>
                     </div>
@@ -17,8 +17,9 @@ export const MissionAndVisionComponent = () => {
                             src="/images/mission.svg" 
                             alt="Misión" 
                             className="img-fluid"
+                            data-aos="zoom-in-up" data-aos-duration="1000"
                         />
-                        <p className="mt-4 px-3">
+                        <p className="mt-4 px-3" data-aos="zoom-in" data-aos-duration="1000">
                             <FormattedMessage id="mv.mission" />
                         </p>
                     </div>
@@ -27,8 +28,9 @@ export const MissionAndVisionComponent = () => {
                             src="/images/vision.svg" 
                             alt="Visión" 
                             className="img-fluid"
+                            data-aos="zoom-in-down" data-aos-duration="1000"
                         />
-                        <p className="mt-4 px-3">
+                        <p className="mt-4 px-3" data-aos="zoom-in" data-aos-duration="1000">
                             <FormattedMessage id="mv.vision" />
                         </p>
                     </div>

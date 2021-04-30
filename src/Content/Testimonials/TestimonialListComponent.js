@@ -47,12 +47,12 @@ export const TestimonialListComponent = React.memo(( {setModalData} ) => {
             <div className="container main-container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header animate__animated animate__fadeInUp">
+                        <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="testimonials.header" />
                         </h2>
                     </div>
                     <div className="content-info col-12">
-                        <OwlCarousel className='owl-theme owl-dot mx-auto animate__animated animate__fadeIn' {...options}>
+                        <OwlCarousel className='owl-theme owl-dot mx-auto' data-aos="fade-up" data-aos-duration="1000" {...options}>
                             { testimonials?.map( (t) => (
                                 <TestimonialItemComponent 
                                     key={t.name}

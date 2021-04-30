@@ -8,10 +8,10 @@ export const FooterComponent = () => {
             <div className="container">
                 <div className="row text-center text-md-left">
                     <div className="col-md-4 pt-4 px-2 text-center">
-                        <h4 className="text-uppercase">
+                        <h4 className="text-uppercase" data-aos="fade-up">
                             <FormattedMessage id="footer.rrss" />
                         </h4>
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-duration="1000">
                             <li>
                                 <a href="https://www.instagram.com/vti_uchile/" target="_blank" rel="noreferrer">
                                     <i className="fa fa-instagram mx-2 fa-2x"></i>
@@ -26,10 +26,10 @@ export const FooterComponent = () => {
                         </ul>
                     </div>
                     <div className="col-md-4 pt-4 px-2 text-center">
-                        <h4 className="text-uppercase">
+                        <h4 className="text-uppercase" data-aos="fade-up">
                             <FormattedMessage id="footer.platforms" />
                         </h4>
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-duration="1000">
                             <li><a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">Educación Online (EOL)</a></li>
                             <li><a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">CMM Edu Formación</a></li>
                             <li><a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">UAbierta</a></li>
@@ -37,15 +37,15 @@ export const FooterComponent = () => {
                         </ul>
                     </div>
                     <div className="col-md-4 pt-4 px-2 text-center">
-                        <h4 className="text-uppercase">
+                        <h4 className="text-uppercase" data-aos="fade-up">
                             <FormattedMessage id="footer.contact" />
                         </h4>
-                        <ul>
+                        <ul data-aos="fade-up" data-aos-duration="1000">
                                 <table>
                                     <tbody>
                                         <tr className="mb-2">
                                             <td className="pr-2"><i className="fas fa-map-marker-alt mx-auto"></i></td>
-                                            <td>Diagonal Paraguay 265, Torre 15, Oficina 1004, Santiago, Chile</td>
+                                            <td>Diagonal Paraguay 265, Torre 15,<br/>Oficina 1004, Santiago, Chile</td>
                                         </tr>
                                         <tr className="mb-2">
                                             <td className="pr-2"><i className="far fa-envelope mx-auto"></i></td>
@@ -67,6 +67,7 @@ export const FooterComponent = () => {
                             src="/images/logo-eol-white.svg" 
                             alt="Oficina de Educación Online Universidad de Chile" 
                             className="img-fluid"
+                            data-aos="zoom-in" data-aos-duration="1000"
                         />
                         <p className="copyright text-center"><FormattedMessage id="footer.copyright" /></p>
                     </div>

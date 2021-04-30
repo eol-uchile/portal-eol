@@ -2,12 +2,12 @@ section#testimonials {
     background-color: #ecf0f5;
 }
 
-section#testimonials .main-container { 
+section#testimonials .main-container {
     padding-bottom: 10em;
 }
 
 @media (max-width: 800px) {
-    section#testimonials .main-container { 
+    section#testimonials .main-container {
         padding-bottom: 1em;
     }
 }
@@ -51,7 +51,7 @@ section#testimonials .owl-carousel img {
 }
 
 section#testimonials .show-more {
-    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 179, 255, 1) 0%, rgba(0, 241, 255, 1) 100%);
     border: none;
     border-radius: 15px;
 }
@@ -78,7 +78,7 @@ section#testimonials .card-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    word-spacing:-2px;
+    word-spacing: -2px;
 }
 
 .testimonialModal .modal-body .subtitle {
@@ -87,7 +87,7 @@ section#testimonials .card-text {
 }
 
 .testimonialModal .modal-footer button {
-    background: linear-gradient(90deg, rgba(0,179,255,1) 0%, rgba(0,241,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 179, 255, 1) 0%, rgba(0, 241, 255, 1) 100%);
     border: none;
     border-radius: 15px;
 }

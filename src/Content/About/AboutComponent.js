@@ -8,11 +8,11 @@ export const AboutComponent = () => {
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className="content-header animate__animated animate__fadeInUp">
+                        <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="about.header" />
                         </h2>
                     </div>
-                    <div className="content-info col-12 animate__animated animate__fadeIn">
+                    <div className="content-info col-12" data-aos="zoom-in" data-aos-duration="1000">
                         <p>
                             <FormattedMessage id="about.content.one" />
                         </p>
