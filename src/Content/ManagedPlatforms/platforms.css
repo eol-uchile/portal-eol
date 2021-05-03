@@ -10,22 +10,93 @@ section#managedplatforms, section#managedplatforms h2.content-header {
     color: #ffff;
 }
 
-section#managedplatforms .content-info {
-    color: #00b3ff;
-}
-
 section#managedplatforms a {
-    background-color: #3f5465;
     text-decoration: none;
-    color: #3f5465;
 }
 
-section#managedplatforms a .list-group-item{
-    transition: all 0.2s;
+section#managedplatforms .card {
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    border: 2px solid #48b3ff;
 }
 
-section#managedplatforms a .list-group-item:hover {
-    opacity: 0.9;
-    margin-top: -.3rem;
-    margin-bottom: .3rem;
+section#managedplatforms .card-header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background: #48b3ff24;
+    color: #3a99dc;
+}
+
+section#managedplatforms .card-header:before {
+    content: "";
+    width: 60px;
+    height: 100%;
+    border-right: 2px solid transparent;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+section#managedplatforms .collapse.show+.card-header {
+    background: red;
+}
+
+section#managedplatforms .card-header:after {
+    content: "";
+    width: 60px;
+    height: 100%;
+    border-right: 2px solid transparent;
+    border-radius: 10px;
+    background: rgba(72, 179, 255, .1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: width 1s;
+}
+
+section#managedplatforms .card-header:hover:after {
+    width: 100%;
+}
+
+section#managedplatforms .card-header .card-title {
+    margin: 0;
+    padding: 15px 40px 15px 80px;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+
+section#managedplatforms .card-header .card-title .toggle-arrow {
+    font-weight: 700;
+    font-weight: bold;
+    position: absolute;
+    left: 27px;
+    top: 15px;
+}
+
+section#managedplatforms .card-header .card-title>.fa-link {
+    font-size: 17px;
+    line-height: 17px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #3a99dc;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+section#managedplatforms .card-header:hover .card-title>.fa-link {
+    visibility: visible;
+    opacity: 1;
 }
