@@ -21,10 +21,10 @@ export const AnalyticsComponent = () => {
                     </div>
                 </div>
                 <div className="row align-items-end">
-                    <div className="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <img src="/images/analytics_1.svg" alt="graphic_1" className="img-fluid" />
                     </div>
-                    <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <img src="/images/analytics_2.svg" alt="graphic_2" className="img-fluid" />                        
                     </div>
                     <div className="disclaimer col-12" data-aos="zoom-in" data-aos-duration="1000">

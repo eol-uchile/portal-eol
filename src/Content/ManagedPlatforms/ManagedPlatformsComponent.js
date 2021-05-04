@@ -70,7 +70,7 @@ export const ManagedPlatformsComponent = () => {
                                 </Card>
                             </a>
                     </div>
-                    <div className="content-info col-md-6 my-auto" data-aos="fade-left" data-aos-duration="1000">
+                    <div className="content-info col-md-6 my-auto" data-aos="fade-up" data-aos-duration="1000">
                         <img src="/images/platforms.png" alt="platforms" className="img-fluid" />
                     </div>
                 </div>

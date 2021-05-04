@@ -15,7 +15,7 @@ export const Services2 = () => {
                 </p>
             </div>
 
-            <div className="content-info col-md-6 col-lg-3" data-aos="fade-right" data-aos-duration="1000">
+            <div className="content-info col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                 <img 
                     src="/images/services_2_1.svg" 
                     alt="Servicios 1" 
@@ -28,7 +28,7 @@ export const Services2 = () => {
                     <FormattedMessage id="services_2.1.info" /> (<a href="https://www.rutadigital.cl/" target="_blank" rel="noreferrer">https://www.rutadigital.cl/</a>).
                 </p>
             </div>
-            <div className="content-info col-md-6 col-lg-3" data-aos="fade-right" data-aos-duration="1000">
+            <div className="content-info col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                 <img 
                     src="/images/services_2_2.svg" 
                     alt="Servicios 2" 
@@ -41,7 +41,7 @@ export const Services2 = () => {
                     <FormattedMessage id="services_2.2.info" /> (<a href="http://dgd.uchile.cl" target="_blank" rel="noreferrer">http://dgd.uchile.cl</a>).
                 </p>
             </div>
-            <div className="content-info col-md-6 col-lg-3" data-aos="fade-left" data-aos-duration="1000">
+            <div className="content-info col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                 <img 
                     src="/images/services_2_3.svg" 
                     alt="Servicios 3" 
@@ -54,7 +54,7 @@ export const Services2 = () => {
                     <FormattedMessage id="services_2.3.info" />
                 </p>
             </div>
-            <div className="content-info col-md-6 col-lg-3" data-aos="fade-left" data-aos-duration="1000">
+            <div className="content-info col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1000">
                 <img 
                     src="/images/services_2_4.svg" 
                     alt="Servicios 4" 

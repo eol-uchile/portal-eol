@@ -46,7 +46,7 @@ export const OpenedXComponent = () => {
                                         <FormattedMessage id="openedx.content.three" />
                                     </p>
                                 </div>
-                                <div className="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                                <div className="col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1000">
                                     <Card className="h-100 shadow">
                                         <Card.Body>
                                             <Card.Title>LMS (Learning Management System)</Card.Title>
@@ -56,7 +56,7 @@ export const OpenedXComponent = () => {
                                         </Card.Body>
                                     </Card>
                                 </div>
-                                <div className="col-md-6" data-aos="fade-left" data-aos-duration="1000">
+                                <div className="col-md-6 mt-2" data-aos="fade-up" data-aos-duration="1000">
                                     <Card className="h-100 shadow">
                                         <Card.Body>
                                             <Card.Title>CMS (Content Management System)</Card.Title>
