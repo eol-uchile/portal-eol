@@ -12,6 +12,7 @@ section#services, section#services h2.content-header, section#services p {
 
 section#services p.title {
     font-weight: 600;
+    min-height: 3em;
 }
 
 section#services p.info {

@@ -64,7 +64,7 @@ export const FooterComponent = () => {
                     </div>
                     <div className="col-12 mt-2 text-center">
                         <img 
-                            src="/images/logo-eol-white.svg" 
+                            src="/images/logo-eol-white.png" 
                             alt="Oficina de Educación Online Universidad de Chile" 
                             className="img-fluid"
                             data-aos="zoom-in" data-aos-duration="1000"
