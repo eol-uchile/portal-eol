@@ -45,7 +45,10 @@ export const NavbarComponent = () => {
                 <span className="middle"></span>
                 <span className="bottom"></span>
             </div>
-            <span  className={`text-menu ${scrolled}`}>
+            <span 
+                className={`text-menu ${scrolled}`}
+                onClick={() => toggleMenuState(false)} 
+            >
                 MENÚ
             </span>
             <div 

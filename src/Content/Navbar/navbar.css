@@ -23,6 +23,7 @@ nav img {
   font-weight: 800;
   position: fixed;
   right: calc(4% + 40px + 20px);
+  cursor: pointer;
 }
 
 .text-menu.scrolled {
