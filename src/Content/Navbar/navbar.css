@@ -8,19 +8,45 @@ nav img {
 }
 
 .button-menu {
-  /* position: fixed; */
-  position: sticky;
-  top: 3%;
+  position: fixed;
+  /* position: sticky; */
+  top: 40px;
   right: 4%;
-  height: 27px;
-  width: 35px;
+  height: 60px;
+  width: 60px;
   cursor: pointer;
   z-index: 101;
-  transition: opacity 0.25s ease;
 }
 
-.button-menu:hover {
-  opacity: 0.7;
+.text-menu {
+  color: #00b3ff;
+  font-weight: 800;
+  position: fixed;
+  right: calc(4% + 40px + 20px);
+}
+
+.text-menu.scrolled {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .text-menu {
+      display: none;
+  }
+}
+
+.button-menu.scrolled {
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button-menu.scrolled:hover {
+  box-shadow: 0px 15px 20px rgba(0, 179, 255, 0.4);
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 .button-menu.active .top {
@@ -42,20 +68,20 @@ nav img {
   background: #00b3ff;
   border: none;
   height: 5px;
-  width: 100%;
+  width: 30px;
   position: absolute;
-  top: 0px;
-  left: 0;
+  top: 18px;
+  left: 15px;
   transition: all 0.35s ease;
   cursor: pointer;
 }
 
 .button-menu span:nth-of-type(2) {
-  top: 10px;
+  top: 28px;
 }
 
 .button-menu span:nth-of-type(3) {
-  top: 20px;
+  top: 38px;
 }
 
 .overlay {

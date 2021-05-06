@@ -8,10 +8,19 @@ import './navbar.css';
 
 export const NavbarComponent = () => {
     const [menuState, setMenuState] = useState(false);
+    const [scrolled, setScrolled] = useState('');
     const toggleMenuState = (scrollFlag) => {
         setMenuState(!menuState);
         if(scrollFlag) scrollToTop();
     }
+    document.addEventListener("scroll", () => {
+        if(window.pageYOffset > 15 && scrolled !== 'scrolled') {
+            setScrolled('scrolled');
+        } else if(window.pageYOffset <= 15 && scrolled !== '') {
+            setScrolled('');
+        }
+
+    });
     return (
         <Navbar 
             bg="light" 
@@ -29,13 +38,16 @@ export const NavbarComponent = () => {
                 />
             </NavLink>
             <div 
-                className={ menuState ? "button-menu active" : "button-menu" } 
+                className={ menuState ? `button-menu active` : `button-menu ${scrolled}` } 
                 onClick={() => toggleMenuState(false)} 
             >
                 <span className="top"></span>
                 <span className="middle"></span>
                 <span className="bottom"></span>
             </div>
+            <span  className={`text-menu ${scrolled}`}>
+                MENÚ
+            </span>
             <div 
                 className={ menuState ? "overlay open" : "overlay" } 
             >

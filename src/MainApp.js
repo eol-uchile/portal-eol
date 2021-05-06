@@ -10,7 +10,6 @@ import { FooterComponent } from './Content/Footer/FooterComponent';
 import { HomePage } from './Pages/HomePage';
 import { ProjectsPage } from './Pages/ProjectsPage';
 import { WePage } from './Pages/WePage';
-import { ScrollToTopButtonComponent } from './Extras/ScrollToTopButton/ScrollToTopButtonComponent';
 import { LanguageProvider } from './Extras/Language/LanguageProvider';
 import { LanguageSelectorComponent } from './Extras/Language/LanguageSelectorComponent';
 import { PlatformPage } from './Pages/PlatformPage';
@@ -32,7 +31,6 @@ export const MainApp = () => {
                     </Switch>
                 </div>
                 <FooterComponent />
-                <ScrollToTopButtonComponent />
             </Router>
         </LanguageProvider>
     )
