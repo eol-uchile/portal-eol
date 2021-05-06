@@ -9,14 +9,13 @@ export const LanguageSelectorComponent = () => {
     const handleChange = ({ target }) => setLanguage(target.value);
 
     return (
-        <div className="language-container container-fluid text-right pr-md-5">
-            <select
-                onChange={handleChange}
-                value={language}
-            >
-                <option value='es'>Español</option>
-                <option value='en'>English</option>
-            </select>
-        </div>
+        <select
+            onChange={handleChange}
+            value={language}
+            className="language-select"
+        >
+            <option value='es'>Español</option>
+            <option value='en'>English</option>
+        </select>
     )
 }

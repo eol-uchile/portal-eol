@@ -1,0 +1,25 @@
+div.top-bar-container {
+    background: rgb(0, 179, 255);
+    background: linear-gradient(-90deg, rgba(0, 179, 255, 1) 0%, rgba(0, 241, 255, 1) 100%);
+    color: #ffff;
+    font-weight: 400;
+}
+
+div.top-bar-container table {
+    margin-right: 2%;
+}
+
+div.top-bar-container .platforms-link {
+    color: #ffffff9c;
+}
+
+div.top-bar-container a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+div.top-bar-container a:hover {
+    font-weight: 600;
+}

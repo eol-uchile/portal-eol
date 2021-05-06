@@ -11,15 +11,15 @@ import { HomePage } from './Pages/HomePage';
 import { ProjectsPage } from './Pages/ProjectsPage';
 import { WePage } from './Pages/WePage';
 import { LanguageProvider } from './Extras/Language/LanguageProvider';
-import { LanguageSelectorComponent } from './Extras/Language/LanguageSelectorComponent';
 import { PlatformPage } from './Pages/PlatformPage';
+import { TopBarComponent } from './Content/TopBar/TopBarComponent';
 
 export const MainApp = () => {
 
     return (
         <LanguageProvider>
             <Router>
-                <LanguageSelectorComponent />
+                <TopBarComponent />
                 <NavbarComponent />
                 <div className="">
                     <Switch>
