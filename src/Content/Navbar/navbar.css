@@ -18,6 +18,13 @@ nav img {
   z-index: 101;
 }
 
+/* Top bar with two lines */
+@media (max-width: 714px) {
+  .button-menu {
+    top: 55px;
+  }
+}
+
 .text-menu {
   color: #00b3ff;
   font-weight: 800;

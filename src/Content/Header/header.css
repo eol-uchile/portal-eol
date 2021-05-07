@@ -5,7 +5,6 @@
 .carousel-caption span {
     display: block;
     font-size: 3.5vw;
-    text-align: left !important;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -16,10 +15,16 @@
 
 .carousel-caption span.caption-left {
     float: left;
+    text-align: left;
 }
 
 .carousel-caption span.caption-right {
     float: right;
+    text-align: left;
+}
+
+.carousel-caption span.caption-center {
+    text-align: center;
 }
 
 .carousel-caption strong {

@@ -1,19 +1,19 @@
 import React, { useContext } from 'react';
 import { Carousel } from 'react-bootstrap';
 import Parser from 'html-react-parser';
-import { headers_data } from './data';
 import './header.css';
 import { getData } from '../../Extras/GetData/getData';
 import { LanguageContext } from '../../Extras/Language/LanguageContext';
 
-export const HeaderComponent = () => {
+export const HeaderComponent = ( { headers_data } ) => {
     const { language } = useContext(LanguageContext);
     const headers = getData({
         data: headers_data,
         language: language
     });
+    const showControls = headers?.length > 1;
     return (
-        <Carousel fade>
+        <Carousel fade controls={showControls} indicators={showControls}>
 
             { headers?.map( (header) => (
                 <Carousel.Item key={header.url}>
@@ -23,7 +23,7 @@ export const HeaderComponent = () => {
                     alt="Header"
                     />
                     <Carousel.Caption className="animated fadeInLeft">
-                        <span className="caption-left">
+                        <span className={ header.align }>
                             { Parser(header.title) }
                         </span>
                     </Carousel.Caption>
