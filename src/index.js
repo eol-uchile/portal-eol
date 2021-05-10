@@ -9,7 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-AOS.init();
+AOS.init({
+  once: true // whether animation should happen only once - while scrolling down
+});
 
 ReactDOM.render(
     <MainApp />,
