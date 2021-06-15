@@ -9,8 +9,8 @@
     padding: 0;
     overflow: hidden;
     position: relative;
-    background: #48b3ff24;
-    color: #3a99dc;
+    background: #ededec;
+    color: #392a28;
     word-spacing: -1px !important;
 }
 
@@ -26,17 +26,13 @@
     z-index: 1;
 }
 
-#functionalities .collapse.show+.card-header {
-    background: red;
-}
-
 #functionalities .card-header:after {
     content: "";
     width: 60px;
     height: 100%;
     border-right: 2px solid transparent;
     border-radius: 10px;
-    background: rgba(72, 179, 255, .1);
+    background: #dddddb;
     position: absolute;
     left: 0;
     top: 0;
@@ -70,7 +66,7 @@
     width: 20px;
     height: 20px;
     text-align: center;
-    color: #3a99dc;
+    color: #392a28;
 }
 
 #functionalities .card-header .collapse {

@@ -1,5 +1,8 @@
 section#services {
-    background-color: #00b3ff;
+    background-color: #3a3f42;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 section#services h2.content-header:after {

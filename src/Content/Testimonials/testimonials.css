@@ -51,7 +51,7 @@ section#testimonials .owl-carousel img {
 }
 
 section#testimonials .show-more {
-    background: linear-gradient(90deg, rgba(0, 179, 255, 1) 0%, rgba(0, 241, 255, 1) 100%);
+    background: #00b3ff;
     border: none;
     border-radius: 15px;
 }
@@ -87,7 +87,7 @@ section#testimonials .card-text {
 }
 
 .testimonialModal .modal-footer button {
-    background: linear-gradient(90deg, rgba(0, 179, 255, 1) 0%, rgba(0, 241, 255, 1) 100%);
+    background: #00b3ff;
     border: none;
     border-radius: 15px;
 }

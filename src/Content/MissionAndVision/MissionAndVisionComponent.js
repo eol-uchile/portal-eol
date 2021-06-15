@@ -4,7 +4,10 @@ import "./mv.css";
 
 export const MissionAndVisionComponent = () => {
     return (
-        <section id="missionvision">
+        <section 
+            id="missionvision"
+            style={{backgroundImage: "url(/images/nodos_background.png)" }}
+        >
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12">

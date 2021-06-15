@@ -5,7 +5,10 @@ import "./platforms.css";
 
 export const ManagedPlatformsComponent = () => {
     return (
-        <section id="managedplatforms">
+        <section 
+            id="managedplatforms"
+            style={{backgroundImage: "url(/images/nodos_background.png)" }}
+        >
             <div className="container text-center">
                 <div className="row">
                     <div className="col-12 mb-3">

@@ -1,5 +1,8 @@
 section#managedplatforms {
-    background-color: #00b3ff;
+    background-color: #3a3f42;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 section#managedplatforms h2.content-header:after {
@@ -17,7 +20,7 @@ section#managedplatforms a {
 section#managedplatforms .card {
     margin-bottom: 0.5em;
     border-radius: 10px;
-    border: 2px solid #48b3ff;
+    border: 2px solid #ffff;
 }
 
 section#managedplatforms .card-header {
@@ -25,8 +28,9 @@ section#managedplatforms .card-header {
     padding: 0;
     overflow: hidden;
     position: relative;
-    background: #48b3ff24;
+    background: transparent;
     color: #3a99dc;
+    border-bottom: none;
 }
 
 section#managedplatforms .card-header:before {
@@ -39,10 +43,6 @@ section#managedplatforms .card-header:before {
     left: 0;
     top: 0;
     z-index: 1;
-}
-
-section#managedplatforms .collapse.show+.card-header {
-    background: red;
 }
 
 section#managedplatforms .card-header:after {
@@ -76,7 +76,7 @@ section#managedplatforms .card-header .card-title .toggle-arrow {
     font-weight: 700;
     font-weight: bold;
     position: absolute;
-    left: 27px;
+    left: 22px;
     top: 15px;
 }
 

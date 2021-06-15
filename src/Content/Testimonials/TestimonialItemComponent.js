@@ -25,7 +25,6 @@ export const TestimonialItemComponent = ({ name, position, text, img, setModalDa
                     <div className="mt-auto">
                         <Card.Text>{ text }</Card.Text>
                         <Button 
-                            size="sm" 
                             className="show-more"
                             onClick={handleModal}
                         >

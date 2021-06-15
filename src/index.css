@@ -5,10 +5,11 @@ body {
 section {
   padding-top: 40px;
   padding-bottom: 80px;
+  color: #888888;
 }
 
 section h2.content-header {
-  color: #00b3ff;
+  color: #3a3f42;
   padding-bottom: 8px;
 }
 
@@ -20,7 +21,7 @@ section h2.content-header:after {
   width: 5%;
   transform: translateX(-50%);
   height: 3px;
-  background: #00b3ff;
+  background: #3a3f42;
   transition: 0.35s;
 }
 
