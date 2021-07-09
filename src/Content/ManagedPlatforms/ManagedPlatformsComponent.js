@@ -61,7 +61,7 @@ export const ManagedPlatformsComponent = () => {
                                     </Card.Header>
                                 </Card>
                             </a>
-                            <a className="mb-3" href="https://virtual-labx.cl/" target="_blank" rel="noreferrer">
+                            <a className="mb-3" href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">
                                 <Card>
                                     <Card.Header>
                                         <Card.Title>

@@ -77,19 +77,9 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Felipe Espinoza Rosales',
-            'email'         : 'felipe.espinoza.r@uchile.cl',
-            'position'      : 'Jefe de Ingeniería',
-            'description'   : 'Ingeniero Civil en Computación de la Universidad de Chile y Magíster en Ciencias, Mención Computación de la Universidad de Chile.',
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/fdns/',
-                'github'    : 'https://github.com/fdns'
-            }
-        },
-        {
             'name'          : 'Matías Salinas Soto',
             'email'         : 'matsalinas@uchile.cl',
-            'position'      : 'Desarrollador Fullstack',
+            'position'      : 'Jefe de Ingeniería',
             'description'   : 'Ingeniero Civil en Informática y Magister en Ingeniería Informática de la Pontificia Universidad Católica de Valparaíso.',
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/matiassalinassoto/',
@@ -108,9 +98,40 @@ export const team_members_data = {
         {
             'name'          : 'Darío Palma Carrasco',
             'email'         : 'dario.palma@uchile.cl',
-            'position'      : 'Desarrollador',
+            'position'      : 'Desarrollador DevOps',
             'description'   : 'Ingeniero en Computación de la Universidad de Chile e Ingeniero Generalista de la Ecole Centrale de Nantes.',
-            'links'         : { }
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/darioandhael/',
+                'github'    : 'https://github.com/dario617'
+            }
+        },
+        {
+            'name'          : 'Constanza Altamirano López',
+            'email'         : 'constanzaaltamirano@uchile.cl',
+            'position'      : 'Desarrolladora DevOps Jr.',
+            'description'   : 'Ingeniera en Informática, Duoc UC.',
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/konialtamirano/',
+                'github'    : 'https://github.com/KoniAltamirano'
+            }
+        },
+        {
+            'name'          : 'Braulio Ibarra Olea',
+            'email'         : 'braulio.ibarra@uchile.cl',
+            'position'      : 'Ejecutivo de Mesa de Ayuda',
+            'description'   : 'Ingeniero en Información y Control de Gestión de la Universidad de Chile.',
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/bibarraolea/'
+            }
+        },
+        {
+            'name'          : 'Ronald Figueroa Toro',
+            'email'         : 'ronald.figueroa@uchile.cl',
+            'position'      : 'Ejecutivo de Mesa de Ayuda',
+            'description'   : 'Técnico Analista Programador y Estudiante de Ingeniería en Informática',
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/ronald-figueroa-toro',
+            }
         }
     ]
 }

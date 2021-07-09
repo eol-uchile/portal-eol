@@ -12,16 +12,16 @@ export const TopBarComponent = () => {
                             <a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">
                                 EOL
                             </a> |
-                            <a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">
+                            <a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">
                                 UAbierta
                             </a> |
-                            <a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">
+                            <a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">
                                 CMM Eduformación
                             </a> |
                             <a href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">
                                 EduOnline
                             </a> |
-                            <a href="https://virtual-labx.cl/" target="_blank" rel="noreferrer">
+                            <a href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">
                                 Virtual LabX
                             </a>
                         </td>
