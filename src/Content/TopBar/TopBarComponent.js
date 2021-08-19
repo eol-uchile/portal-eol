@@ -22,7 +22,7 @@ export const TopBarComponent = () => {
                                 EduOnline
                             </a> |
                             <a href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">
-                                Virtual LabX
+                                Caja los Andes
                             </a>
                         </td>
                         <td>
