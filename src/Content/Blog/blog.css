@@ -1,0 +1,44 @@
+section#blog {
+  background-color: #ecf0f5;
+}
+
+section#articles {
+  background-color: #ecf0f5;
+}
+
+section#articles .main-container {
+  padding-bottom: 10em;
+  z-index: 2;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  section#articles .main-container {
+    padding-bottom: 1em;
+  }
+}
+
+section#articles .card {
+  min-width: 350px;
+}
+
+section#articles .card-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  font-size: 0.7em;
+}
+
+section#article h2 {
+  font-size: 3.5vw;
+  font-weight: 300;
+  text-align: left;
+  color: #000;
+}
+
+section#article span {
+  color: #00b3ff;
+  font-weight: 300;
+  font-size: 0.8em;
+}

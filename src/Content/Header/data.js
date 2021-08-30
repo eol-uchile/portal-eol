@@ -29,6 +29,16 @@ export const headers_platform = {
     ]
 }
 
+export const headers_teaching_assistance= {
+    'es': [
+        {
+            'title' : "<strong>Apoyo docente</strong>",
+            'url'   : "/images/header_2.jpg",
+            'align' : "caption-center"
+        }
+    ]
+}
+
 export const headers_we = {
     'es': [
         {
