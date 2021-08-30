@@ -54,7 +54,7 @@ export const ProjectsListComponent = () => {
                 </div>
             </div>
             <div
-                className="dark-background"
+                className="dark-background mb-3"
                 style={{backgroundImage: "url(/images/nodos_background.png)" }}
             >
                 <div className="container">
