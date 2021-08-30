@@ -96,5 +96,14 @@
     "functionalities.list.payment.desc": "Existen cursos que requieren un pago previo para la inscripción o la emisión de certificados. Para esto, nuestra plataforma se ha integrado con sistemas de pago nacional (Webpay) e internacional (Paypal).",
     "analytics.header": "Analítica",
     "analytics.desc": "Observa cómo los estudiantes interactúan con el curso, para inferir compromiso y/o deserción. Detecta qué contenido requirió más esfuerzo, por parte de los estudiantes, para presentar apoyo o re-distribuir el material docente.",
-    "analytics.disclaimer": "(*) El sistema de analítica actualmente se encuentra en fase de desarrollo y no está disponible para todos los cursos."
+    "analytics.disclaimer": "(*) El sistema de analítica actualmente se encuentra en fase de desarrollo y no está disponible para todos los cursos.",
+    "projects.project": "Proyecto",
+    "projects.org": "Organismo",
+    "projects.year": "Año",
+    "projects.tier": "Nivel",
+    "projects.description": "Descripción",
+    "projects.courses": "Cursos",
+    "projects.participants": "Participantes",
+    "projects.header": "Introducción",
+    "projects.content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 }

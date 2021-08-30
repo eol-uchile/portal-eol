@@ -16,7 +16,9 @@ export const MemberComponent = ({ name, email, position, description, links}) =>
                         </div>
                         <p className="description">{ Parser(description) }</p>
                         <ul>
-                            <a href={ `mailto:${email}` } target="_blank" rel="noreferrer"><li><i className="fas fa-envelope fa-2x"></i></li></a>
+                            { email && (
+                                <a href={ `mailto:${email}` } target="_blank" rel="noreferrer"><li><i className="fas fa-envelope fa-2x"></i></li></a>
+                            ) }
                             { links.linkedin && (
                                 <a href={links.linkedin} target="_blank" rel="noreferrer"><li><i className="fa fa-linkedin fa-2x"></i></li></a>
                             ) }

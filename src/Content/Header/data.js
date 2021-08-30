@@ -38,3 +38,13 @@ export const headers_we = {
         }
     ]
 }
+
+export const headers_projects = {
+    'es': [
+        {
+            'title' : "<strong>Proyectos</strong>",
+            'url'   : "/images/header_2.jpg",
+            'align' : "caption-center"
+        }
+    ]
+}

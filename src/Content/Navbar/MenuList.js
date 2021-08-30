@@ -22,7 +22,7 @@ export const MenuList = ({toggleMenuState}) => {
                 </NavLink>
             </li>
             <li>
-                <NavLink onClick={toggleMenuState} className="nav-link" to="/">
+                <NavLink onClick={toggleMenuState} className="nav-link" to="/projects">
                     <FormattedMessage
                         id="navbar.projects"
                         defaultMessage="Proyectos"
