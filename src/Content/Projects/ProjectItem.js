@@ -11,7 +11,7 @@ export const ProjectItem = ({project, side="img-left"}) => {
                     className="img-fluid"
                 />
             </div>
-            <div className="col-md-7 col-lg-6 py-3" data-aos="fade-up" data-aos-duration="1000">
+            <div className="col-md-7 col-lg-6 py-3 py-md-0" data-aos="fade-up" data-aos-duration="1000">
                 <h3 className="mb-4 text-left"><FormattedMessage id="projects.project" />: {project.name}</h3>
                 <ul>
                     { project.org && (
