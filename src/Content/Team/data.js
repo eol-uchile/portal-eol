@@ -107,6 +107,15 @@ export const team_members_data = {
             }
         },
         {
+            'name'          : 'Isaias Venegas Almonacid',
+            'position'      : 'Desarrollador Jr.',
+            'description'   : 'Estudiante de Ingeniería en Computación de la Universidad de Chile y estudiante de Ingeniería Generalista de la Ecole Centrale de Nantes.',
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/isaias-venegas-almonacid-6985b0203/',
+                'github'    : 'https://github.com/IsaiasVenegas'
+            }
+        },
+        {
             'name'          : 'Braulio Ibarra Olea',
             // 'email'         : 'braulio.ibarra@uchile.cl',
             'position'      : 'Ejecutivo de Mesa de Ayuda',
