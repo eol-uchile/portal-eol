@@ -1,6 +1,10 @@
 section#blog {
   background-color: #ecf0f5;
 }
+section#blog .show-all {
+  font-size: 0.6em;
+  float: right;
+}
 
 section#articles {
   background-color: #ecf0f5;

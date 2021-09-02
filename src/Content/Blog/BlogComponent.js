@@ -5,16 +5,17 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { ItemListComponent } from './ItemListComponent';
-import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
 import { getData } from '../../Extras/GetData/getData';
 import { LanguageContext } from '../../Extras/Language/LanguageContext';
+import { Link } from 'react-router-dom';
 
 export const BlogComponent = React.memo(() => {
     const { language } = useContext(LanguageContext);
+    const nItems = blog_data.length >= 4 ? 4 : blog_data.length
     const articles = getData({
         data: blog_data,
         language: language
-    });
+    }).slice(blog_data[language].length - nItems, blog_data[language].length)
     const options = {
         loop: false,
         rewind: true,
@@ -49,6 +50,10 @@ export const BlogComponent = React.memo(() => {
                     <div className="col-12">
                         <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="blog.header" />
+                            {" "}
+                            <Link className="show-all" to={`/blog`}>
+                                <FormattedMessage id="blog.showall" />
+                            </Link>
                         </h2>
                     </div>
                     <div className="content-info col-12">

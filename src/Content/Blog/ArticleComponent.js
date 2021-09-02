@@ -61,12 +61,12 @@ export const ArticleComponent = (props) => {
                     <div className="row">
                         <div className="col-12">
                             <p><i class="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />: {" "}
-                                {article.tags.split(",").map((tag) =>
+                                {article.tags.map((tag) =>
                                     <span>{tag}</span>
                                 )}</p>
                         </div>
                     </div>
-                </div>) : <h2>404: Artículo no encontrado</h2>}
+                </div>) : <h2 data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="article.notfound" /></h2>}
         </section>
     )
 }
