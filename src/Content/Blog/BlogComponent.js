@@ -1,5 +1,5 @@
 import { blog_data } from './data';
-import React, { useContext } from 'react';
+import React, { useContext, useMemo } from 'react';
 import { FormattedMessage } from 'react-intl';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -11,11 +11,17 @@ import { Link } from 'react-router-dom';
 
 export const BlogComponent = React.memo(() => {
     const { language } = useContext(LanguageContext);
-    const nItems = blog_data.length >= 4 ? 4 : blog_data.length
-    const articles = getData({
+    const all_articles = getData({
         data: blog_data,
         language: language
-    }).slice(blog_data[language].length - nItems, blog_data[language].length)
+    })
+    const nItems = all_articles.length >= 4 ? 4 : all_articles.length
+    const articles = useMemo(() =>
+        all_articles.slice(
+            all_articles.length - nItems,
+            all_articles.length)
+            .reverse(), [all_articles]
+    )
     const options = {
         loop: false,
         rewind: true,

@@ -24,13 +24,14 @@ export const ArticlesComponent = React.memo(() => {
                 data: blog_data,
                 language: language
             }).slice(
-                pagination.page * pagination.page_size, 
+                pagination.page * pagination.page_size,
                 (pagination.page + 1) * pagination.page_size
             )
         );
     }, [
         pagination.page,
         pagination.page_size,
+        language,
     ]);
 
     return (

@@ -3,14 +3,14 @@ import { FormattedMessage } from 'react-intl';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-export const ItemListComponent = ({ id, title, img }) => {
+export const ItemListComponent = ({ post, title, img }) => {
     return (
         <Card >
             <Card.Img variant="top" src={img} />
             <Card.Body >
                 <Card.Title>{title}</Card.Title>
                 <div >
-                    <Link className="show-more" to={`/blog/${id}`}>
+                    <Link className="show-more" to={`/blog/${post.slice(0,16)}`}>
                         <FormattedMessage id="blog.showmore" />
                     </Link>
                 </div>
