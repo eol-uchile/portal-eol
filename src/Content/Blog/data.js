@@ -5,8 +5,8 @@ export const blog_data = {
             "title": 'ArticuloA',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/1_articleA/post_es.html',
-            "img": 'posts/1_articleA/header.jpg',
+            "post": '/posts/1_articleA/post_es.html',
+            "img": '/posts/1_articleA/header.jpg',
             "tags": ['tag1', 'tag2']
         },
         {
@@ -14,8 +14,8 @@ export const blog_data = {
             "title": 'ArticuloB',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/2_articleB/post_es.html',
-            "img": 'posts/2_articleB/header.jpg',
+            "post": '/posts/2_articleB/post_es.html',
+            "img": '/posts/2_articleB/header.jpg',
             "tags": ['tag1', 'tag2']
         },
         {
@@ -23,8 +23,8 @@ export const blog_data = {
             "title": 'ArticuloC',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/3_articleC/post_es.html',
-            "img": 'posts/3_articleC/header.jpg',
+            "post": '/posts/3_articleC/post_es.html',
+            "img": '/posts/3_articleC/header.jpg',
             "tags": ['tag1']
         },
         {
@@ -32,8 +32,8 @@ export const blog_data = {
             "title": 'ArticuloD',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/4_articleD/post_es.html',
-            "img": 'posts/4_articleD/header.jpg',
+            "post": '/posts/4_articleD/post_es.html',
+            "img": '/posts/4_articleD/header.jpg',
             "tags": ['tag3']
         },
         {
@@ -41,8 +41,8 @@ export const blog_data = {
             "title": 'ArticuloE',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/5_articleE/post_es.html',
-            "img": 'posts/5_articleE/header.jpg',
+            "post": '/posts/5_articleE/post_es.html',
+            "img": '/posts/5_articleE/header.jpg',
             "tags": ['tag3']
         },
     ],
@@ -52,8 +52,8 @@ export const blog_data = {
             "title": 'ArticleA',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/1_articleA/post_en.html',
-            "img": 'posts/1_articleA/header.jpg',
+            "post": '/posts/1_articleA/post_en.html',
+            "img": '/posts/1_articleA/header.jpg',
             "tags": ['tag1', 'tag2']
         },
         {
@@ -61,8 +61,8 @@ export const blog_data = {
             "title": 'ArticleB',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/2_articleB/post_en.html',
-            "img": 'posts/2_articleB/header.jpg',
+            "post": '/posts/2_articleB/post_en.html',
+            "img": '/posts/2_articleB/header.jpg',
             "tags": ['tag1', 'tag2']
         },
         {
@@ -70,8 +70,8 @@ export const blog_data = {
             "title": 'ArticleC',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/3_articleC/post_en.html',
-            "img": 'posts/3_articleC/header.jpg',
+            "post": '/posts/3_articleC/post_en.html',
+            "img": '/posts/3_articleC/header.jpg',
             "tags": ['tag1']
         },
         {
@@ -79,8 +79,8 @@ export const blog_data = {
             "title": 'ArticleD',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/4_articleD/post_en.html',
-            "img": 'posts/4_articleD/header.jpg',
+            "post": '/posts/4_articleD/post_en.html',
+            "img": '/posts/4_articleD/header.jpg',
             "tags": ['tag3']
         },
         {
@@ -88,8 +88,8 @@ export const blog_data = {
             "title": 'ArticleE',
             "date": '30/08/2021',
             "author": 'EOL',
-            "post": 'posts/5_articleE/post_es.html',
-            "img": 'posts/5_articleE/header.jpg',
+            "post": '/posts/5_articleE/post_es.html',
+            "img": '/posts/5_articleE/header.jpg',
             "tags": ['tag3']
         },
     ]

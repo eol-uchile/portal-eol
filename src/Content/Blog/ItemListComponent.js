@@ -10,7 +10,7 @@ export const ItemListComponent = ({ post, title, img }) => {
             <Card.Body >
                 <Card.Title>{title}</Card.Title>
                 <div >
-                    <Link className="show-more" to={`/blog/${post.slice(0,16)}`}>
+                    <Link className="show-more" to={`/blog/${post.slice(1, post.indexOf('/post_'))}`}>
                         <FormattedMessage id="blog.showmore" />
                     </Link>
                 </div>

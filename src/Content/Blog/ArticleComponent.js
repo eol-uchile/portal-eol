@@ -28,7 +28,7 @@ export const ArticleComponent = (props) => {
 
     async function fetchMyDocument() {
         try {
-            let response = await fetch(`/${article.post}`); // Gets a promise
+            let response = await fetch(`${article.post}`); // Gets a promise
             let innerHTML = await response.text();
             innerHTML && setContent({ __html: innerHTML })
         } catch (err) {
@@ -38,10 +38,12 @@ export const ArticleComponent = (props) => {
 
     useEffect(() => {
         setArticle({ ...article, status: 'loading' })
-        if (props.match.params.article_path[0] <= articles.length && props.match.params.article_path[0] >= 0) {
+        let url = props.match.params.article_path
+        let articlesMatched = articles.filter(art => art.post.includes(`/posts/${url}/`))
+        if (articlesMatched.length === 1) {
             setArticle({
                 status: 'success',
-                ...articles[props.match.params.article_path[0] - 1]
+                ...articlesMatched[0]
             })
 
         } else {
@@ -87,7 +89,7 @@ export const ArticleComponent = (props) => {
                     </div>
                     <div className="row">
                         <div className="col-12">
-                            <p><i class="fas fa-calendar-alt"></i>{" "}<FormattedMessage id="article.published" />: {article.date}</p>
+                            <p><i class="fas fa-calendar-alt"></i>{" "}<FormattedMessage id="article.published" /> {article.date}</p>
                         </div>
                     </div>
                 </div>) : <h2 data-aos="fade-up" data-aos-duration="1000">404: <FormattedMessage id="article.notfound" /></h2>}

@@ -29,7 +29,7 @@ export const MainApp = () => {
                         <Route exact path="/platform" component={PlatformPage} />
                         <Route exact path="/projects" component={ProjectsPage} />
                         <Route exact path="/blog" component={BlogPage} />
-                        <Route path="/blog/posts/:article_path" component={ArticleComponent} />
+                        <Route exact path="/blog/posts/:article_path" component={ArticleComponent} />
                         <Route exact path="/we" component={WePage} />
                         <Redirect to="/home" />
                     </Switch>
