@@ -5,6 +5,7 @@ import { HeaderComponent } from '../Content/Header/HeaderComponent';
 import { ServicesComponent } from '../Content/Services/ServicesComponent';
 import { StatisticsComponent } from '../Content/Statistics/StatisticsComponent';
 import { TestimonialsComponent } from '../Content/Testimonials/TestimonialsComponent';
+import { LastArticlesListComponent } from '../Content/Blog/LastArticlesListComponent';
 
 export const HomePage = () => {
     return (
@@ -13,7 +14,8 @@ export const HomePage = () => {
             <AboutComponent />
             <ServicesComponent />
             <StatisticsComponent />
-            <TestimonialsComponent />
+            <LastArticlesListComponent />
+            <TestimonialsComponent />            
         </>
     )
 }
