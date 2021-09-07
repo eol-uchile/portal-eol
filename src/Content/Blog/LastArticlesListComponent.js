@@ -1,27 +1,18 @@
-import { blog_data } from './data';
-import React, { useContext, useMemo } from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
+import { ArticleItemComponent } from './ArticleItemComponent';
+import { useFetchLastArticles } from './ArticlesHooks';
+import { LanguageContext } from '../../Extras/Language/LanguageContext';
+import { scrollToTop } from '../../Extras/ScrollToTopButton/scrolltop';
+
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { ItemListComponent } from './ItemListComponent';
-import { getData } from '../../Extras/GetData/getData';
-import { LanguageContext } from '../../Extras/Language/LanguageContext';
-import { Link } from 'react-router-dom';
 
-export const BlogComponent = React.memo(() => {
+export const LastArticlesListComponent = React.memo(() => {
     const { language } = useContext(LanguageContext);
-    const all_articles = getData({
-        data: blog_data,
-        language: language
-    })
-    const nItems = all_articles.length >= 4 ? 4 : all_articles.length
-    const articles = useMemo(() =>
-        all_articles.slice(
-            all_articles.length - nItems,
-            all_articles.length)
-            .reverse(), [all_articles]
-    )
+    const articles = useFetchLastArticles(language);
     const options = {
         loop: false,
         rewind: true,
@@ -50,26 +41,28 @@ export const BlogComponent = React.memo(() => {
         }
     }
     return (
-        <section id="blog">
+        <section id="last-articles">
             <div className="container main-container text-center">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="blog.header" />
                             {" "}
-                            <Link className="show-all" to={`/blog`}>
+                            <Link onClick={scrollToTop} className="show-all" to={`/blog`}>
                                 <FormattedMessage id="blog.showall" />
                             </Link>
                         </h2>
                     </div>
                     <div className="content-info col-12">
                         <OwlCarousel className='owl-theme owl-dot mx-auto' data-aos="fade-up" data-aos-duration="1000" {...options}>
-                            {articles?.map((t, k) => (
-                                <ItemListComponent
-                                    key={k}
-                                    {...t}
-                                />
-                            ))}
+                            {
+                                articles?.map((t, k) => (
+                                    <ArticleItemComponent
+                                        key={k}
+                                        {...t}
+                                    />
+                                ))
+                            }
                         </OwlCarousel>
                     </div>
                 </div>

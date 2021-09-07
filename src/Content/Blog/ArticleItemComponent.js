@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-export const ItemListComponent = ({ post, title, img }) => {
+export const ArticleItemComponent = ({ post, title, img }) => {
     return (
         <Card >
             <Card.Img variant="top" src={img} />
