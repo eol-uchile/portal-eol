@@ -32,14 +32,18 @@ export const team_members_data = {
             // 'email'         : 'cecilia.pereira@uchile.cl',
             'position'      : 'Editora Asistente',
             'description'   : 'Comunicadora Social mención Relaciones Públicas, Inacap.',
-            'links'         : { }
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/cecilia-andrea-pereira-alvarez-915b8a32/'
+            }
         },
         {
             'name'          : 'Francisco Sereño Ahumada',
             // 'email'         : 'francisco.sereno@uchile.cl',
             'position'      : 'Diseñador Instruccional',
             'description'   : 'Profesor de Educación General Básica de la UMCE. Máster de Entornos de Enseñanza y Aprendizaje mediados por Tecnologías Digitales de la Universidad de Barcelona y Magíster en Pedagogía Universitaria de la Universidad Mayor. Postítulo en Informática Educativa, Universidad de Chile. Diploma en Diseño Didáctico instruccional para e-learning, UTN.',
-            'links'         : { }
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
+            }
         },
         {
             'name'          : 'Karla Cabello Orellana',
@@ -55,7 +59,9 @@ export const team_members_data = {
             // 'email'         : 'ronny.carvajal@uchile.cl',
             'position'      : 'Diseñador Multimedia',
             'description'   : 'Diseñador gráfico de la Universidad de Chile.',
-            'links'         : { }
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/ronny-carvajal-oyarzo-baa31929/'
+            }
         },
         {
             'name'          : 'Consuelo Calderón Fuentealba',

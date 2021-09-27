@@ -8,10 +8,13 @@
     "history.content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "teams.header": "Nuestro Equipo",
     "teams.desc": "Nuestra Oficina está compuesta por profesionales del ámbito de la educación y de las tecnologías de la información",
-    "about.header": "¿Qué es la Oficina de Educación Online?",
-    "about.content.one": "La Oficina de Educación Online (EOL) de la Universidad de Chile, es una oficina creada con el objetivo de desarrollar capacidades al interior de la Universidad para complementar y enriquecer la práctica docente, mediante la aplicación de nuevas tecnologías de educación online. ",
-    "about.content.two": "La Oficina EOL busca contribuir a mejorar el proceso de enseñanza-aprendizaje de los alumnos de la Universidad para todos los niveles de la educación: pregrado, postgrado y educación continua, entregando educación no presencial de excelencia.",
-    "about.content.three": "Ofrecemos soporte técnico y pedagógico, proveyendo una plataforma para la gestión del aprendizaje (Learning Management System o LMS), así como también apoyo en diseño instruccional para educación online y producción de cursos en este formato.",
+    "about.header": "Oficina de Educación Online",
+    "about.showmore": "Mostrar más",
+    "abouteol.header": "¿Qué es la Oficina EOL?",
+    "abouteol.content": "La Oficina de Educación Online ha sido creada con el objetivo de desarrollar capacidades al interior de la Universidad para complementar y enriquecer la práctica docente con el uso de nuevas metodologías de educación mediada por tecnología.",
+    "abouteol.content.one": "La Oficina de Educación Online (EOL) de la Universidad de Chile, es una oficina creada con el objetivo de desarrollar capacidades al interior de la Universidad para complementar y enriquecer la práctica docente, mediante la aplicación de nuevas tecnologías de educación online. ",
+    "abouteol.content.two": "La Oficina EOL busca contribuir a mejorar el proceso de enseñanza-aprendizaje de los alumnos de la Universidad para todos los niveles de la educación: pregrado, postgrado y educación continua, entregando educación no presencial de excelencia.",
+    "abouteol.content.three": "Ofrecemos soporte técnico y pedagógico, proveyendo una plataforma para la gestión del aprendizaje (Learning Management System o LMS), así como también apoyo en diseño instruccional para educación online y producción de cursos en este formato.",
     "mv.header": "Valores",
     "mv.mission": "Apoyar a la Universidad en su labor de formación, docencia y extensión a través de e-learning, mediante la entrega de servicios y herramientas a las unidades académicas y organismos que lo soliciten",
     "mv.vision": "Queremos que la Universidad sea El referente en educación online, no solo en tecnología, sino en el proceso de transformación de la educación presencial a digital en todos los niveles.",
@@ -44,6 +47,7 @@
     "mp.virtuallabx.title": "Caja los Andes Virtual LabX",
     "openedx.header": "Nuestra plataforma",
     "openedx.desc": "Basada en Open edX",
+    "openedx.content": "La plataforma EOL es la plataforma de gestión del aprendizaje de la Universidad de Chile, creada para ser usada en cursos diseñados para ser impartidos en formato completamente en línea o semi presencial.",
     "openedx.content.one": "La plataforma que ofrece la Oficina EOL para la educación a distancia se basa en el proyecto de código abierto Open edX, desarrollado inicialmente por la Universidad de Harvard y el MIT, y clasifica como un sistema de cursos abiertos masivos en línea (Massive Open Online Course, MOOC). Esta característica lo hace estable y escalable para soportar decenas de miles de usuarios." ,
     "openedx.content.two": "Esta plataforma ha sido implementada y configurada específicamente para el manejo de los cursos de la Universidad, que en su mayoría son privados y con un grupo acotado de alumnos. Para esto se han desarrollado componentes que permiten gestionar de mejor forma el aprendizaje en estas condiciones.",
     "openedx.content.three": "Para crear y ejecutar cursos en línea, la plataforma se separa en dos aplicaciones:",
@@ -115,5 +119,5 @@
     "projects.courses": "Cursos",
     "projects.participants": "Participantes",
     "projects.header": "Introducción",
-    "projects.content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "projects.content": "La Oficina de Educación Online, en colaboración con los organismos de la Universidad de Chile y con entidades externas, ha participado en la creación de una amplia gama de proyectos educativos online a nivel de pregrado, postgrado, educación continua, extensión y capacitación; orientados a estudiantes, académicos(as) y funcionarios(as) de la Universidad de Chile, y a personas externas que también han participado en instancias formativas disponibles en nuestra plataforma. A continuación, destacamos algunos de nuestros proyectos."
 }

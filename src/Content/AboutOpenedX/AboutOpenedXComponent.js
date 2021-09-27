@@ -3,7 +3,7 @@ import { Button, Card } from 'react-bootstrap';
 import { FormattedMessage } from 'react-intl';
 import "./openedx.css";
 
-export const OpenedXComponent = () => {
+export const AboutOpenedXComponent = () => {
     const [visible, setVisible] = useState(false);
     const handleVisible = () => setVisible(true);
     return (
