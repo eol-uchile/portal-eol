@@ -63,9 +63,6 @@ export const ProjectsListComponent = () => {
                 <div className="container">
                     <ProjectItem project={projects[8]} />
                 </div>
-                <div className="container">
-                    <ProjectItem project={projects[9]} side="img-right" />
-                </div>
                 
             </div>
             <SeparatorTopComponent background="dark" />

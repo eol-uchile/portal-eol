@@ -10,17 +10,6 @@ export const projects_data = {
             'participants'  : '382',
             'image'         : '/images/projects/project1.png'
         },
-
-		{
-            'name'          : 'Economía',
-            'org'           : 'Facultad de Ciencias Físicas y Matemáticas',
-            'tier'          : 'Pregrado',
-            'year'          : 'versión 1 en 2020, versión 2 en 2021 (ambas finalizadas), versión 3 en 2021 (dictándose)',
-            'description'   : 'Curso diseñado para ser impartido 100% online a estudiantes de la carrera de Ingeniería Industrial de la FCFM y que tiene como finalidad que el o la estudiante determine, por una parte, el propósito del estudio de las ciencias económicas y, por otra, su importancia, campo y método de acción.',
-            'courses'       : '',
-            'participants'  : '1.495',
-            'image'         : '/images/projects/project2.png'
-        },
 		
 		{
             'name'          : 'Cazadoras de estrellas',
