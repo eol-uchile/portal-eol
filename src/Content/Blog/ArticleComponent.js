@@ -23,19 +23,15 @@ export const ArticleComponent = (props) => {
                     article.status === 'success' ? (
                         <div className="container" data-aos="fade-up" data-aos-duration="1000">
                             <Link className="goback" to='/blog'>
-                                <i className="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-circle-left"></i>
                                 {" "}<FormattedMessage id="article.goback" />
                             </Link>
                             <div className="row">
-                                <div className="col-12">
+                                <div className="col-12 post-info">
                                     <h2>{article.title}</h2>
-                                    <p><i className="fas fa-user"></i>{" "}<FormattedMessage id="article.author" />: {article.author}</p>
+                                    <p><i className="fas fa-user mr-2"></i>{" "}<FormattedMessage id="article.author" />: {article.author}</p>
                                     <p><i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />: {" "}
-                                        {
-                                            article.tags?.map((tag) =>
-                                                <span key={tag}>{tag}{" "}</span>
-                                            )
-                                        }
+                                        <span>{ article.tags?.join() }</span>
                                     </p>
                                 </div>
                             </div>
@@ -48,7 +44,7 @@ export const ArticleComponent = (props) => {
                             </div>
                             <div className="row">
                                 <div className="col-12">
-                                    <p><i className="fas fa-calendar-alt"></i>{" "}<FormattedMessage id="article.published" /> {article.date}</p>
+                                    <p className="post-date"><span>{ article.date}</span></p>
                                 </div>
                             </div>
                         </div>

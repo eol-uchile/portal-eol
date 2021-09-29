@@ -2,9 +2,9 @@ export const blog_data = {
     'es' : [
         {
             "id": 1,
-            "title": 'ArticuloA',
-            "date": '30/08/2021',
-            "author": 'EOL',
+            "title": 'EOL y CEAMED ofrecen curso para ayudantes enfocado en el manejo de la plataforma EOL',
+            "date": '31/08/2021',
+            "author": 'Equipo Diseño Instruccional, Oficina Educación Online',
             "post": '/posts/1_articleA/post_es.html',
             "img": '/posts/1_articleA/header.jpg',
             "tags": ['tag1', 'tag2']
