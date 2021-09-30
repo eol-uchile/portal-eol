@@ -1,10 +1,12 @@
 import React, { useContext, useState } from 'react';
 import { useFetchArticles } from './ArticlesHooks';
 import { FormattedMessage } from 'react-intl';
-import Pagination from '../../Extras/GetData/Pagination';
 import { LanguageContext } from '../../Extras/Language/LanguageContext';
 import { ArticleItemComponent } from './ArticleItemComponent';
 import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
+import { Button } from 'react-bootstrap';
+
+const LOAD_MORE = 6;
 
 export const ArticlesListComponent = React.memo(() => {
     const { language } = useContext(LanguageContext);
@@ -38,22 +40,14 @@ export const ArticlesListComponent = React.memo(() => {
                                     ))
                                 }
                             </div>
-                            <div className="row">
-                                <div className="col-12">
-                                    <Pagination
-                                        count={total}
-                                        page_size={pagination.page_size}
-                                        page={pagination.page}
-                                        setStatePage={(p) => setPagination({ ...pagination, page: p })}
-                                        size="md"
-                                        label="articles"
-                                        displayFirst
-                                        displayLast
-                                    />
-                                </div>
-                            </div>
+                            {articles.length < total &&
+                                <div className="row">
+                                    <div className="col-12" data-aos="fade-up" data-aos-duration="1000">
+                                        <Button className="show-more" onClick={() => setPagination({ ...pagination, page_size: pagination.page_size + LOAD_MORE })}><FormattedMessage id="articles.showmore" /></Button>
+                                    </div>
+                                </div>}
                         </>
-                    : 
+                        :
                         <div data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="articles.empty" /></div>
                 }
             </div>

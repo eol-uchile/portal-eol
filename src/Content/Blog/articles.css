@@ -35,6 +35,12 @@ section#articles .card-text {
   font-size: 0.7em;
 }
 
+section#articles button.show-more {
+  background: #00b3ff;
+  border: none;
+  border-radius: 15px;
+}
+
 section#article .goback i{
   text-decoration: none;
   color: #888888;
