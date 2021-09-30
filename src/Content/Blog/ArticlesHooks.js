@@ -3,14 +3,15 @@ import { getData } from '../../Extras/GetData/getData';
 import { blog_data } from './data';
 
 export const useFetchArticles = (pagination, language) => {
+    const all_articles = getData({
+        data: blog_data,
+        language: language
+    });
     const [articles, setArticles] = useState([]);
 
     useEffect(() => {
         setArticles(
-            getData({
-                data: blog_data,
-                language: language
-            }).slice(
+            all_articles.slice(
                 pagination.page * pagination.page_size,
                 (pagination.page + 1) * pagination.page_size
             )
@@ -21,7 +22,7 @@ export const useFetchArticles = (pagination, language) => {
         language,
     ]);
 
-    return articles;
+    return [articles, all_articles.length];
 }
 
 const MAX_LENGTH = 4; // show the last MAX_LENGTH articles
@@ -33,7 +34,7 @@ export const useFetchLastArticles = (language) => {
     })
 
     const nItems = all_articles.length >= MAX_LENGTH ? MAX_LENGTH : all_articles.length
-    
+
     const articles = useMemo(() => {
         return all_articles.slice(
             all_articles.length - nItems,
@@ -97,5 +98,5 @@ export const useFetchArticleData = (language, props) => {
         //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [article])
 
-    return [ article, content ];
+    return [article, content];
 }

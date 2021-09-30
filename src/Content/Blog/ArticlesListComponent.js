@@ -12,7 +12,7 @@ export const ArticlesListComponent = React.memo(() => {
         page: 0,
         page_size: 6,
     });
-    const articles = useFetchArticles(pagination, language);
+    const [articles, total] = useFetchArticles(pagination, language);
 
     return (
         <section id="articles">
@@ -41,7 +41,7 @@ export const ArticlesListComponent = React.memo(() => {
                             <div className="row">
                                 <div className="col-12">
                                     <Pagination
-                                        count={articles.length}
+                                        count={total}
                                         page_size={pagination.page_size}
                                         page={pagination.page}
                                         setStatePage={(p) => setPagination({ ...pagination, page: p })}
