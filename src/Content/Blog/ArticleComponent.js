@@ -5,12 +5,14 @@ import { useFetchArticleData } from './ArticlesHooks';
 import { LanguageContext } from '../../Extras/Language/LanguageContext';
 import './articles.css';
 import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
+import { scrollToTop } from '../../Extras/ScrollToTopButton/scrolltop';
 
 
 export const ArticleComponent = (props) => {
     const { language } = useContext(LanguageContext);
     const [ article, content ] = useFetchArticleData(language, props);
-
+    scrollToTop();
+    
     return (
         <section id='article'>
             {
