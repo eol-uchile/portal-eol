@@ -5,7 +5,7 @@ export const projects_data = {
             'org'           : 'Oficina de Educación Online - Vicerrectoría de Tecnologías de la Información',
             'tier'          : 'Capacitación',
             'year'          : '2020 - 2021',
-            'description'   : 'Programa de actividades formativas que tiene por finalidad colaborar con la formación de académicos(as y ayudantes de la Universidad de Chile, en temas específicos de la enseñanza en línea.',
+            'description'   : 'Programa de actividades formativas que tiene por finalidad colaborar con la formación de académicos(as) y ayudantes de la Universidad de Chile, en temas específicos de la enseñanza en línea.',
             'courses'       : 'Herramientas de comunicación e interacción con el estudiante online (dictado el 2020), Herramientas para la evaluación en entornos virtuales de aprendizaje (dictado el 2020), Acompañamiento docente (dictándose) y Herramientas para ayudantes en la educación mediada por tecnologías (en conjunto con CEA Medicina, dictándose)',
             'participants'  : '382',
             'image'         : '/images/projects/project1.png'
