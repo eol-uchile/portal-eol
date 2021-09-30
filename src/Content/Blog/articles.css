@@ -10,6 +10,7 @@ section#articles {
   background-color: #ecf0f5;
 }
 
+
 section#articles .main-container {
   padding-bottom: 10em;
   z-index: 2;
@@ -34,15 +35,51 @@ section#articles .card-text {
   font-size: 0.7em;
 }
 
+section#article .goback i{
+  text-decoration: none;
+  color: #888888;
+}
+
+section#article .separator-margin {
+  margin-bottom: 250px;
+}
+
+section#article .goback {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #00b3ff;
+}
+
 section#article h2 {
-  font-size: 3.5vw;
-  font-weight: 300;
+  font-size: 2.8em;
+  font-weight: 700;
   text-align: left;
   color: #000;
 }
+
+section#article p, section#article ul, section#article h3 {
+  color: #392a28;
+}
+
+
 
 section#article span {
   color: #00b3ff;
   font-weight: 300;
   font-size: 0.8em;
+}
+
+
+section#article p.post-date {
+  width: 100%; 
+  text-align: right; 
+  border-bottom: 1.5px solid #888888; 
+  line-height: 0.6em;
+  margin: 10px 0 20px; 
+} 
+
+section#article p.post-date span { 
+   background:#fff; 
+   padding:0 10px; 
+   color: #888888;
 }

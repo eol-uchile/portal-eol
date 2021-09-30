@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button, Card } from 'react-bootstrap';
 import { FormattedMessage } from 'react-intl';
 import "./about.css";
+import { scrollToTop } from '../../Extras/ScrollToTopButton/scrolltop';
 
 export const AboutComponent = () => {
     return (
@@ -24,7 +25,7 @@ export const AboutComponent = () => {
                             </Card.Body>
                             <Card.Footer>
                                 <Link to={`/we`}>
-                                    <Button className="show-more"><FormattedMessage id="about.showmore" /></Button>
+                                    <Button className="show-more" onClick={scrollToTop}><FormattedMessage id="about.showmore" /></Button>
                                 </Link>
                             </Card.Footer>
                         </Card>
@@ -39,7 +40,7 @@ export const AboutComponent = () => {
                             </Card.Body>
                             <Card.Footer>
                                 <Link  to={`/platform`}>
-                                    <Button className="show-more"><FormattedMessage id="about.showmore" /></Button>
+                                    <Button className="show-more" onClick={scrollToTop}><FormattedMessage id="about.showmore" /></Button>
                                 </Link>
                             </Card.Footer>
                         </Card>

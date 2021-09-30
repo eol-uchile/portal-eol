@@ -24,7 +24,7 @@ export const useFetchArticles = (pagination, language) => {
     return articles;
 }
 
-const MAX_LENGTH = 2; // show the last MAX_LENGTH articles
+const MAX_LENGTH = 4; // show the last MAX_LENGTH articles
 
 export const useFetchLastArticles = (language) => {
     const all_articles = getData({
