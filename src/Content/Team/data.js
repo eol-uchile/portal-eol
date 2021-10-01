@@ -3,7 +3,7 @@ export const team_members_data = {
         {
             'name'          : 'Cecilia Saint-Pierre C.',
             'position'      : 'Directora',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/ceci.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/csaintpierre'
             }
@@ -11,7 +11,7 @@ export const team_members_data = {
         {
             'name'          : 'Paulina Gatica M.',
             'position'      : 'Coordinación General',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/pauli.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
             }
@@ -19,7 +19,7 @@ export const team_members_data = {
         {
             'name'          : 'Darío Riquelme Z.',
             'position'      : 'Gestor de Proyectos',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/dario.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow-8701781b/'
             }
@@ -27,7 +27,7 @@ export const team_members_data = {
         {
             'name'          : 'Cecilia Pereira A.',
             'position'      : 'Editora Asistente',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/cecy.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/cecilia-andrea-pereira-alvarez-915b8a32/'
             }
@@ -35,7 +35,7 @@ export const team_members_data = {
         {
             'name'          : 'Francisco Sereño A.',
             'position'      : 'Diseñador Instruccional',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/francisco.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
             }
@@ -43,7 +43,7 @@ export const team_members_data = {
         {
             'name'          : 'Karla Cabello O.',
             'position'      : 'Diseñadora Instruccional',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/karla.png",
             'links'         : {
                 'linkedin'  : 'https://cl.linkedin.com/in/karla-cabello-orellana'
             }
@@ -51,7 +51,7 @@ export const team_members_data = {
         {
             'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/ronny.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/ronny-carvajal-oyarzo-baa31929/'
             }
@@ -77,15 +77,15 @@ export const team_members_data = {
         {
             'name'          : 'Luis Santana A.',
             'position'      : 'Desarrollador',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/luchin.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/lsantana-almonacid/'
             }
         },
         {
-            'name'          : 'Darío Palma C.',
+            'name'          : 'Andy Palma C.',
             'position'      : 'Desarrollador DevOps',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/andy.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/darioandhael/',
                 'github'    : 'https://github.com/dario617'
@@ -94,7 +94,7 @@ export const team_members_data = {
         {
             'name'          : 'Constanza Altamirano L.',
             'position'      : 'Desarrolladora DevOps Jr.',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/koni.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/konialtamirano/',
                 'github'    : 'https://github.com/KoniAltamirano'
@@ -103,7 +103,7 @@ export const team_members_data = {
         {
             'name'          : 'Isaias Venegas A.',
             'position'      : 'Desarrollador Jr.',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/isaias.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/isaias-venegas-almonacid-6985b0203/',
                 'github'    : 'https://github.com/IsaiasVenegas'
@@ -112,7 +112,7 @@ export const team_members_data = {
         {
             'name'          : 'Braulio Ibarra O.',
             'position'      : 'Mesa de Ayuda',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/braulio.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/bibarraolea/'
             }
@@ -120,7 +120,7 @@ export const team_members_data = {
         {
             'name'          : 'Ronald Figueroa T.',
             'position'      : 'Mesa de Ayuda',
-            'image'         : "/images/team/example.png",
+            'image'         : "/images/team/ronald.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/ronald-figueroa-toro',
             }
