@@ -1,140 +1,126 @@
 export const team_members_data = {
     'es' : [
         {
-            'name'          : 'Cecilia Saint-Pierre Cortés',
-            // 'email'         : 'csaintpierre@uchile.cl',
+            'name'          : 'Cecilia Saint-Pierre C.',
             'position'      : 'Directora',
-            'description'   : 'Ingeniera Industrial de la Universidad de Chile y Doctora en Ciencias de la Computación de la P. Universidad Católica de Chile.',
+            'image'         : "/images/team/ceci.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/csaintpierre'
             }
         },
         {
-            'name'          : 'Paulina Gatica Mondaca',
-            // 'email'         : 'paulina.gatica@uchile.cl',
+            'name'          : 'Paulina Gatica M.',
             'position'      : 'Coordinación General',
-            'description'   : 'Ingeniera Civil Industrial de la Pontificia Universidad Católica de Valparaíso y diplomada en Gestión de Proyectos Informáticos en la Universidad de Chile; dedicada a la gestión y liderazgo de proyectos tecnológicos.',
+            'image'         : "/images/team/pauli.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
             }
         },
         {
-            'name'          : 'Darío Riquelme Zornow',
-            // 'email'         : 'dario.riquelme@uchile.cl',
+            'name'          : 'Darío Riquelme Z.',
             'position'      : 'Gestor de Proyectos',
-            'description'   : 'Ingeniero en Computación y Licenciado en Ciencias de la computación de la U. de las Américas. Diplomado en Diseño Instruccional, DUOC UC y Diplomado en Ingeniería y Ciencia de Datos Universidad de Chile.',
+            'image'         : "/images/team/dario.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow-8701781b/'
             }
         },
         {
-            'name'          : 'Cecilia Pereira Álvarez',
-            // 'email'         : 'cecilia.pereira@uchile.cl',
+            'name'          : 'Cecilia Pereira A.',
             'position'      : 'Editora Asistente',
-            'description'   : 'Comunicadora Social mención Relaciones Públicas, Inacap.',
+            'image'         : "/images/team/cecy.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/cecilia-andrea-pereira-alvarez-915b8a32/'
             }
         },
         {
-            'name'          : 'Francisco Sereño Ahumada',
-            // 'email'         : 'francisco.sereno@uchile.cl',
+            'name'          : 'Francisco Sereño A.',
             'position'      : 'Diseñador Instruccional',
-            'description'   : 'Profesor de Educación General Básica de la UMCE. Máster de Entornos de Enseñanza y Aprendizaje mediados por Tecnologías Digitales de la Universidad de Barcelona y Magíster en Pedagogía Universitaria de la Universidad Mayor. Postítulo en Informática Educativa, Universidad de Chile. Diploma en Diseño Didáctico instruccional para e-learning, UTN.',
+            'image'         : "/images/team/francisco.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
             }
         },
         {
-            'name'          : 'Karla Cabello Orellana',
-            // 'email'         : 'karla.cabello@uchile.cl',
+            'name'          : 'Karla Cabello O.',
             'position'      : 'Diseñadora Instruccional',
-            'description'   : 'Profesora de Estado en Castellano, Universidad de Santiago de Chile.',
+            'image'         : "/images/team/karla.png",
             'links'         : {
                 'linkedin'  : 'https://cl.linkedin.com/in/karla-cabello-orellana'
             }
         },
         {
-            'name'          : 'Ronny Carvajal Oyarzo',
-            // 'email'         : 'ronny.carvajal@uchile.cl',
+            'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
-            'description'   : 'Diseñador gráfico de la Universidad de Chile.',
+            'image'         : "/images/team/ronny.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/ronny-carvajal-oyarzo-baa31929/'
             }
         },
         {
-            'name'          : 'Consuelo Calderón Fuentealba',
-            // 'email'         : 'consuelo.calderon@uchile.cl',
+            'name'          : 'Consuelo Calderón F.',
             'position'      : 'Diseñadora Gráfica',
-            'description'   : 'Diseñador gráfico - DuocUC.<br/>Diseñadora UX UI.<br/>Diplomada en Dirección y gestión de comunicación, marketing y publicidad, Pontificia Universidad Católica.',
+            'image'         : "/images/team/co.png",
             'links'         : {
                 'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
                 'behance'   : 'https://www.behance.net/cocalderon'
             }
         },
         {
-            'name'          : 'Matías Salinas Soto',
-            // 'email'         : 'matsalinas@uchile.cl',
+            'name'          : 'Matías Salinas S.',
             'position'      : 'Jefe de Ingeniería',
-            'description'   : 'Ingeniero Civil en Informática y Magister en Ingeniería Informática de la Pontificia Universidad Católica de Valparaíso.',
+            'image'         : "/images/team/mati.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/matiassalinassoto/',
                 'github'    : 'https://github.com/matiassalinas'
             }
         },
         {
-            'name'          : 'Luis Santana Almonacid',
-            // 'email'         : 'luis.santana@uchile.cl',
+            'name'          : 'Luis Santana A.',
             'position'      : 'Desarrollador',
-            'description'   : 'Ingeniero Civil en Informática de la Universidad Austral de Chile.',
+            'image'         : "/images/team/luchin.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/lsantana-almonacid/'
             }
         },
         {
-            'name'          : 'Darío Palma Carrasco',
-            // 'email'         : 'dario.palma@uchile.cl',
+            'name'          : 'Andy Palma C.',
             'position'      : 'Desarrollador DevOps',
-            'description'   : 'Ingeniero en Computación de la Universidad de Chile e Ingeniero Generalista de la Ecole Centrale de Nantes.',
+            'image'         : "/images/team/andy.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/darioandhael/',
                 'github'    : 'https://github.com/dario617'
             }
         },
         {
-            'name'          : 'Constanza Altamirano López',
-            // 'email'         : 'constanzaaltamirano@uchile.cl',
+            'name'          : 'Constanza Altamirano L.',
             'position'      : 'Desarrolladora DevOps Jr.',
-            'description'   : 'Ingeniera en Informática, Duoc UC.',
+            'image'         : "/images/team/koni.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/konialtamirano/',
                 'github'    : 'https://github.com/KoniAltamirano'
             }
         },
         {
-            'name'          : 'Isaias Venegas Almonacid',
+            'name'          : 'Isaias Venegas A.',
             'position'      : 'Desarrollador Jr.',
-            'description'   : 'Estudiante de Ingeniería en Computación de la Universidad de Chile y estudiante de Ingeniería Generalista de la Ecole Centrale de Nantes.',
+            'image'         : "/images/team/isaias.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/isaias-venegas-almonacid-6985b0203/',
                 'github'    : 'https://github.com/IsaiasVenegas'
             }
         },
         {
-            'name'          : 'Braulio Ibarra Olea',
-            // 'email'         : 'braulio.ibarra@uchile.cl',
-            'position'      : 'Ejecutivo de Mesa de Ayuda',
-            'description'   : 'Ingeniero en Información y Control de Gestión de la Universidad de Chile.',
+            'name'          : 'Braulio Ibarra O.',
+            'position'      : 'Mesa de Ayuda',
+            'image'         : "/images/team/braulio.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/bibarraolea/'
             }
         },
         {
-            'name'          : 'Ronald Figueroa Toro',
-            // 'email'         : 'ronald.figueroa@uchile.cl',
-            'position'      : 'Ejecutivo de Mesa de Ayuda',
-            'description'   : 'Técnico Analista Programador y Estudiante de Ingeniería en Informática',
+            'name'          : 'Ronald Figueroa T.',
+            'position'      : 'Mesa de Ayuda',
+            'image'         : "/images/team/ronald.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/ronald-figueroa-toro',
             }
