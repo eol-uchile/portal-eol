@@ -42,3 +42,7 @@ export const blog_data = {
         },
     ]
 }
+
+export const blog_videos = [
+    'https://www.youtube.com/watch?v=7xBwm4nLums'
+]
