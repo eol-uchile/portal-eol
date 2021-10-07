@@ -6,13 +6,13 @@ import { ArticleItemComponent } from './ArticleItemComponent';
 import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
 import { Button } from 'react-bootstrap';
 
-const LOAD_MORE = 6
+const LOAD_MORE = 4
 
 export const ArticlesListComponent = (props) => {
     const { language } = useContext(LanguageContext);
     const [pagination, setPagination] = useState({
         page: 0,
-        page_size: 6,
+        page_size: 5,
     });
     const [articles, total] = useFetchArticles(language, props, pagination);
 
@@ -37,11 +37,16 @@ export const ArticlesListComponent = (props) => {
                         :
                         articles.status === 'success' && articles.list.length > 0 ?
                             <>
-                                <div className="row">
+                                <div className="wrapper">
                                     {
                                         articles.list.map((t, k) => (
-                                            <div className="content-info col-4" data-aos="fade-up" data-aos-duration="1000" key={k}>
+                                            <div 
+                                                data-aos="fade-up" 
+                                                data-aos-duration="1000"
+                                                className="grid-item"
+                                            >
                                                 <ArticleItemComponent
+                                                    key={k}
                                                     {...t}
                                                 />
                                             </div>

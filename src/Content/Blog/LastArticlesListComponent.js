@@ -41,7 +41,9 @@ export const LastArticlesListComponent = React.memo(() => {
         }
     }
     return (
-        <section id="last-articles">
+        <section
+            id="last-articles"
+        >
             <div className="container main-container text-center">
                 <div className="row">
                     <div className="col-12">
@@ -57,10 +59,14 @@ export const LastArticlesListComponent = React.memo(() => {
                         <OwlCarousel className='owl-theme owl-dot mx-auto' data-aos="fade-up" data-aos-duration="1000" {...options}>
                             {
                                 articles?.map((t, k) => (
-                                    <ArticleItemComponent
-                                        key={k}
-                                        {...t}
-                                    />
+                                    <div
+                                        className="list-item"
+                                    >
+                                        <ArticleItemComponent
+                                            key={k}
+                                            {...t}
+                                        />
+                                    </div>
                                 ))
                             }
                         </OwlCarousel>

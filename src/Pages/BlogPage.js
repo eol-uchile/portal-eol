@@ -8,8 +8,8 @@ export const BlogPage = (props) => {
     return (
         <>
             <HeaderComponent headers_data={headers_teaching_assistance} />
-            <ArticlesListComponent {...props}/>
-            <VideosListComponent />
+            <ArticlesListComponent {...props} />
+            {!props.match.params.tag && <VideosListComponent />}
         </>
     )
 }

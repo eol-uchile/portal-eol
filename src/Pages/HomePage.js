@@ -12,9 +12,9 @@ export const HomePage = () => {
         <>
             <HeaderComponent headers_data = { headers_home } />
             <AboutComponent />
+            <LastArticlesListComponent />
             <ServicesComponent />
             <StatisticsComponent />
-            <LastArticlesListComponent />
             <TestimonialsComponent />            
         </>
     )

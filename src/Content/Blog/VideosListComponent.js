@@ -74,12 +74,12 @@ export const VideosListComponent = () => {
                                     screenName="VTI_Uchile"
                                     options={{ height: timeline.size }}
                                 />
-                                : <div data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="videos.empty" /></div>
+                                : <div data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="tweets.error" /></div>
                         }
                     </div>
                 </div>
             </div>
-
+            <SeparatorTopComponent />
         </section>
     )
 }
