@@ -1,5 +1,5 @@
 export const blog_data = {
-    'es' : [
+    'es': [
         {
             "id": 1,
             "title": 'EOL y CEAMED ofrecen curso para ayudantes enfocado en el manejo de la plataforma EOL',
@@ -42,3 +42,7 @@ export const blog_data = {
         },
     ]
 }
+
+export const blog_videos = [
+    'https://www.youtube.com/watch?v=7xBwm4nLums'
+]

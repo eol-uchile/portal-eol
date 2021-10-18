@@ -1,20 +1,26 @@
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import { Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Redirect } from 'react-router-dom';
 
-export const ArticleItemComponent = ({ post, title, img }) => {
+export const ArticleItemComponent = ({ post, img, tags, title, date }) => {
+    const [redirect, setRedirect] = useState(false);
     return (
-        <Card >
-            <Card.Img variant="top" src={img} />
-            <Card.Body >
-                <Card.Title>{title}</Card.Title>
-                <div >
-                    <Link className="show-more" to={`/blog/${post.slice(1, post.indexOf('/post_'))}`}>
-                        <FormattedMessage id="blog.showmore" />
-                    </Link>
-                </div>
-            </Card.Body>
-        </Card>
+        <div
+            className="article"
+            style={{
+                backgroundImage: `url(${img})`,
+            }}
+            onClick={() => setRedirect(true)}
+        >
+            <div
+                className="article-content"
+            >
+                {tags.map(t => (<span>{t}</span>))}
+                <h2>{title}</h2>
+                <p>{date}</p>
+            </div>
+            {redirect ?
+                <Redirect push to={`/blog/${post.slice(1, post.indexOf('/post_'))}`} />
+                : null}
+        </div>
     )
 }
