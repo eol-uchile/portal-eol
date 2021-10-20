@@ -1,14 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useFetchVideos, useHeightTweets } from './VideosHooks';
 import { FormattedMessage } from 'react-intl';
 import { VideoItemComponent } from './VideoItemComponent';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { LanguageContext } from '../../Extras/Language/LanguageContext';
 import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
 import { Button } from 'react-bootstrap';
+import './videos.css';
 
 const LOAD_MORE = 2
 
 export const VideosListComponent = () => {
+    const { language } = useContext(LanguageContext);
     const [pagination, setPagination] = useState({
         page: 0,
         page_size: 1,
@@ -27,7 +30,7 @@ export const VideosListComponent = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="content-info col-8">
+                    <div className="content-info col-md-8">
                         {
                             videos.status === 'loading' ?
                                 <div className="d-flex justify-content-center separator-margin">
@@ -41,7 +44,7 @@ export const VideosListComponent = () => {
                                         <div className="row">
                                             {
                                                 videos.list.map((t, k) => (
-                                                    <div className="content-info col-12" data-aos="fade-up" data-aos-duration="1000" key={k}>
+                                                    <div className="col-12" data-aos="fade-up" data-aos-duration="1000" key={k}>
                                                         <VideoItemComponent
                                                             url={t}
                                                         />
@@ -60,7 +63,7 @@ export const VideosListComponent = () => {
                                     <div data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="videos.empty" /></div>
                         }
                     </div>
-                    <div className="content-info col-4">
+                    <div className="content-info col-md-4">
                         {timeline.status === 'loading' ?
                             <div className="d-flex justify-content-center separator-margin">
                                 <div className="spinner-border" role="status">
@@ -73,6 +76,7 @@ export const VideosListComponent = () => {
                                     sourceType="profile"
                                     screenName="VTI_Uchile"
                                     options={{ height: timeline.size }}
+                                    lang={ language }
                                 />
                                 : <div data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="tweets.error" /></div>
                         }

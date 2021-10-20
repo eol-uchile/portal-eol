@@ -8,7 +8,7 @@ export const blog_data = {
             "description": 'Esta iniciativa busca ser una guía para los ayudantes que trabajan en la plataforma eol, ofreciéndoles las herramientas necesarias para el manejo de este entorno virtual de aprendizaje.',
             "post": '/posts/2021_09_29_herramientas_para_estudiantes/post_es.html',
             "img": '/posts/2021_09_29_herramientas_para_estudiantes/image_01.png',
-            "tags": ['tag1', 'tag2']
+            "tags": ['EOL', 'CEAMED', 'Testimonios']
         },
         {
             "id": 2,
@@ -18,7 +18,7 @@ export const blog_data = {
             "description": "Veterinaria, Medicina, Derecho, ICEI, Docencia, Beauchef, FACSO, son algunas de lasfacultades y unidades de la universidad que durante este semestre estarán llevando a cabo el pilotaje de la herramienta Ment.io en algunos cursos de la plataforma EOL",
             "post": '/posts/2021_09_29_piloto_mentio/post_es.html',
             "img": '/posts/2021_09_29_piloto_mentio/image_01.png',
-            "tags": ['tag1', 'tag2']
+            "tags": ['Ment.io', 'tag2']
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@ export const blog_data = {
             "description": "Para conocer más del uso de la herramienta",
             "post": '/posts/2021_09_29_intro_mentio/post_es.html',
             "img": '/posts/2021_09_29_intro_mentio/image_01.png',
-            "tags": ['tag1', 'tag2']
+            "tags": ['Ment.io']
         },
         {
             "id": 4,
@@ -38,11 +38,7 @@ export const blog_data = {
             "description": "La metodología de la plataforma EOL puede cambiar la forma de enseñar y la forma de aprender de las y los estudiantes.",
             "post": '/posts/2021_09_29_metodologia_eol/post_es.html',
             "img": '/posts/2021_09_29_metodologia_eol/image_01.png',
-            "tags": ['tag1', 'tag2']
+            "tags": ['EOL', 'Testimonios']
         },
     ]
 }
-
-export const blog_videos = [
-    'https://www.youtube.com/watch?v=7xBwm4nLums'
-]

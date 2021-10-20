@@ -32,7 +32,7 @@ export const headers_platform = {
 export const headers_teaching_assistance= {
     'es': [
         {
-            'title' : "<strong>Blog</strong>",
+            'title' : "<strong>Apoyo Docente</strong>",
             'url'   : "/images/header_2.jpg",
             'align' : "caption-center"
         }

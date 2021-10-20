@@ -19,7 +19,10 @@ export const HistoryComponent = () => {
                             className="img-fluid mb-4"
                         />
                         <p>
-                            <FormattedMessage id="history.content" />
+                            <FormattedMessage id="history.content.one" />
+                        </p>
+                        <p>
+                            <FormattedMessage id="history.content.two" />
                         </p>
                     </div>
                 </div>

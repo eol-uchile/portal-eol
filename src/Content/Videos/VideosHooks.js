@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { blog_videos } from './data';
+import { videos_data } from './data';
 
 export const useFetchVideos = (pagination) => {
-    const all_videos = blog_videos;
+    const all_videos = videos_data;
     const [videos, setVideos] = useState({ status: 'idle', list: [] });
 
     useEffect(() => {

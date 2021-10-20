@@ -11,7 +11,7 @@ export const useFetchArticles = (language, props, pagination) => {
 
     useEffect(() => {
         setArticles({ ...articles, status: 'loading' })
-        let articlesMatched = all_articles
+        let articlesMatched = all_articles.sort((a,b) => b.id - a.id); // sort (descending) by id
         let tag = props.match.params.tag
         if (tag) {
             articlesMatched = all_articles.filter(art => art.tags.includes(tag))
@@ -34,7 +34,7 @@ export const useFetchArticles = (language, props, pagination) => {
     return [articles, all_articles.length];
 }
 
-const MAX_LENGTH = 4; // show the last MAX_LENGTH articles
+const MAX_LENGTH = 3; // show the last MAX_LENGTH articles
 
 export const useFetchLastArticles = (language) => {
     const all_articles = getData({

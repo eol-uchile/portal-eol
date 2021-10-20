@@ -18,9 +18,13 @@ export const ArticleItemComponent = ({ post, img, tags, title, date }) => {
                 <h2>{title}</h2>
                 <p>{date}</p>
             </div>
-            {redirect ?
+            {
+                redirect 
+                ?
                 <Redirect push to={`/blog/${post.slice(1, post.indexOf('/post_'))}`} />
-                : null}
+                : 
+                null
+            }
         </div>
     )
 }
