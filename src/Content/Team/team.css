@@ -15,45 +15,56 @@ section#team .main-container {
 }
 
 .team-member {
-    height: 420px;
-    max-height: 420px;
-    max-width: 300px;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+    background-color: rgb(44 147 213/80%) !important;
     color: #ffff;
+    padding-left: 50px;
+    margin-left: 60px;
+    font-size: 0.9em;
 }
 
-.team-member .card-footer {
-    padding: 0 !important;
-    border-top: none !important;
+.team-member:hover img {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
 
-.team-member .card-footer .user-data {
-    padding: .75rem 0.1rem !important;
-    margin-bottom: 30px;
+.team-member img {
+    position: absolute;
+    left: 0px;
+    top: 0;
 }
 
-.team-member .card-footer .user-data .limited-height {
-    height: 70px;
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }
 
-.team-member:not(:hover) .card-footer .user-data {
-    background-color: rgb(44 147 213 / 80%);
+.team-member span {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.team-member .card-footer .name {
-    font-weight: 600;
-    text-shadow: 1px 4px 8px #000000;
-    margin: 0px;
-}
-
-.team-member .card-footer .position {
+.team-member .position { 
     font-weight: 400;
-    font-size: 0.8em;
     text-transform: uppercase;
     line-height: 100%;
-    margin: 10px 0px;
+    font-size: 0.8em;
+}
+
+.team-member .name { 
+    font-weight: 600;
+    text-shadow: 1px 4px 6px rgb(53, 53, 53);
 }
 
 .team-member ul {
@@ -80,32 +91,4 @@ section#team .main-container {
 
 .team-member ul a:hover li {
     background-color: #fff;
-}
-
-.team-member:not(:hover) .description {
-    height: 0px;
-    transition: height .4s;
-    opacity: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.team-member:hover .description {
-    height: 180px;
-    transition: height .4s;
-    font-size: 0.7em;
-    padding: 0px 10px;
-}
-
-.team-member .card-body, .team-member .card-footer {
-    transition: background-color .4s;
-}
-
-.team-member:hover .card-body, .team-member:hover .card-footer {
-    background-color: rgb(44 147 213 / 80%) !important;
-    transition: background-color .4s;
-}
-
-.team-member:hover .card-footer .user-data {
-    background-color: none !important;
 }

@@ -35,32 +35,40 @@ export const LastArticlesListComponent = React.memo(() => {
             1000: {
                 items: 3,
             },
-            1300: {
-                items: 4,
-            }
         }
     }
     return (
-        <section id="last-articles">
+        <section
+            id="last-articles"
+        >
             <div className="container main-container text-center">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header" data-aos="fade-up">
                             <FormattedMessage id="blog.header" />
+                        </h2>
+                    </div>
+                    <div className="col-12">
+                        <p className="pt-2" data-aos="fade-up">
+                            Revisa más articulos 
                             {" "}
                             <Link onClick={scrollToTop} className="show-all" to={`/blog`}>
                                 <FormattedMessage id="blog.showall" />
                             </Link>
-                        </h2>
+                        </p>
                     </div>
                     <div className="content-info col-12">
                         <OwlCarousel className='owl-theme owl-dot mx-auto' data-aos="fade-up" data-aos-duration="1000" {...options}>
                             {
                                 articles?.map((t, k) => (
-                                    <ArticleItemComponent
-                                        key={k}
-                                        {...t}
-                                    />
+                                    <div
+                                        className="list-item"
+                                    >
+                                        <ArticleItemComponent
+                                            key={k}
+                                            {...t}
+                                        />
+                                    </div>
                                 ))
                             }
                         </OwlCarousel>

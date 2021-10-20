@@ -1,0 +1,9 @@
+section#videos {
+    background-color: rgb(233, 237, 242, 0.3);
+}
+
+section#videos .main-container {
+    padding-bottom: 10em;
+    z-index: 2;
+    position: relative;
+  }

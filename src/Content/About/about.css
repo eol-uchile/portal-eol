@@ -11,3 +11,14 @@ section#about::after {
     position: absolute;
     z-index: -1;
 }
+
+section#about .card, section#about .card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+section#about .show-more {
+    background: #00b3ff;
+    border: none;
+    border-radius: 15px;
+}

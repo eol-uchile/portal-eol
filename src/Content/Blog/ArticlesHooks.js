@@ -2,29 +2,39 @@ import { useEffect, useMemo, useState } from 'react';
 import { getData } from '../../Extras/GetData/getData';
 import { blog_data } from './data';
 
-export const useFetchArticles = (pagination, language) => {
-    const [articles, setArticles] = useState([]);
+export const useFetchArticles = (language, props, pagination) => {
+    const all_articles = getData({
+        data: blog_data,
+        language: language
+    });
+    const [articles, setArticles] = useState({ status: 'idle', list: [] });
 
     useEffect(() => {
-        setArticles(
-            getData({
-                data: blog_data,
-                language: language
-            }).slice(
+        setArticles({ ...articles, status: 'loading' })
+        let articlesMatched = all_articles.sort((a,b) => b.id - a.id); // sort (descending) by id
+        let tag = props.match.params.tag
+        if (tag) {
+            articlesMatched = all_articles.filter(art => art.tags.includes(tag))
+        }
+        setArticles({
+            status: 'success',
+            list: articlesMatched.slice(
                 pagination.page * pagination.page_size,
                 (pagination.page + 1) * pagination.page_size
             )
-        );
+        });
+        //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
+        props.match,
         pagination.page,
         pagination.page_size,
-        language,
+        all_articles
     ]);
 
-    return articles;
+    return [articles, all_articles.length];
 }
 
-const MAX_LENGTH = 2; // show the last MAX_LENGTH articles
+const MAX_LENGTH = 3; // show the last MAX_LENGTH articles
 
 export const useFetchLastArticles = (language) => {
     const all_articles = getData({
@@ -33,12 +43,10 @@ export const useFetchLastArticles = (language) => {
     })
 
     const nItems = all_articles.length >= MAX_LENGTH ? MAX_LENGTH : all_articles.length
-    
     const articles = useMemo(() => {
-        return all_articles.slice(
-            all_articles.length - nItems,
-            all_articles.length
-        ).reverse()
+        return all_articles
+            .sort((a,b) => b.id - a.id)
+            .slice(0 , nItems);
         //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
         all_articles
@@ -90,12 +98,13 @@ export const useFetchArticleData = (language, props) => {
             setArticle({ ...article, status: 'failure' })
         }
         //eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [props.match])
+    }, [props.match,
+        articles])
 
     useEffect(() => {
         article.status === 'success' && fetchMyDocument()
         //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [article])
 
-    return [ article, content ];
+    return [article, content];
 }
