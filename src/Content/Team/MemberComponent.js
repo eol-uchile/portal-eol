@@ -1,5 +1,4 @@
 import React from 'react';
-import Parser from 'html-react-parser';
 
 export const MemberComponent = ({ name, email, position, image, links}) => {
     return (
@@ -7,7 +6,7 @@ export const MemberComponent = ({ name, email, position, image, links}) => {
             <div 
             className="team-member py-2">
                 <div className="user-data">
-                    <img src={ image } />
+                    <img src={ image } alt={ name }/>
                     <span className="name">{ name }</span>
                     <span className="position">{ position }</span>
                     <ul>
