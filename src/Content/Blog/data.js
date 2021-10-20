@@ -18,7 +18,7 @@ export const blog_data = {
             "author": 'Equipo Diseño Instruccional, Oficina Educación Online',
             "description": "Veterinaria, Medicina, Derecho, ICEI, Docencia, Beauchef, FACSO, son algunas de lasfacultades y unidades de la universidad que durante este semestre estarán llevando a cabo el pilotaje de la herramienta Ment.io en algunos cursos de la plataforma EOL",
             "post": '/posts/2021_09_29_piloto_mentio/post_es.html',
-            "img": '/posts/2021_09_29_piloto_mentio/image_01.png',
+            "img": '/posts/2021_09_29_piloto_mentio/image_square.jpg',
             "img_large": '/posts/2021_09_29_piloto_mentio/image_large.jpg',
             "tags": ['Ment.io']
         },
