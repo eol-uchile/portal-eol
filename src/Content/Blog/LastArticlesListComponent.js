@@ -63,9 +63,9 @@ export const LastArticlesListComponent = React.memo(() => {
                                 articles?.map((t, k) => (
                                     <div
                                         className="list-item"
+                                        key={k}
                                     >
                                         <ArticleItemComponent
-                                            key={k}
                                             {...t}
                                         />
                                     </div>

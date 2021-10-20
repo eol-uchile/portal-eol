@@ -8,7 +8,7 @@ export const TopBarComponent = () => {
             <table className="ml-auto text-center">
                 <tbody>
                     <tr>
-                        <td className="platforms-link">
+                        <td className="platforms-link py-1">
                             <a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">
                                 EOL
                             </a> |
@@ -26,7 +26,7 @@ export const TopBarComponent = () => {
                             </a>
                         </td>
                         <td>
-                            <LanguageSelectorComponent />
+                            {/* <LanguageSelectorComponent /> */}
                         </td>
                     </tr>
                 </tbody>

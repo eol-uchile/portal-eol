@@ -14,7 +14,7 @@ export const ArticleItemComponent = ({ post, img, img_large, tags, title, date, 
             <div
                 className="article-content"
             >
-                {tags.map(t => (<span>{t}</span>))}
+                {tags.map(t => (<span key={t}>{t}</span>))}
                 <h2>{title}</h2>
                 <p>{date}</p>
             </div>
