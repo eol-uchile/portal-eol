@@ -21,6 +21,10 @@ export const functionalities_data = {
             'desc'  : 'Esta funcionalidad permite al equipo docente evaluar la participación de los estudiantes en las discusiones/foros de los cursos.'
         },
         {
+            'title' : 'Módulo de seguimiento',
+            'desc'  : 'Seguimiento en tiempo real de los avances de los estudiantes de un curso, visualizando las secciones/unidades visualizadas y completadas por los usuarios.'
+        },
+        {
             'title' : 'U-Cursos',
             'desc'  : 'Es posible integrar nuestra plataforma a los cursos que se imparten a través de U-Cursos.'
         },
@@ -41,12 +45,20 @@ export const functionalities_data = {
             'desc'  : 'Incluye videos de Youtube en tus clases. Nuestra plataforma, además de permitir la visualización de estos videos, permite agregar transcripciones para una mayor accesibilidad del contenido de tus cursos.'
         },
         {
+            'title' : 'Vimeo',
+            'desc'  : 'Permite la subida de videos a la plataforma Vimeo. Los videos no cuentan con publicidad y solamente pueden ser incrustrados en nuestra plataforma.'
+        },
+        {
             'title' : 'Zoom',
             'desc'  : 'Nuestra plataforma se integra con la herramienta Zoom para videollamadas. Crea y configura tus clases y reuniones a través de nuestra plataforma. Puedes restringir el acceso a tus videollamadas únicamente a los estudiantes inscritos en el curso, transmitir en Youtube, etc.'
         },
         {
             'title' : 'Sence',
             'desc'  : 'Nuestra plataforma permite la realización de cursos y capacitaciones Sence.'
+        },
+        {
+            'title' : 'Corfo',
+            'desc'  : 'Integración con los programas de emprendimiento ofrecidas por CORFO, permitiendo la realización de los cursos en nuestra plataforma para posteriormente ser validados con CORFO.'
         },
         {
             'title' : 'Perusall',
