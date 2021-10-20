@@ -43,12 +43,10 @@ export const useFetchLastArticles = (language) => {
     })
 
     const nItems = all_articles.length >= MAX_LENGTH ? MAX_LENGTH : all_articles.length
-
     const articles = useMemo(() => {
-        return all_articles.slice(
-            all_articles.length - nItems,
-            all_articles.length
-        ).reverse()
+        return all_articles
+            .sort((a,b) => b.id - a.id)
+            .slice(0 , nItems);
         //eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
         all_articles
