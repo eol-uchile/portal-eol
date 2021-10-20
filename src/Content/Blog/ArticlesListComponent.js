@@ -18,7 +18,7 @@ export const ArticlesListComponent = (props) => {
 
     return (
         <section id="articles">
-            <div className="container main-container text-center">
+            <div className={ props.match.params.tag ? "container separate-bottom text-center" : "container text-center" }>
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header" data-aos="fade-up">

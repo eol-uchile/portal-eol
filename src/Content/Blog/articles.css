@@ -1,12 +1,11 @@
 section#last-articles {
   background-color: rgb(233, 237, 242, 0.3);
 }
-section#blog {
-  background-color: #ecf0f5;
-}
-section#blog .show-all {
-  font-size: 0.6em;
-  float: right;
+
+section#articles .separate-bottom {
+  padding-bottom: 10em;
+  z-index: 2;
+  position: relative;
 }
 
 section#articles button.show-more, section#videos button.show-more {
