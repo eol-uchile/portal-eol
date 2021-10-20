@@ -207,6 +207,7 @@ nav img {
   color: #00b3ff;
   text-decoration: none;
   overflow: hidden;
+  line-height: 0.9;
 }
 
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
