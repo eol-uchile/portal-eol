@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
 
-export const ArticleItemComponent = ({ post, img, tags, title, date }) => {
+export const ArticleItemComponent = ({ post, img, img_large, tags, title, date, is_first }) => {
     const [redirect, setRedirect] = useState(false);
     return (
         <div
             className="article"
             style={{
-                backgroundImage: `url(${img})`,
+                backgroundImage: `url(${is_first ? img_large: img})`,
             }}
             onClick={() => setRedirect(true)}
         >

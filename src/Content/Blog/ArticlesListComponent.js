@@ -47,6 +47,7 @@ export const ArticlesListComponent = (props) => {
                                             <ArticleItemComponent
                                                 key={k}
                                                 {...t}
+                                                is_first = { k === 0 }
                                             />
                                         </div>
                                     ))
