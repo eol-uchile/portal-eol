@@ -3,7 +3,7 @@ name: Webhook Update staging
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
