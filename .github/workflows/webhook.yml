@@ -1,5 +1,4 @@
-name: Webhook Update staging
-
+name: Webhook deploy image
 on:
   push:
     branches:
