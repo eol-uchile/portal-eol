@@ -7,7 +7,7 @@ on:
       - trying
 
 jobs:
-  build-front-eol:
+  build:
     runs-on: ubuntu-latest
 
     steps:
