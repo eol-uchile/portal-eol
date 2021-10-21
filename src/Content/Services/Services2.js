@@ -3,7 +3,7 @@ import { FormattedMessage } from 'react-intl';
 
 export const Services2 = () => {
     return (
-        <div className="row mt-3">
+        <div className="row mt-5 pt-4">
             <div className="col-12">
                 <h2 className="content-header" data-aos="fade-up">
                     <FormattedMessage id="services_2.header" />
