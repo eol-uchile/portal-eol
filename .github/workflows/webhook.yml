@@ -1,4 +1,4 @@
-name: Webhook Update staging
+name: Webhook Update image
 
 on:
   push:
