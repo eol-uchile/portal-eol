@@ -1,6 +1,6 @@
 {
     "navbar.home": "Inicio",
-    "navbar.platform": "Plataforma",
+    "navbar.platform": "Nuestras Plataformas",
     "navbar.projects": "Proyectos",
     "navbar.teaching_support": "Apoyo Docente",
     "navbar.we": "Nosotros",
@@ -48,13 +48,13 @@
     "mp.virtuallabx.title": "Caja los Andes Virtual LabX",
     "openedx.header": "Nuestra plataforma",
     "openedx.desc": "Basada en Open edX",
-    "openedx.content": "La plataforma EOL es la plataforma de gestión del aprendizaje de la Universidad de Chile, creada para ser usada en cursos diseñados para ser impartidos en formato completamente en línea o semi presencial.",
+    "openedx.content": "EOL es la plataforma de gestión del aprendizaje de la Universidad de Chile, creada para ser usada en cursos diseñados para ser impartidos en formato completamente en línea o semi presencial.",
     "openedx.content.one": "La plataforma que ofrece la Oficina EOL para la educación a distancia se basa en el proyecto de código abierto Open edX, desarrollado inicialmente por la Universidad de Harvard y el MIT, y clasifica como un sistema de cursos abiertos masivos en línea (Massive Open Online Course, MOOC). Esta característica lo hace estable y escalable para soportar decenas de miles de usuarios." ,
     "openedx.content.two": "Esta plataforma ha sido implementada y configurada específicamente para el manejo de los cursos de la Universidad, que en su mayoría son privados y con un grupo acotado de alumnos. Para esto se han desarrollado componentes que permiten gestionar de mejor forma el aprendizaje en estas condiciones.",
     "openedx.content.three": "Para crear y ejecutar cursos en línea, la plataforma se separa en dos aplicaciones:",
     "openedx.content.showmore": "Conocer más",
     "openedx.content.lms": "Es el sistema de gestión del aprendizaje, el ambiente en que las y los estudiantes se registran, inician sesión y se inscriben para acceder y participar de cursos. En este espacio, los profesores/as pueden acceder a herramientas administrativas que les permiten visualizar y obtener reportes de las estadísticas del curso, comunicarse con los estudiantes mediante correo , realizar matrículas manuales, administrar el libro de calificaciones, configurar certificados y mucho más.",
-    "openedx.content.cms": "Es un ambiente de gestión del contenido, donde los profesores/as crean, configuran y administran sus cursos y bibliotecas de los mismos. Aquí, los profesores/as pueden agregar contenidos, organizar las actividades de aprendizaje y evaluativas, incorporar recursos audiovisuales, y además configurar el curso y sus políticas en general.",
+    "openedx.content.cms": "Es un ambiente de gestión del contenido, donde las y los profesores crean, configuran y administran sus cursos y bibliotecas de los mismos. Aquí, pueden agregar contenidos, organizar las actividades de aprendizaje y evaluativas, incorporar recursos audiovisuales, además configurar el curso y sus políticas en general.",
     "blog.header": "Apoyo Docente",
     "blog.showall": "acá",
     "blog.showmore": "Leer artículo",
@@ -84,7 +84,7 @@
     "testimonials.modal.header": "Testimonio de {name}",
     "testimonials.modal.close": "Cerrar",
     "functionalities.header": "Mejora continua en Funcionalidades e Integraciones",
-    "functionalities.desc": "A pesar de ser una plataforma bastante completa en lo que respecta a las funcionalidades, nuestro equipo de ingeniería constantemente está desarrollando y adaptando nuevas soluciones acorde a las necesidades que van presentando los docentes y estudiantes de nuestra Universidad.",
+    "functionalities.desc": "Aún, considerando que es una plataforma bastante completa en lo que respecta a las funcionalidades, nuestro equipo de ingeniería constantemente está desarrollando y adaptando nuevas soluciones acorde a las necesidades de los docentes y estudiantes de nuestra Universidad.",
     "analytics.header": "Analítica",
     "analytics.desc": "Observa cómo los estudiantes interactúan con el curso, para inferir compromiso y/o deserción. Detecta qué contenido requirió más esfuerzo, por parte de los estudiantes, para presentar apoyo o re-distribuir el material docente.",
     "analytics.disclaimer": "(*) El sistema de analítica actualmente se encuentra en fase de desarrollo y no está disponible para todos los cursos.",
@@ -96,5 +96,5 @@
     "projects.courses": "Cursos",
     "projects.participants": "Participantes",
     "projects.header": "Introducción",
-    "projects.content": "La Oficina de Educación Online, en colaboración con los organismos de la Universidad de Chile y con entidades externas, ha participado en la creación de una amplia gama de proyectos educativos online a nivel de pregrado, postgrado, educación continua, extensión y capacitación; orientados a estudiantes, académicos(as) y funcionarios(as) de la Universidad de Chile, y a personas externas que también han participado en instancias formativas disponibles en nuestra plataforma. A continuación, destacamos algunos de nuestros proyectos."
+    "projects.content": "La Oficina de Educación Online, en colaboración con los organismos de la Universidad de Chile y con entidades externas, ha participado en la creación de una amplia gama de proyectos educativos online a nivel de pregrado, postgrado, educación continua, extensión y capacitación; orientados a estudiantes, académicos(as) y funcionarios(as) de la Universidad de Chile, como también personas externas que han participado en instancias formativas disponibles en nuestra plataforma. A continuación, destacamos algunos de nuestros proyectos."
 }
