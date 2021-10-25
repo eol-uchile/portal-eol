@@ -14,14 +14,14 @@ export const FunctionalitiesListComponent = () => {
         <Accordion>
             {
                 functionalities?.map( ({title, desc}, index) => (
-                    <Card key={ index }>
-                        <Accordion.Toggle as={Card.Header} eventKey={ index }>
+                    <Card key={ index + 1 }>
+                        <Accordion.Toggle as={Card.Header} eventKey={ index + 1 }>
                             <div className="card-title">
                                 <span className="toggle-arrow"><i className="fas fa-chevron-right"></i></span>
                                 <i className="fas fa-plus"></i>
                                 { title }
                             </div>
-                            <Accordion.Collapse eventKey={ index }>
+                            <Accordion.Collapse eventKey={ index + 1 }>
                                 <>{ desc }</>
                             </Accordion.Collapse>
                         </Accordion.Toggle>

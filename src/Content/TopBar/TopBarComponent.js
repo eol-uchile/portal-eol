@@ -1,11 +1,11 @@
 import React from 'react';
-import { LanguageSelectorComponent } from '../../Extras/Language/LanguageSelectorComponent';
+// import { LanguageSelectorComponent } from '../../Extras/Language/LanguageSelectorComponent';
 import './topbar.css'
 
 export const TopBarComponent = () => {
     return (
-        <div className="top-bar-container container-fluid text-right pr-md-5">
-            <table className="ml-auto text-center">
+        <div className="top-bar-container container-fluid text-right pr-md-5" style={{height:"10px"}}>
+            {/* <table className="ml-auto text-center">
                 <tbody>
                     <tr>
                         <td className="platforms-link py-1">
@@ -26,11 +26,11 @@ export const TopBarComponent = () => {
                             </a>
                         </td>
                         <td>
-                            {/* <LanguageSelectorComponent /> */}
+                            <LanguageSelectorComponent />
                         </td>
                     </tr>
                 </tbody>
-            </table>
+            </table> */}
 
         </div>
     )
