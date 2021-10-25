@@ -26,7 +26,7 @@ export const projects_data = {
             'name'          : 'English as a Medium of Instruction (EMI): planning and teaching your subject in english',
             'org'           : 'Departamento de Postgrado y Postítulo',
             'tier'          : 'Postgrado',
-            'year'          : 'versión 1 en 2020, versión 2 en 2021 (ambas finalizadas)',
+            'year'          : 'versión 1 en 2020, versión 2 en 2021 (ambas finalizadas), versión 3 en 2021 (dictándose)',
             'description'   : 'Curso orientado a todos los que estén interesados ​​en impartir sus cursos a través de la instrucción en inglés, basada en las últimas investigaciones en enseñanza y aprendizaje.',
             'courses'       : '',
             'participants'  : '38',
