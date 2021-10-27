@@ -46,7 +46,7 @@ export const blog_data = {
         },
         {
             "id": 5,
-            "title": 'Entornos de enseñanza y aprendizaje mediados por tecnologías',
+            "title": 'Documento - Entornos de enseñanza y aprendizaje mediados por tecnologías',
             "date": '27/10/2021',
             "author": 'Oficina Educación Online',
             "description": "Orientaciones para la docencia universitaria.",
