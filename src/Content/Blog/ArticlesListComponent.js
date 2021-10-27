@@ -43,9 +43,9 @@ export const ArticlesListComponent = (props) => {
                                             data-aos="fade-up" 
                                             data-aos-duration="1000"
                                             className={k === 0 ? 'col-12 p-3 list-item' : 'col-md-4 p-3 list-item'}
+                                            key={k}
                                         >
                                             <ArticleItemComponent
-                                                key={k}
                                                 {...t}
                                                 is_first = { k === 0 }
                                             />
