@@ -44,5 +44,16 @@ export const blog_data = {
             "img_large": '/posts/2021_09_29_metodologia_eol/image_01.jpeg',
             "tags": ['EOL', 'Testimonios']
         },
+        {
+            "id": 5,
+            "title": 'Entornos de enseñanza y aprendizaje mediados por tecnologías',
+            "date": '27/10/2021',
+            "author": 'Oficina Educación Online',
+            "description": "Orientaciones para la docencia universitaria.",
+            "post": '/posts/2021_10_27_orientaciones_docencia_universitaria/post_es.html',
+            "img": '/posts/2021_10_27_orientaciones_docencia_universitaria/square.jpg',
+            "img_large": '/posts/2021_10_27_orientaciones_docencia_universitaria/image.jpg',
+            "tags": ['EOL', 'VTI', 'VAA', 'Docencia']
+        },
     ]
 }
