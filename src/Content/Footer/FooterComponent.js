@@ -34,7 +34,7 @@ export const FooterComponent = () => {
                             <li><a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">CMM Edu Formación</a></li>
                             <li><a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">UAbierta</a></li>
                             <li><a href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">Eduonline</a></li>
-                            <li><a href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">Caja los Andes Virtual LabX</a></li>
+                            <li><a href="https://virtual-labx.cl/" target="_blank" rel="noreferrer">Virtual LabX</a></li>
                         </ul>
                     </div>
                     <div className="col-md-4 pt-4 px-2 text-center">
