@@ -67,13 +67,13 @@ export const blog_data = {
     {
       id: 6,
       title: "Manuales para la utilización de Zoom",
-      date: "05/01/2022",
+      date: "21/01/2022",
       author: "Oficina Educación Online",
       description:
         "Esta iniciativa busca ser una guía para los ayudantes que trabajan en la plataforma EOL, ofreciéndoles las herramientas necesarias para el manejo de este entorno virtual de aprendizaje.",
-      post: "/posts/2022_01_05_manuales_zoom/post_es.html",
-      img: "/posts/2022_01_05_manuales_zoom/square.jpg",
-      img_large: "/posts/2022_01_05_manuales_zoom/header.jpg",
+      post: "/posts/2022_01_21_manuales_zoom/post_es.html",
+      img: "/posts/2022_01_21_manuales_zoom/square.jpg",
+      img_large: "/posts/2022_01_21_manuales_zoom/header.jpg",
       tags: ["EOL", "VTI", "Zoom", "Docencia"],
     },
   ],
