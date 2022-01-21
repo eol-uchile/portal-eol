@@ -70,7 +70,7 @@ export const blog_data = {
       date: "21/01/2022",
       author: "Oficina Educación Online",
       description:
-        "Esta iniciativa busca ser una guía para los ayudantes que trabajan en la plataforma EOL, ofreciéndoles las herramientas necesarias para el manejo de este entorno virtual de aprendizaje.",
+        "Aclare dudas y mejore su experiencia en sus clases y reuniones online a través de Zoom",
       post: "/posts/2022_01_21_manuales_zoom/post_es.html",
       img: "/posts/2022_01_21_manuales_zoom/square.jpg",
       img_large: "/posts/2022_01_21_manuales_zoom/header.jpg",
