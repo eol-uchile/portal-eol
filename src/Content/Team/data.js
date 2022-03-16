@@ -83,21 +83,21 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Andy Palma C.',
-            'position'      : 'Desarrollador DevOps',
-            'image'         : "/images/team/andy.png",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/darioandhael/',
-                'github'    : 'https://github.com/dario617'
-            }
-        },
-        {
             'name'          : 'Constanza Altamirano L.',
-            'position'      : 'Desarrolladora DevOps Jr.',
+            'position'      : 'Desarrolladora DevOps',
             'image'         : "/images/team/koni.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/konialtamirano/',
                 'github'    : 'https://github.com/KoniAltamirano'
+            }
+        },
+        {
+            'name'          : 'Matías Cárdenas P.',
+            'position'      : 'Desarrollador DevOps Jr.',
+            'image'         : "/images/team/mati2.png",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/matiasua/',
+                'github'    : 'https://github.com/matiasua'
             }
         },
         {

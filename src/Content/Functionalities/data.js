@@ -25,6 +25,10 @@ export const functionalities_data = {
             'desc'  : 'Seguimiento en tiempo real de los avances de los estudiantes de un curso, visualizando las secciones/unidades visualizadas y completadas por los usuarios.'
         },
         {
+            'title' : 'Visor de imágenes de alta resolución',
+            'desc'  : 'Este componente permite visualizar imaganes de alta resolución, en el cual los estudiantes pueden realizar anotaciones/comentarios para posteriormente ser evaluadas por el equipo docente. Esto es gracias a la integracion con Annotorious y OpenSeaDragon, el primero nos permite realizar las anotaciones y el segundo permite la visualizacion de imagenes de alta resolucion.'
+        },
+        {
             'title' : 'U-Cursos',
             'desc'  : 'Es posible integrar nuestra plataforma a los cursos que se imparten a través de U-Cursos.'
         },
