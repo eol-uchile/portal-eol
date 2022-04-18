@@ -34,7 +34,7 @@ export const functionalities_data = {
         },
         {
             'title' : 'Pasaporte UChile',
-            'desc'  : 'Nuestra plataforma se integra con la Cuenta Pasaporte UChile, permitiendo el inició de sesión a través de ésta.'
+            'desc'  : 'Nuestra plataforma se integra con la Cuenta Pasaporte UChile, permitiendo el inicio de sesión a través de ésta.'
         },
         {
             'title' : 'Clave Única',
