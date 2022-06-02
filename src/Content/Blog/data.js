@@ -67,7 +67,7 @@ export const blog_data = {
     {
       id: 6,
       title: "Manuales para la utilización de Zoom",
-      date: "21/01/2022",
+      date: "02/06/2022",
       author: "Oficina Educación Online",
       description:
         "Aclare dudas y mejore su experiencia en sus clases y reuniones online a través de Zoom",
