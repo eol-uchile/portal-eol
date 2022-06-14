@@ -21,7 +21,7 @@ export const blog_data = {
       date: "29/09/2021",
       author: "Equipo Diseño Instruccional, Oficina Educación Online",
       description:
-        "Veterinaria, Medicina, Derecho, ICEI, Docencia, Beauchef, FACSO, son algunas de lasfacultades y unidades de la universidad que durante este semestre estarán llevando a cabo el pilotaje de la herramienta Ment.io en algunos cursos de la plataforma EOL",
+        "Veterinaria, Medicina, Derecho, ICEI, Docencia, Beauchef, FACSO, son algunas de las facultades y unidades de la universidad que durante este semestre estarán llevando a cabo el pilotaje de la herramienta Ment.io en algunos cursos de la plataforma EOL",
       post: "/posts/2021_09_29_piloto_mentio/post_es.html",
       img: "/posts/2021_09_29_piloto_mentio/image_square.jpg",
       img_large: "/posts/2021_09_29_piloto_mentio/image_large.jpg",
@@ -66,6 +66,18 @@ export const blog_data = {
     },
     {
       id: 6,
+      title: "¿Qué es Genial.ly y para qué sirve?",
+      date: "13/06/2022",
+      author: "Oficina Educación Online",
+      description:
+        "",
+      post: "/posts/2022_06_13_que_es_genially/post_es.html",
+      img: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
+      img_large: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
+      tags: ["EOL", "VTI", "Herramienta", "Docencia"],
+    },
+    {
+      id: 7,
       title: "Manuales para la utilización de Zoom",
       date: "02/06/2022",
       author: "Oficina Educación Online",
