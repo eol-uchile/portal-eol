@@ -2,7 +2,7 @@
 
 ## Development
 
-In the project directory you have to run:
+In the project root directory you have to run:
 
 ### `docker-compose up -d portal-eol`
 
