@@ -88,5 +88,16 @@ export const blog_data = {
       img_large: "/posts/2022_01_21_manuales_zoom/header.jpg",
       tags: ["EOL", "VTI", "Zoom", "Docencia"],
     },
+    {
+      id: 8,
+      title: "Documento – Orientaciones para creación o adaptación de cursos y programas de postgrado a formato online ",
+      date: "22/07/2022",
+      author: "Oficina Educación Online",
+      description: "",
+      post: "/posts/2022_07_22_documento_docencia_postgrado/post_es.html",
+      img: "/posts/2022_07_22_documento_docencia_postgrado/img1.jpg",
+      img_large: "/posts/2022_07_22_documento_docencia_postgrado/img2.jpg",
+      tags: ["EOL", "VTI", "VAA", "Docencia"],
+    },
   ],
 };
