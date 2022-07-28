@@ -116,3 +116,6 @@ section#article p.post-date span {
   color: #888888;
 }
 
+.description{
+  text-align: justify;
+}
