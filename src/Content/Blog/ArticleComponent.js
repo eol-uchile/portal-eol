@@ -33,7 +33,7 @@ export const ArticleComponent = (props) => {
                             <div className="row">
                                 <div className="col-12 post-info">
                                     <h2>{article.title}</h2>
-                                    <p class="h5" dangerouslySetInnerHTML={{__html: article.description}}></p>
+                                    <p class="h5 description" dangerouslySetInnerHTML={{__html: article.description}}></p>
                                     <p><i className="fas fa-user mr-2"></i>{" "}<FormattedMessage id="article.author" />: {article.author}</p>
                                     <p><i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />:
                                         {article.tags &&
