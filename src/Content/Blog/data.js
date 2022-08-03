@@ -111,5 +111,16 @@ export const blog_data = {
       img_large: "/posts/2022_07_28_conociendo_eol/img2.jpg",
       tags: ["EOL", "VTI"],
     },
+    {
+      id: 10,
+      title: "Orientaciones para la docencia en salas híbridas",
+      date: "03/08/2022",
+      author: "Oficina Educación Online",
+      description: "",
+      post: "/posts/2022_08_03_orientaciones_salas_hibridas/post_es.html",
+      img: "/posts/2022_08_03_orientaciones_salas_hibridas/img1.jpg",
+      img_large: "/posts/2022_08_03_orientaciones_salas_hibridas/img2.jpg",
+      tags: ["EOL", "VTI"],
+    },
   ],
 };
