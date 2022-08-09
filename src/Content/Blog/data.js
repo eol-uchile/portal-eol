@@ -122,5 +122,16 @@ export const blog_data = {
       img_large: "/posts/2022_08_03_orientaciones_salas_hibridas/img2.jpg",
       tags: ["EOL", "VTI"],
     },
+    {
+      id: 11,
+      title: "¿Qué es Vimeo y para qué sirve?",
+      date: "09/08/2022",
+      author: "Oficina Educación Online",
+      description: "",
+      post: "/posts/2022_08_09_que_es_vimeo/post_es.html",
+      img: "/posts/2022_08_09_que_es_vimeo/img/cuadrado_blog.jpg",
+      img_large: "/posts/2022_08_09_que_es_vimeo/img/banner_blog.jpg",
+      tags: ["EOL", "VTI", "Herramienta", "Docencia"],
+    },
   ],
 };
