@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div.post-content {
+            column-count: 2;
+            text-align: justify;
+            text-justify: inter-word;
+            overflow-wrap: break-word;
+            hyphens: manual;
+        }
+        @media (max-width: 850px) { 
+            div.post-content {
+                column-count: 1;
+            }
+        }
+        blockquote:before {
+            color: #ccc;
+            content: open-quote;
+            font-size: 5em;
+            line-height: 0em;
+            vertical-align: -0.4em;
+        }
+        blockquote p {
+            margin-top: -1.7em;
+            padding-left: 2.2em;
+            font-weight: 600;
+        }
+        div.post-content {
+            column-count: 2;
+            text-align: justify;
+            text-justify: inter-word;
+            overflow-wrap: break-word;
+            hyphens: manual;
+        }
+        @media (max-width: 850px) { 
+            div.post-content {
+                column-count: 1;
+            }
+            .img_eol{
+                margin-top: 1em;
+            }
+        }
+        .accordion {
+            background-color: #d9f5ff;
+            color: #2dc0ff;
+            cursor: pointer;
+            padding: 18px 18px 18px 40px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.75rem;
+            font-weight: bold;
+            transition: 0.4s;
+            border-radius: 15px 15px 15px 15px;
+            margin-bottom: 15px;
+        }
+
+        .active, .accordion:hover {
+            background-color: #d3d3d3;
+        }
+
+        .accordion:after {
+            content: '\2771';
+            color: #2dc0ff;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2771";
+            transform: rotate(90deg);
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+        body {
+            line-height: 1.15;
+        }
+        li{
+            padding-bottom: 15px;
+            text-align: justify;
+        }
+        li:last-child {
+            padding-bottom: 0;
+        }
+    </style>
+<body>
+    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-bg.png"  class="img-fluid">
+    <h3 style="color: #2dc0ff;font-weight: bold;padding-top: 20px;">Descripción</h3>
+    <div class="post-content my-4">
+        <p>Docentes y estudiantes no están ajenos a la influencia de las tecnologías de la información como causa y consecuencia de un sistema que sienta sus bases en la lógica de la globalización y la hiperconexión.</p>
+        <p>La realidad universitaria hace que la y el estudiante participe y observe nuevos códigos relacionales y de aprendizaje que debe coordinar con sus usos tecnológicos habituales, en donde las y los académicos requieren conocer los hábitos de uso y las elecciones tecnológicas que hacen las y los estudiantes para aproximarse a las nuevas formas de adquirir aprendizajes impuestas por el enfoque actual de la sociedad, en donde el uso del video en la docencia con fines didácticos tiene un auge, pues la imagen digital como medio de comunicación es un recurso que permite no depender de la lectura para generar aprendizajes, sino más bien el video cumple esa función de generar aprendizajes por medio de la imagen, el sonido y las animaciones.
+        </p>
+    </div>
+    <div id="like_button_container" style="text-align: justify">
+        <button class="accordion" onclick="if(this.classList.value.includes('active')){this.classList.toggle('active');this.nextElementSibling.style.maxHeight=null;}else{var acc=document.getElementsByClassName('accordion');for(var i=0;i<acc.length;i++){acc[i].classList.toggle('active',false);acc[i].nextElementSibling.style.maxHeight=null;}this.classList.toggle('active');this.nextElementSibling.style.maxHeight=this.nextElementSibling.scrollHeight+'px';}">
+            Vimeo como herramienta pedagógica
+        </button>
+        <div class="panel">
+            <div class="row" style="margin-bottom: 1em;">
+                <div class="col-lg-6 col-md-6 my-auto text-center">
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-02.png"  class="img-fluid" >
+                </div>
+                <div class="col-lg-6 col-md-8" style="padding-top: 17px;">
+                    <p>
+                        Vimeo es una plataforma de videos sin publicidad, lanzada en noviembre de 2004 por la compañía InterActiveCorp, que permite la visualización de videos en cualquier dispositivo con la característica de restringir a quienes uno quiere que visualice los videos.
+                    </p>
+                    <p>
+                        Ahora bien, el video tiene características que ayudan a la docencia que “pueden transferirse de un punto a otro, además de evitar los fallos de interrupciones en la transferencia de los mensajes y los ruidos comunicativos”. (Cabrero 2007 pág. 12). De acuerdo a Cabero, (1989, citado por Cabero 2008, p.130), “por vídeo didáctico vamos a entender aquel que ha sido diseñado y producido para transmitir unos contenidos, habilidades o actividades y que, en función de sus sistemas simbólicos, forma de estructurarlos y utilización, propicie el aprendizaje en los alumnos”, por el contrario, con su utilización didáctica nos referimos a una visión más amplia de las diversas formas de utilización que puede desempeñarse en la enseñanza”. 
+                        <br>Otra característica de utilizar vídeos para el aprendizaje es que se pueden posicionar como el componente central para la mediación de contenidos, especialmente en entornos asincrónicos. 
+                    </p>
+                </div>
+            </div>
+            <p>
+                Siguiendo esta línea argumentativa y de acuerdo a estos autores Meehyun Yoon, Jungeun Lee, Il-Hyun Jo (2021), los vídeos pueden ser útiles para promover la autonomía de los estudiantes, favorecer su compromiso y motivación con el curso. Además:
+            </p>
+            <div class="row" style="margin-bottom: 1em;">
+                <div class="col-lg-6 col-md-8">
+                    <ul style="margin-bottom: 0;">
+                        <li>
+                            Los videos pueden aportar con mayor accesibilidad ante una diversidad de estudiantes, pues permiten ver la lección en repetidas ocasiones, ir haciendo marcas y anotaciones, e ir pausando cuando sea necesario.
+                        </li>
+                        <li>
+                            Para lograr un mayor compromiso por parte de los estudiantes, es importante añadir elementos interactivos o marcas textuales, que permitan ir navegando en los contenidos de manera no-lineal (avanzar, retroceder).
+                        </li>
+                        <li>
+                            Otra manera de pensar esto, es asociar una actividad concreta que se sume al visionado: por ejemplo, pedir a los estudiantes que pausen el vídeo, desarrollen una pequeña pregunta, y luego vuelvan para ver el resultado. 
+                        </li>
+                        <li>
+                            También se puede integrar el foro, como herramienta de diálogo y discusión entre los estudiantes.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 my-auto text-center">
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-03.png"  class="img-fluid img_eol" >
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 1em;">
+                <div class="col-lg-6 col-md-6 my-auto text-center">
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-04.png"  class="img-fluid" >
+                </div>
+                <div class="col-lg-6 col-md-8" style="padding-top: 17px;">
+                    <p>
+                        Por otro lado, Justo-López, Araceli C., Aguilar-Salinas, Wendolyn E., de las Fuentes-Lara, Maximiliano, & Astorga-Vargas, María A. (2021), señalan que:
+                    </p>
+                    <ul>
+                        <li>
+                            Los vídeos en Educación Superior pueden funcionar para: despertar el interés (promover una actitud de apertura al conocimiento); introducir un tema (entregar visiones generales e ideas clave); desarrollar un tema; confrontar ideas (apelar al análisis y al diálogo); y cerrar o sintetizar un tema.
+                        </li>
+                        <li>
+                            Tienen potencial de convertirse en: instrumento de autoformación para estudiantes (apoyo al desarrollo de competencias); medio de perfeccionamiento para docentes (revisión de la propia práctica, medio de observación); y herramienta de investigación didáctica (entrega información sobre la interacción en el curso).
+                        </li>
+                    </ul>
+                    <p>
+                        Finalmente: Bates, Tony (2022) plantea que:
+                    </p>
+                    <ul>
+                        <li>
+                            Los videos son una herramienta que permiten demostrar experimentos, fenómenos y experiencias que las y los estudiantes no pueden revisar por sí mismos, ya sea porque no tienen los equipos necesarios, el contexto representa un peligro o ciertas variables no permiten observar un fenómeno. 
+                        </li>
+                        <li>
+                            A su vez, permiten demostrar fenómenos o eventos que, debido a su transitoriedad, no pueden observarse en cualquier momento.
+                        </li>
+                        <li>
+                            Así también permite demostrar actividades prácticas para que las y los estudiantes pueden llevarlas a cabo por su propia cuenta. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <button class="accordion" onclick="if(this.classList.value.includes('active')){this.classList.toggle('active');this.nextElementSibling.style.maxHeight=null;}else{var acc=document.getElementsByClassName('accordion');for(var i=0;i<acc.length;i++){acc[i].classList.toggle('active',false);acc[i].nextElementSibling.style.maxHeight=null;}this.classList.toggle('active');this.nextElementSibling.style.maxHeight=this.nextElementSibling.scrollHeight+'px';}">
+            Elementos a considerar al crear un video
+        </button>
+        <div class="panel">
+            <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-05.png"  class="img-fluid" style="margin-top: 1em;margin-bottom: 25px;">
+            <ul style="margin-bottom: 2em;">
+                <li>
+                    Los vídeos se deben diseñar en función de un objetivo o resultado de aprendizaje, y deben cumplir un rol dentro de la estructura del curso. 
+                </li>
+                <li>
+                    La disciplina de estudio en donde se implemente el video va a ser clave en las características y usos que tendrá el recurso audiovisual. 
+                </li>
+                <li>
+                    Se deben considerar elementos de accesibilidad, como integrar descripciones de las imágenes claves que se presenten, transcripciones de las clases y/o subtítulos.
+                </li>
+                <li>
+                    Otro elemento importante es habilitar materiales de descarga complementarios (por ejemplo, la presentación gráfica asociada al vídeo), para que cada estudiante pueda acceder según sus necesidades.
+                </li>
+            </ul>
+        </div>
+
+        <button class="accordion" onclick="if(this.classList.value.includes('active')){this.classList.toggle('active');this.nextElementSibling.style.maxHeight=null;}else{var acc=document.getElementsByClassName('accordion');for(var i=0;i<acc.length;i++){acc[i].classList.toggle('active',false);acc[i].nextElementSibling.style.maxHeight=null;}this.classList.toggle('active');this.nextElementSibling.style.maxHeight=this.nextElementSibling.scrollHeight+'px';}">
+            Implementación de Vimeo en EOL
+        </button>
+        <div class="panel">
+            <p style="margin-top: 1em;">Para implementar la herramienta Vimeo en las plataformas de EOL, debe realizar los siguientes pasos:</p>
+            <div class="row" style="margin-bottom: 1em;justify-content: center;">
+                <div class="col-lg-6 col-md-6 my-auto">
+                    <p><b>Paso 1:</b> Solicitar a eol@uchile.cl la activación de la herramienta en su curso online.</p>
+                    <p><b>Paso 2:</b> Una vez activada la herramienta, ir al curso en Studio e ingresar a Contenido/Cargar videos.</p>
+                    <p style="text-align: center;"><img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-06.png"  class="img-fluid" style="margin-bottom: 1rem;max-width: 70%;"></p>
+                    <p><b>Paso 3:</b> Cargar videos, una vez cargado deberá actualizar la página y visualizar que el estado del video cambie a “SUBIDO”.<br><b>Importante:</b> el nombre del video no debe tener acentos.</p>
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-07.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                    <p><b>Paso 4:</b> En el curso en Studio, ir a Contenido/Estructura y añadir el componente video en alguna sección del curso.</p>
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-08.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-09.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                    <p><b>Paso 5:</b> Al editar el componente, en el campo “Seleccione un video” seleccionar el video previamente cargado.</p>
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-10.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                    <p><b>Paso 6:</b> A continuación, completar los campos “Nombre para mostrar del componente” y “Transcripción con tiempos por defecto” (opcionales). La transcripción, debe ser un archivo .srt y se debe trabajar de manera independiente.</p>
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-11.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                    <p><b>Paso 7:</b> Luego, en el campo “Actualizar miniatura desde Vimeo”, hacer clic en el botón “Actualizar”, lo que asignará una imagen para la portada del video. Para modificar esta imagen, ingresar a la aplicación de Vimeo.</p>
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-12.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                    <p><b>Paso 8:</b> Finalmente, hacer clic en el botón “Guardar” y verificar la edición exitosa del video.</p>
+                    <img src="/posts/2022_08_09_que_es_vimeo/img/vimeo-13.png"  class="img-fluid" style="margin-bottom: 1rem;">
+                </div>
+            </div>
+            <p>Este es un instructivo con aspectos básicos para la utilización de Vimeo en EOL. Cualquier inquietud que surja durante la utilización de esta herramienta, puéden  comunicarse con la Oficina de Educación Online a los siguientes correos electrónicos:</p>
+            <p>
+                <b>Mesa de ayuda:</b> <span style="font-weight: inherit;font-size: inherit;color: #392a28;font-style: italic;">eol-ayuda@uchile.cl</span><br>
+                <b>Asesoría metodológica:</b> <span style="font-weight: inherit;font-size: inherit;color: #392a28;font-style: italic;">di-eol@uchile.cl</span>
+            </p>
+        </div>
+    </div>
+    <button class="accordion" onclick="if(this.classList.value.includes('active')){this.classList.toggle('active');this.nextElementSibling.style.maxHeight=null;}else{var acc=document.getElementsByClassName('accordion');for(var i=0;i<acc.length;i++){acc[i].classList.toggle('active',false);acc[i].nextElementSibling.style.maxHeight=null;}this.classList.toggle('active');this.nextElementSibling.style.maxHeight=this.nextElementSibling.scrollHeight+'px';}">
+        Referencias Bibliográfica
+    </button>
+    <div class="panel">
+        <div class="row" style="text-align: justify;margin-top: 1em;font-style: italic;">
+            <div class="col-12 post-info">
+                <p>
+                    Bates, Tony (2022) Analizando las posibilidades pedagógicas del video.<br>Recuperado de <a href="https://www.tonybates.ca/2022/04/29/analysing-the-pedagogical-affordances-of-video/" target="_blank">https://www.tonybates.ca/2022/04/29/analysing-the-pedagogical-affordances-of-video/</a>
+                </p>
+                <p>
+                    Cabero, J. (2007). Nuevas tecnologías aplicadas a la educación. McGrawHill. 
+                </p>
+                <p>
+                    Justo-López, A. C., Aguilar-Salinas, W. E., de las Fuentes-Lara, M., & Astorga-Vargas, M. A. (2021).<br>
+                    Uso de videos educativos en la materia de programación durante la etapa básica de ingeniería.<br>
+                    Formación Universitaria, 14(6), 51–64. <a href="https://doi.org/10.4067/S0718-50062021000600051" target="_blank">https://doi.org/10.4067/S0718-50062021000600051</a>
+                </p>
+                <p>
+                    Yoon, M., Lee, J., & Jo, I.-H. (2021). Video learning analytics: Investigating behavioral patterns and learner clusters in video-based online learning.<br>
+                    The Internet and Higher Education, 50, 100806.<br>
+                    <a href="https://doi.org/https://doi.org/10.1016/j.iheduc.2021.100806" target="_blank">https://doi.org/https://doi.org/10.1016/j.iheduc.2021.100806</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
