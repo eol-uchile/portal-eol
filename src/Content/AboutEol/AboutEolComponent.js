@@ -23,6 +23,9 @@ export const AboutEolComponent = () => {
                             <FormattedMessage id="abouteol.content.three" />
                         </p>
                     </div>
+                    <div className="content-info col-12" data-aos="zoom-in" data-aos-duration="1000">
+                    <iframe src="https://player.vimeo.com/video/742048340?h=095d5da93d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </section>
