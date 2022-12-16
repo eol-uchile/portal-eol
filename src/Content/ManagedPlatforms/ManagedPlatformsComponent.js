@@ -5,7 +5,7 @@ import "./platforms.css";
 
 export const ManagedPlatformsComponent = () => {
     return (
-        <section 
+        <section
             id="managedplatforms"
             style={{backgroundImage: "url(/images/nodos_background.png)" }}
         >
@@ -50,24 +50,24 @@ export const ManagedPlatformsComponent = () => {
                                     </Card.Header>
                                 </Card>
                             </a>
-                            <a className="mb-3" href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">
-                                <Card>
-                                    <Card.Header>
-                                        <Card.Title>
-                                            <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
-                                            <i className="fas fa-link"></i>
-                                            <FormattedMessage id="mp.eduonline.title" />
-                                        </Card.Title>
-                                    </Card.Header>
-                                </Card>
-                            </a>
-                            <a className="mb-3" href="https://virtual-labx.cl/" target="_blank" rel="noreferrer">
+                            <a className="mb-3" href="https://virtual-labx.uchile.cl/" target="_blank" rel="noreferrer">
                                 <Card>
                                     <Card.Header>
                                         <Card.Title>
                                             <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
                                             <i className="fas fa-link"></i>
                                             <FormattedMessage id="mp.virtuallabx.title" />
+                                        </Card.Title>
+                                    </Card.Header>
+                                </Card>
+                            </a>
+                            <a className="mb-3" href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">
+                                <Card>
+                                    <Card.Header>
+                                        <Card.Title>
+                                            <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
+                                            <i className="fas fa-link"></i>
+                                            <FormattedMessage id="mp.virtuallabx-caja.title" />
                                         </Card.Title>
                                     </Card.Header>
                                 </Card>

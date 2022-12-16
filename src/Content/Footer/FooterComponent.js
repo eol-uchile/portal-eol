@@ -33,8 +33,8 @@ export const FooterComponent = () => {
                             <li><a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">Educación Online (EOL)</a></li>
                             <li><a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">CMM Edu Formación</a></li>
                             <li><a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">UAbierta</a></li>
-                            <li><a href="https://eduonline.ing.uchile.cl/" target="_blank" rel="noreferrer">Eduonline</a></li>
-                            <li><a href="https://virtual-labx.cl/" target="_blank" rel="noreferrer">Virtual LabX</a></li>
+                            <li><a href="https://virtual-labx.uchile.cl/" target="_blank" rel="noreferrer">Virtual LabX</a></li>
+                            <li><a href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">Virtual LabX - Caja Los Andes</a></li>
                         </ul>
                     </div>
                     <div className="col-md-4 pt-4 px-2 text-center">
@@ -64,9 +64,9 @@ export const FooterComponent = () => {
                         </ul>
                     </div>
                     <div className="col-12 mt-2 text-center">
-                        <img 
-                            src="/images/logo-eol-white.png" 
-                            alt="Oficina de Educación Online Universidad de Chile" 
+                        <img
+                            src="/images/logo-eol-white.png"
+                            alt="Oficina de Educación Online Universidad de Chile"
                             className="img-fluid"
                             data-aos="zoom-in" data-aos-duration="1000"
                         />
