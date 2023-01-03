@@ -66,15 +66,6 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Matías Salinas S.',
-            'position'      : 'Jefe de Ingeniería',
-            'image'         : "/images/team/mati.png",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/matiassalinassoto/',
-                'github'    : 'https://github.com/matiassalinas'
-            }
-        },
-        {
             'name'          : 'Luis Santana A.',
             'position'      : 'Desarrollador',
             'image'         : "/images/team/luchin.png",
@@ -94,19 +85,10 @@ export const team_members_data = {
         {
             'name'          : 'Matías Cárdenas P.',
             'position'      : 'Desarrollador DevOps Jr.',
-            'image'         : "/images/team/mati2.png",
+            'image'         : "/images/team/matico.png",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/matiasua/',
                 'github'    : 'https://github.com/matiasua'
-            }
-        },
-        {
-            'name'          : 'Isaias Venegas A.',
-            'position'      : 'Desarrollador Jr.',
-            'image'         : "/images/team/isaias.png",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/isaias-venegas-almonacid-6985b0203/',
-                'github'    : 'https://github.com/IsaiasVenegas'
             }
         },
         {
@@ -118,12 +100,12 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Ronald Figueroa T.',
-            'position'      : 'Mesa de Ayuda',
-            'image'         : "/images/team/ronald.png",
+            'name'          : 'Catalina Marilao C.',
+            'position'      : 'Diseñadora Instruccional',
+            'image'         : "/images/team/cata.png",
             'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/ronald-figueroa-toro',
+                'linkedin'  : 'https://cl.linkedin.com/in/cmarilao'
             }
-        }
+        },
     ]
 }
