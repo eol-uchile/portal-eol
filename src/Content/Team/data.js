@@ -49,6 +49,14 @@ export const team_members_data = {
             }
         },
         {
+            'name'          : 'Catalina Marilao C.',
+            'position'      : 'Diseñadora Instruccional',
+            'image'         : "/images/team/cata.png",
+            'links'         : {
+                'linkedin'  : 'https://cl.linkedin.com/in/cmarilao'
+            }
+        },
+        {
             'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
             'image'         : "/images/team/ronny.png",
@@ -98,14 +106,6 @@ export const team_members_data = {
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/bibarraolea/'
             }
-        },
-        {
-            'name'          : 'Catalina Marilao C.',
-            'position'      : 'Diseñadora Instruccional',
-            'image'         : "/images/team/cata.png",
-            'links'         : {
-                'linkedin'  : 'https://cl.linkedin.com/in/cmarilao'
-            }
-        },
+        }
     ]
 }
