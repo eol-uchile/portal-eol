@@ -133,5 +133,16 @@ export const blog_data = {
       img_large: "/posts/2022_08_09_video_como_recurso_educativo/img/banner_blog.jpg",
       tags: ["EOL", "VTI", "Herramienta", "Docencia"],
     },
+    {
+      id: 12,
+      title: "Catálogo Informativo: Herramientas IA ",
+      date: "25/04/2023",
+      author: "Oficina Educación Online",
+      description: "",
+      post: "/posts/2023_04_25_herramientas_ia/post_es.html",
+      img: "/posts/2023_04_25_herramientas_ia/img/logo.jpg",
+      img_large: "/posts/2023_04_25_herramientas_ia/img/logo.jpg",
+      tags: ["EOL", "VTI", "VAA", "Docencia", "IA"],
+    },
   ],
 };
