@@ -5,7 +5,7 @@ import "./eol.css";
 export const AboutEolComponent = () => {
     return (
         <section id="about-eol">
-            <div className="container text-center">
+            <div className="container text-center section-container">
                 <div className="row">
                     <div className="col-12">
                         <h2 className="content-header" data-aos="fade-up">
@@ -24,7 +24,9 @@ export const AboutEolComponent = () => {
                         </p>
                     </div>
                     <div className="content-info col-12" data-aos="zoom-in" data-aos-duration="1000">
-                    <iframe src="https://player.vimeo.com/video/742048340?h=095d5da93d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <div className="iframe-container">
+                            <iframe src="https://player.vimeo.com/video/742048340?h=095d5da93d" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
