@@ -30,7 +30,7 @@ export const TeamComponent = () => {
                 </div>
                 <div className="row" data-aos="zoom-in" data-aos-duration="1000">
                     { team_members?.map( (member) => (
-                        <MemberComponent 
+                        <MemberComponent
                             key={member.email}
                             {...member}
                         />
