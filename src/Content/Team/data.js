@@ -34,7 +34,7 @@ export const team_members_data = {
         },
         {
             'name': 'Braulio Ibarra O.',
-            'position': 'Mesa de Ayuda',
+            'position': 'Coordinador de Educación Abierta',
             'image': "/images/team/G_Braulio.jpg",
             'links': {
                 'linkedin': 'https://www.linkedin.com/in/bibarraolea/'
