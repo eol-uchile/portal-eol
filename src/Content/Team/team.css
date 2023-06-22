@@ -22,14 +22,17 @@ section#team .main-container {
     font-size: 0.9em;
 }
 
-.team-member:hover img {
+/* .team-member:hover img {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-}
+} */
 
 .team-member img {
     position: absolute;
     left: 0px;
     top: 0;
+    width: 120px;
+    height: 117px;
+    border-radius: 50%;
 }
 
 @keyframes shake {
@@ -55,14 +58,14 @@ section#team .main-container {
     margin-bottom: 5px;
 }
 
-.team-member .position { 
+.team-member .position {
     font-weight: 400;
     text-transform: uppercase;
     line-height: 100%;
     font-size: 0.8em;
 }
 
-.team-member .name { 
+.team-member .name {
     font-weight: 600;
     text-shadow: 1px 4px 6px rgb(53, 53, 53);
 }

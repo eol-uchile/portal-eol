@@ -3,7 +3,7 @@ export const team_members_data = {
         {
             'name'          : 'Cecilia Saint-Pierre C.',
             'position'      : 'Directora',
-            'image'         : "/images/team/ceci.png",
+            'image'         : "/images/team/D_CeciliaSP.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/csaintpierre'
             }
@@ -11,7 +11,7 @@ export const team_members_data = {
         {
             'name'          : 'Paulina Gatica M.',
             'position'      : 'Coordinación General',
-            'image'         : "/images/team/pauli.png",
+            'image'         : "/images/team/G_Paulina.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
             }
@@ -19,7 +19,7 @@ export const team_members_data = {
         {
             'name'          : 'Darío Riquelme Z.',
             'position'      : 'Gestor de Proyectos',
-            'image'         : "/images/team/dario.png",
+            'image'         : "/images/team/D_Dario.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow-8701781b/'
             }
@@ -27,31 +27,39 @@ export const team_members_data = {
         {
             'name'          : 'Cecilia Pereira A.',
             'position'      : 'Editora Asistente',
-            'image'         : "/images/team/cecy.png",
+            'image'         : "/images/team/G_CeciliaPereira.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/cecilia-andrea-pereira-alvarez-915b8a32/'
             }
         },
         {
+            'name': 'Braulio Ibarra O.',
+            'position': 'Coordinador de Educación Abierta',
+            'image': "/images/team/G_Braulio.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/bibarraolea/'
+            }
+        },
+        {
             'name'          : 'Francisco Sereño A.',
             'position'      : 'Diseñador Instruccional',
-            'image'         : "/images/team/francisco.png",
+            'image'         : "/images/team/DI_Francisco.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
             }
         },
-        {
-            'name'          : 'Karla Cabello O.',
-            'position'      : 'Diseñadora Instruccional',
-            'image'         : "/images/team/karla.png",
-            'links'         : {
-                'linkedin'  : 'https://cl.linkedin.com/in/karla-cabello-orellana'
-            }
-        },
+        // {
+        //     'name'          : 'Karla Cabello O.',
+        //     'position'      : 'Diseñadora Instruccional',
+        //     'image'         : "/images/team/karla.png",
+        //     'links'         : {
+        //         'linkedin'  : 'https://cl.linkedin.com/in/karla-cabello-orellana'
+        //     }
+        // },
         {
             'name'          : 'Catalina Marilao C.',
             'position'      : 'Diseñadora Instruccional',
-            'image'         : "/images/team/cata.png",
+            'image'         : "/images/team/DI_Catalina.jpg",
             'links'         : {
                 'linkedin'  : 'https://cl.linkedin.com/in/cmarilao'
             }
@@ -59,7 +67,7 @@ export const team_members_data = {
         {
             'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
-            'image'         : "/images/team/ronny.png",
+            'image'         : "/images/team/DG_Ronny.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/ronny-carvajal-oyarzo-baa31929/'
             }
@@ -67,44 +75,35 @@ export const team_members_data = {
         {
             'name'          : 'Consuelo Calderón F.',
             'position'      : 'Diseñadora Gráfica',
-            'image'         : "/images/team/co.png",
+            'image'         : "/images/team/DG_Consuelo.jpg",
             'links'         : {
                 'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
                 'behance'   : 'https://www.behance.net/cocalderon'
             }
         },
         {
+            'name'          : 'Thomas Peet M.',
+            'position'      : 'Jefe de Ingenieria',
+            'image'         : "/images/team/TI_Thomas.jpg",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/thomaspeet/'
+            }
+        },
+        {
             'name'          : 'Luis Santana A.',
             'position'      : 'Desarrollador',
-            'image'         : "/images/team/luchin.png",
+            'image'         : "/images/team/TI_Luis.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/lsantana-almonacid/'
             }
         },
         {
-            'name'          : 'Constanza Altamirano L.',
-            'position'      : 'Desarrolladora DevOps',
-            'image'         : "/images/team/koni.png",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/konialtamirano/',
-                'github'    : 'https://github.com/KoniAltamirano'
-            }
-        },
-        {
             'name'          : 'Matías Cárdenas P.',
             'position'      : 'Desarrollador DevOps Jr.',
-            'image'         : "/images/team/matico.png",
+            'image'         : "/images/team/TI_Matias.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/matiasua/',
                 'github'    : 'https://github.com/matiasua'
-            }
-        },
-        {
-            'name'          : 'Braulio Ibarra O.',
-            'position'      : 'Mesa de Ayuda',
-            'image'         : "/images/team/braulio.png",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/bibarraolea/'
             }
         }
     ]
