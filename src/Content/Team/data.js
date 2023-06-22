@@ -27,7 +27,7 @@ export const team_members_data = {
         {
             'name'          : 'Cecilia Pereira A.',
             'position'      : 'Editora Asistente',
-            'image'         : "/images/team/cecy.png",
+            'image'         : "/images/team/G_CeciliaPereira.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/cecilia-andrea-pereira-alvarez-915b8a32/'
             }
