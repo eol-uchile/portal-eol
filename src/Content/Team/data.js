@@ -105,6 +105,15 @@ export const team_members_data = {
                 'linkedin'  : 'https://www.linkedin.com/in/matiasua/',
                 'github'    : 'https://github.com/matiasua'
             }
+        },
+        {
+            'name': 'Felipe Sologuren G.',
+            'position': 'Desarrollador DevOps.',
+            'image': "/images/team/TI_Felipe.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/felipe-sologuren-guti%C3%A9rrez-784b45b3/',
+                'github': 'https://github.com/fsologureng'
+            }
         }
     ]
 }
