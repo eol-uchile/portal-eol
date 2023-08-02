@@ -74,7 +74,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Consuelo Calderón F.',
-            'position'      : 'Diseñadora Gráfica',
+            'position'      : 'Diseñadora Gráfica y UX',
             'image'         : "/images/team/DG_Consuelo.jpg",
             'links'         : {
                 'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
