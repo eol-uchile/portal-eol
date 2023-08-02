@@ -42,7 +42,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Francisco Sereño A.',
-            'position'      : 'Diseñador Instruccional',
+            'position'      : 'Coordinador de Diseño Instruccional',
             'image'         : "/images/team/DI_Francisco.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
