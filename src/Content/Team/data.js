@@ -65,6 +65,14 @@ export const team_members_data = {
             }
         },
         {
+            'name'          : 'Carolina Millacaris C.',
+            'position'      : 'Diseñadora Instruccional',
+            'image'         : "/images/team/DI_CarolinaMillacaris.jpg",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/carolina-millacaris-campos-792b8011a/'
+            }
+        },
+        {
             'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
             'image'         : "/images/team/DG_Ronny.jpg",
@@ -95,6 +103,14 @@ export const team_members_data = {
             'image'         : "/images/team/TI_Luis.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/lsantana-almonacid/'
+            }
+        },
+        {
+            'name'          : 'Matías Melo G.',
+            'position'      : 'Desarrollador',
+            'image'         : "/images/team/TI_MatiasMelo.jpg",
+            'links'         : {
+                'linkedin': 'https://www.linkedin.com/in/matías-ignacio-melo-guillaume-68348a240'
             }
         },
         {
