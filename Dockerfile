@@ -1,9 +1,10 @@
 # pull official base image
-FROM node:lts-alpine3.18 as dev
+FROM node:12.18.3-buster as dev
 
 # Add apt dependencies
-RUN apk update \
-  && apk add --no-cache glu
+RUN apt update \
+  && apt install -yq libglu1 \
+  && rm -rf /var/lib/apt/lists/*
 
 # add `/app/node_modules/.bin` to $PATH
 WORKDIR /app
@@ -14,7 +15,7 @@ COPY package.json ./
 COPY package-lock.json ./
 
 # Install
-RUN npm install
+RUN npm install --silent
 COPY . ./
 
 EXPOSE 3000
