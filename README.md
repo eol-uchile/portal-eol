@@ -15,4 +15,4 @@ In the project directory you have to run:
 ### `docker-compose exec portal-eol bash`
 ### `npm run build`
 
-The build folder will be ready to be deployed
+The build folder will be ready to be deployed.
