@@ -73,6 +73,14 @@ export const team_members_data = {
             }
         },
         {
+            'name': 'Estrella Cortés V.',
+            'position': 'Diseñadora Instruccional',
+            'image': "/images/team/DI_EstrellaCortes.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/sonicbba'
+            }
+        },
+        {
             'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
             'image'         : "/images/team/DG_Ronny.jpg",
@@ -115,7 +123,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Matías Cárdenas P.',
-            'position'      : 'Desarrollador DevOps Jr.',
+            'position'      : 'Desarrollador DevOps.',
             'image'         : "/images/team/TI_Matias.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/matiasua/',
