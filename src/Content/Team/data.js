@@ -41,6 +41,14 @@ export const team_members_data = {
             }
         },
         {
+            'name': 'Silvia Carozzi V.',
+            'position': 'Megatutora y Soporte',
+            'image': "/images/team/G_Silvia.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/'
+            }
+        },
+        {
             'name'          : 'Francisco Sereño A.',
             'position'      : 'Coordinador de Diseño Instruccional',
             'image'         : "/images/team/DI_Francisco.jpg",
