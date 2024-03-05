@@ -89,6 +89,14 @@ export const team_members_data = {
             }
         },
         {
+            'name': 'Ecarinne González R.',
+            'position': 'Diseñadora Instruccional',
+            'image': "/images/team/DI_Ecarinne.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/ecarinne-gonz%C3%A1lez-rodr%C3%ADguez-33282b10b/'
+            }
+        },
+        {
             'name'          : 'Ronny Carvajal O.',
             'position'      : 'Diseñador Multimedia',
             'image'         : "/images/team/DG_Ronny.jpg",
