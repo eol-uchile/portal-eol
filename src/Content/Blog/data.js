@@ -104,7 +104,7 @@ export const blog_data = {
       title: "Conociendo EOL",
       date: "28/07/2022",
       author: "Oficina Educación Online",
-      description: 
+      description:
         "Una de las metas de la Oficina de Educación Online (EOL), dependiente de la Vicerrectoría de Tecnologías de la Información, es generar capacidad en las y los docentes para la producción de cursos online, con la mayor independencia y autonomía.</br></br>La siguiente infografía cuenta en resumen qué es la Oficina EOL, cómo trabajar con nosotros y qué servicios entregamos.</br></br>Para profundizar aún más, les invitamos a revisar el curso “Conociendo EOL”, el cual está orientado a explorar la plataforma EOL y sus posibilidades <a href='https://eol.uchile.cl/courses/course-v1:eol+C1+2022_1/about' target='_blank'>(ver curso aquí).</a></br></br>",
       post: "/posts/2022_07_28_conociendo_eol/post_es.html",
       img: "/posts/2022_07_28_conociendo_eol/img1.jpg",
@@ -143,6 +143,17 @@ export const blog_data = {
       img: "/posts/2023_04_25_herramientas_ia/img/logo.jpg",
       img_large: "/posts/2023_04_25_herramientas_ia/img/logo.jpg",
       tags: ["EOL", "VTI", "VAA", "Docencia", "IA"],
+    },
+    {
+      id: 13,
+      title: "El Foro: Una herramienta poderosa para el aprendizaje en la era digital",
+      date: "08/03/2024",
+      author: "Oficina Educación Online",
+      description: "",
+      post: "/posts/2024_03_08_el_foro/post_es.html",
+      img: "/posts/2024_03_08_el_foro/img/foro.jpeg",
+      img_large: "/posts/2024_03_08_el_foro/img/foro.jpeg",
+      tags: ["EOL", "VTI", "Herramientas", "Docencia"],
     },
   ],
 };
