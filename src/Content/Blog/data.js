@@ -155,5 +155,16 @@ export const blog_data = {
       img_large: "/posts/2024_03_08_el_foro/img/foro.jpeg",
       tags: ["EOL", "VTI", "Herramientas", "Docencia"],
     },
+    {
+      id: 14,
+      title: "La Importancia de los quizzes en la evaluación formativa",
+      date: "13/06/2024",
+      author: "Oficina Educación Online",
+      description: "",
+      post: "/posts/2024_06_13_importancia_quizzes/post_es.html",
+      img: "/posts/2024_06_13_importancia_quizzes/img/quiz.jpg",
+      img_large: "posts/2024_06_13_importancia_quizzes/img/quiz.jpg",
+      tags: ["EOL", "VTI", "Herramientas", "Docencia"],
+    },
   ],
 };
