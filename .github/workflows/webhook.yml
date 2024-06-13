@@ -1,12 +1,15 @@
 name: Webhook Update Image
 
 on:
-  push:
-    branches:
-      - master
+  workflow_call:
+    secrets:
+      WEBHOOK_SECRET:
+        required: true
+  repository_dispatch:
+    types: [debug-webhook]
 
 jobs:
-  build:
+  webhook:
     runs-on: ubuntu-latest
 
     steps:
