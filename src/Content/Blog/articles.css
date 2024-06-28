@@ -92,6 +92,7 @@ section#article h2 {
 
 section#article p,
 section#article ul,
+section#article ol,
 section#article h3 {
   color: #392a28;
 }
