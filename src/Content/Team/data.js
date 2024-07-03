@@ -33,14 +33,6 @@ export const team_members_data = {
             }
         },
         {
-            'name': 'Braulio Ibarra O.',
-            'position': 'Coordinador de Educación Abierta',
-            'image': "/images/team/G_Braulio.jpg",
-            'links': {
-                'linkedin': 'https://www.linkedin.com/in/bibarraolea/'
-            }
-        },
-        {
             'name': 'Silvia Carozzi V.',
             'position': 'Megatutora y Soporte',
             'image': "/images/team/G_Silvia.jpg",
@@ -56,14 +48,6 @@ export const team_members_data = {
                 'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
             }
         },
-        // {
-        //     'name'          : 'Karla Cabello O.',
-        //     'position'      : 'Diseñadora Instruccional',
-        //     'image'         : "/images/team/karla.png",
-        //     'links'         : {
-        //         'linkedin'  : 'https://cl.linkedin.com/in/karla-cabello-orellana'
-        //     }
-        // },
         {
             'name'          : 'Catalina Marilao C.',
             'position'      : 'Diseñadora Instruccional',
@@ -122,19 +106,12 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Luis Santana A.',
-            'position'      : 'Desarrollador',
-            'image'         : "/images/team/TI_Luis.jpg",
+            'name'          : 'Catalina M. A. Ilabaca',
+            'position'      : 'Desarrolladora',
+            'image'         : "/images/team/TI_Catalina.jpg",
             'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/lsantana-almonacid/'
-            }
-        },
-        {
-            'name'          : 'Matías Melo G.',
-            'position'      : 'Desarrollador',
-            'image'         : "/images/team/TI_MatiasMelo.jpg",
-            'links'         : {
-                'linkedin': 'https://www.linkedin.com/in/matías-ignacio-melo-guillaume-68348a240'
+                'linkedin'  : 'https://www.linkedin.com/in/catalina-araya-ilabaca-1a4bba1b9/',
+                'github'    : 'https://github.com/cmaraya'
             }
         },
         {
