@@ -41,6 +41,14 @@ export const team_members_data = {
             }
         },
         {
+            'name': 'Ludmila Kalasnikova.',
+            'position': 'EMI Academic Coordinator',
+            'image': "/images/team/G_Mila.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/ludmilakalasnikova/'
+            }
+        },
+        {
             'name'          : 'Francisco Sereño A.',
             'position'      : 'Coordinador de Diseño Instruccional',
             'image'         : "/images/team/DI_Francisco.jpg",
