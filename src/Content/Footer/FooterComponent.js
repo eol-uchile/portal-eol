@@ -31,6 +31,7 @@ export const FooterComponent = () => {
                         </h4>
                         <ul data-aos="fade-up" data-aos-duration="1000">
                             <li><a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">Educación Online (EOL)</a></li>
+                            <li><a href="https://open.uchile.cl/" target="_blank" rel="noreferrer">Open UChile</a></li>
                             <li><a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">CMM Edu Formación</a></li>
                             <li><a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">UAbierta</a></li>
                             <li><a href="https://virtual-labx.uchile.cl/" target="_blank" rel="noreferrer">Virtual LabX</a></li>

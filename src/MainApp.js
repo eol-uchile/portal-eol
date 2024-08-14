@@ -9,6 +9,7 @@ import { NavbarComponent } from './Content/Navbar/NavbarComponent';
 import { FooterComponent } from './Content/Footer/FooterComponent';
 import { HomePage } from './Pages/HomePage';
 import { ProjectsPage } from './Pages/ProjectsPage';
+import { TeachingPage } from './Pages/TeachingPage';
 import { BlogPage } from './Pages/BlogPage';
 import { WePage } from './Pages/WePage';
 import { LanguageProvider } from './Extras/Language/LanguageProvider';
@@ -28,6 +29,7 @@ export const MainApp = () => {
                         <Route exact path="/home" component={HomePage} />
                         <Route exact path="/platform" component={PlatformPage} />
                         <Route exact path="/projects" component={ProjectsPage} />
+                        <Route exact path="/teaching" component={TeachingPage} />
                         <Route exact path="/blog" component={BlogPage} />
                         <Route exact path="/blog/tags/:tag" component={BlogPage} />
                         <Route exact path="/blog/posts/:article_path" component={ArticleComponent} />

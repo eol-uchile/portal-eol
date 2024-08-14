@@ -28,6 +28,17 @@ export const ManagedPlatformsComponent = () => {
                                     </Card.Header>
                                 </Card>
                             </a>
+                            <a className="mb-3" href="https://open.uchile.cl/" target="_blank" rel="noreferrer">
+                                <Card>
+                                    <Card.Header>
+                                        <Card.Title>
+                                            <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
+                                            <i className="fas fa-link"></i>
+                                            <FormattedMessage id="mp.open.title" />
+                                        </Card.Title>
+                                    </Card.Header>
+                                </Card>
+                            </a>
                             <a className="mb-3" href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">
                                 <Card>
                                     <Card.Header>
