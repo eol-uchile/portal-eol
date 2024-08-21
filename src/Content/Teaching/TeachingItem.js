@@ -2,13 +2,13 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 
 export const TeachingItem = ({teaching, side="img-left"}) => {
-    
+
     return (
         <div className="row py-4 px-3">
             <div className= {side !== "img-left" ? "col-md-5 col-lg-6 order-lg-12" : "col-md-5 col-lg-6"} data-aos="fade-up" data-aos-duration="1000">
-                <img 
+                <img
                     src={teaching.image}
-                    alt={teaching.name} 
+                    alt={teaching.name}
                     className="img-fluid"
                 />
             </div>

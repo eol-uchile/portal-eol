@@ -13,7 +13,7 @@ export const TeachingListComponent = () => {
         language: language
     });
     return (
-        <section 
+        <section
             id="teachingslist"
         >
             <div
@@ -48,7 +48,7 @@ export const TeachingListComponent = () => {
                 <div className="container">
                     <TeachingItem teaching={teachings[5]} side="img-right" />
                 </div>
-               
+
             </div>
             <div
                 className="dark-background py-5"
@@ -60,7 +60,7 @@ export const TeachingListComponent = () => {
                 <div className="container">
                     <TeachingItem teaching={teachings[7]} side="img-right" />
                 </div>
-                
+
             </div>
 
             <div
@@ -72,7 +72,7 @@ export const TeachingListComponent = () => {
                 <div className="container">
                     <TeachingItem teaching={teachings[9]} side="img-right"/>
                 </div>
-                
+
             </div>
 
             <div
@@ -84,7 +84,7 @@ export const TeachingListComponent = () => {
                 <div className="container">
                     <TeachingItem teaching={teachings[11]} side="img-right"/>
                 </div>
-                
+
             </div>
             <div
                 className="dark-background py-5"
@@ -113,9 +113,6 @@ export const TeachingListComponent = () => {
             >
                 <div className="container">
                     <TeachingItem teaching={teachings[16]} />
-                </div>
-                <div className="container">
-                    <TeachingItem teaching={teachings[17]} side="img-right" />
                 </div>
             </div>
 
