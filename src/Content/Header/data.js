@@ -58,3 +58,13 @@ export const headers_projects = {
         }
     ]
 }
+
+export const headers_teachings = {
+    'es': [
+        {
+            'title' : "<strong>Formación Docente</strong>",
+            'url'   : "/images/header_2.jpg",
+            'align' : "caption-center"
+        }
+    ]
+}
