@@ -9,19 +9,19 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Paulina Gatica M.',
-            'position'      : 'Coordinación General',
-            'image'         : "/images/team/G_Paulina.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
-            }
-        },
-        {
             'name'          : 'Darío Riquelme Z.',
-            'position'      : 'Gestor de Proyectos',
+            'position'      : 'Subdirector',
             'image'         : "/images/team/D_Dario.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow-8701781b/'
+            }
+        },
+        {
+            'name'          : 'Paulina Gatica M.',
+            'position'      : 'Líder de Producción',
+            'image'         : "/images/team/G_Paulina.jpg",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
             }
         },
         {
@@ -50,7 +50,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Francisco Sereño A.',
-            'position'      : 'Coordinador de Diseño Instruccional',
+            'position'      : 'Líder de Diseño Instruccional',
             'image'         : "/images/team/DI_Francisco.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
@@ -106,8 +106,17 @@ export const team_members_data = {
             }
         },
         {
+            'name'          : 'Juan Guzmán L',
+            'position'      : 'Audiovisualista',
+            'image'         : "/images/team/AV_Juan.jpg",
+            'links'         : {
+                'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
+                'behance'   : 'https://www.behance.net/cocalderon'
+            }
+        },
+        {
             'name'          : 'Thomas Peet M.',
-            'position'      : 'Jefe de Ingenieria',
+            'position'      : 'Líder de Ingenieria',
             'image'         : "/images/team/TI_Thomas.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/thomaspeet/'
@@ -120,6 +129,14 @@ export const team_members_data = {
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/catalina-araya-ilabaca-1a4bba1b9/',
                 'github'    : 'https://github.com/cmaraya'
+            }
+        },
+        {
+            'name'          : 'Jorge Barraza A.',
+            'position'      : 'Desarrollador',
+            'image'         : "/images/team/TI_Jorge.jpg",
+            'links'         : {
+                'github'    : 'https://github.com/jjorgeb'
             }
         },
         {
