@@ -75,6 +75,8 @@ section#article .tag {
 
 section#article .separator-margin {
   margin-bottom: 100px;
+  z-index:2;
+  position:relative;
 }
 
 section#article .goback {
@@ -87,7 +89,9 @@ section#article h2 {
   font-size: 2.8em;
   font-weight: 700;
   text-align: left;
-  color: #000;
+  color: #000;  
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 section#article p,
@@ -119,4 +123,42 @@ section#article p.post-date span {
 
 .description{
   text-align: justify;
+}
+
+section#article .tabla table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color:#392a28;
+}
+section#article .tabla th, section#article .tabla td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+section#article .tabla th {
+  background-color: #f2f2f2;
+} 
+
+section#article .tabla .fuente {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  align-items: self-end;
+  display: grid;
+  justify-items: end;
+}
+
+section#article .team-member span{
+  color:#ffff;
+  font-weight:600;
+}
+
+
+
+
+section#article .team-member .position{
+    max-width: 80%;
+    margin-right: 0;
+    margin-left: auto;
 }

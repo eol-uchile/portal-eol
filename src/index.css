@@ -33,6 +33,10 @@ section, footer {
   position: relative;
 }
 
+section a{
+  word-wrap: break-word;
+}
+
 /* Scroll */
 
 body::-webkit-scrollbar {
