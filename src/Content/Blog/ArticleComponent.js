@@ -65,17 +65,6 @@ export const ArticleComponent = (props) => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                {/* <div class="row mt-4 align-items-center">
-                                                    <div class="col-md-2 col-12 text-center">
-                                                        <img src={ author.image } alt="Carolina Millacaris" class="img-fluid rounded-circle author-section"/>
-                                                    </div>
-                                                    <div class="col-md-10 col-12 author-details">
-                                                        <div>
-                                                            <h5 class="text-md-start text-center">Escrito por:</h5>
-                                                            <p class="text-md-start text-center"><strong>Carolina Millacaris C.</strong> <br/> DISEÑADORA INSTRUCCIONAL</p>
-                                                        </div>
-                                                    </div>
-                                                </div> */}
                                             </div> 
                                         )
                                         :
@@ -108,24 +97,6 @@ export const ArticleComponent = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            {/* {
-                                typeof article.author != 'string' ?
-                                (
-                                    <div className="row d-flex justify-content-end" data-aos="zoom-in" data-aos-duration="1000">
-                                    <p>Escrito por  </p>
-                                    <MemberComponent
-                                    key={author.email}
-                                    name={author.name}
-                                    position={author.position}
-                                    image={author.image}
-                                    margin={false}
-                                    />
-                                    </div>
-                                )
-                                :
-                                (null)
-
-                            } */}
                             <div className="row">
                                 <div className="col-12">
                                     <p className="post-date"><span>{article.date}</span></p>

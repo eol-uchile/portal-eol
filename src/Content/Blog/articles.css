@@ -48,6 +48,7 @@ section#articles button.show-more, section#videos button.show-more {
 
 .list-item .article-content h2{
   margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   color: #fff;
   font-weight: bold;
   overflow: hidden;
@@ -97,6 +98,7 @@ section#article h2 {
 section#article p,
 section#article ul,
 section#article ol,
+section#article dl,
 section#article h3 {
   color: #392a28;
 }
