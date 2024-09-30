@@ -177,5 +177,81 @@ export const blog_data = {
       img_large: "posts/2024_06_28_metodologia_ensenianza_aula_invertida/img/wordcloud.png",
       tags: ["EOL", "VTI", "Docencia"],
     },
+    {
+      id: 16,
+      title: "Más allá de la pantalla: La clave del aprendizaje en e-learning y m-learning",
+      date: "10/09/2024",
+      author: "Estrella Cortés V.",
+      author:  {
+        'name'          : 'Estrella Cortés V.',
+        'position'      : 'Diseñadora Instruccional',
+        'image'         : "/images/team/DI_EstrellaCortes.jpg"
+      },
+      description: "",
+      post: "/posts/2024_09_10_mas_alla_de_pantalla/post_es.html",
+      img: "/posts/2024_09_10_mas_alla_de_pantalla/img/m-learning.jpg",
+      img_large: "posts/2024_09_10_mas_alla_de_pantalla/img/m-learning.jpg",
+      tags: ["EOL", "VTI", "Docencia"],
+    },
+    {
+      id: 17,
+      title: "Inteligencia Artificial en el Diseño Instruccional: Más allá de ChatGPT, ¿Qué herramientas están revolucionando el aprendizaje?",
+      date: "10/09/2024",
+      author:  {
+        'name'          : 'Carolina Millacaris C.',
+        'position'      : 'Diseñadora Instruccional',
+        'image'         : "/images/team/DI_CarolinaMillacaris.jpg"
+      },
+      description: "",
+      post: "/posts/2024_09_10_inteligencia_artificial_en_di/post_es.html",
+      img: "/posts/2024_09_10_inteligencia_artificial_en_di/img/ia_en_di.jpg",
+      img_large: "posts/2024_09_10_inteligencia_artificial_en_di/img/ia_en_di.jpg",
+      tags: ["EOL", "VTI", "Diseño Instruccional", "IA"],
+    },
+    {
+      id: 18,
+      title: "El Metaverso en la educación: ¿Cómo el diseño instruccional puede aprovechar este nuevo mundo virtual?",
+      date: "10/09/2024",
+      author:  {
+        'name'          : 'Catalina Marilao C.',
+        'position'      : 'Diseñadora Instruccional',
+        'image'         : "/images/team/DI_Catalina.jpg"
+      },
+      description: "",
+      post: "/posts/2024_09_10_metaverso/post_es.html",
+      img: "/posts/2024_09_10_metaverso/img/wengylin2024_2.jpg",
+      img_large: "posts/2024_09_10_metaverso/img/wengylin2024_2.jpg",
+      tags: ["EOL", "VTI", "Docencia","Metaverso"],
+    },
+    {
+      id: 19,
+      title: "Microlearning: El Secreto del Aprendizaje Rápido y Eficaz en Internet",
+      date: "10/09/2024",
+      author:  {
+        'name'          : 'Ecarinne González R.',
+        'position'      : 'Diseñadora Instruccional',
+        'image'         : "/images/team/DI_Ecarinne.jpg"
+      },
+      description: "",
+      post: "/posts/2024_09_10_microlearning/post_es.html",
+      img: "/posts/2024_09_10_microlearning/img/microlearning.jpg",
+      img_large: "posts/2024_09_10_microlearning/img/microlearning.jpg",
+      tags: ["EOL", "VTI", "Docencia","Microlearning"],
+    },
+    {
+      id: 20,
+      title: "Realidad Virtual y Aumentada en la educación: Explorando las posibilidades y desafíos",
+      date: "10/09/2024",
+      author:  {
+        'name'          : 'Francisco Sereño A.',
+        'position'      : 'Líder de Diseño Instruccional',
+        'image'         : "/images/team/DI_Francisco.jpg"
+      },
+      description: "",
+      post: "/posts/2024_09_10_realidad_virtual_y_aumentada/post_es.html",
+      img: "/posts/2024_09_10_realidad_virtual_y_aumentada/img/fs1.png",
+      img_large: "posts/2024_09_10_realidad_virtual_y_aumentada/img/fs1.png",
+      tags: ["EOL", "VTI", "Docencia"],
+    },
   ],
 };
