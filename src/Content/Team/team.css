@@ -1,5 +1,6 @@
 section#team {
     background-color: #ecf0f5;
+    z-index:-2;
 }
 
 section#team .main-container {

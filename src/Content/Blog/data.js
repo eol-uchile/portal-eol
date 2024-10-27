@@ -181,7 +181,6 @@ export const blog_data = {
       id: 16,
       title: "Más allá de la pantalla: La clave del aprendizaje en e-learning y m-learning",
       date: "10/09/2024",
-      author: "Estrella Cortés V.",
       author:  {
         'name'          : 'Estrella Cortés V.',
         'position'      : 'Diseñadora Instruccional',
