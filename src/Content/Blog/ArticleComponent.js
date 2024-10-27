@@ -6,7 +6,6 @@ import { LanguageContext } from '../../Extras/Language/LanguageContext';
 import './articles.css';
 import { SeparatorTopComponent } from '../../Extras/Separators/SeparatorTopComponent';
 import { scrollToTop } from '../../Extras/ScrollToTopButton/scrolltop';
-import { MemberComponent } from '../Team/MemberComponent';
 
 
 
@@ -15,7 +14,6 @@ export const ArticleComponent = (props) => {
 
     const [ article, content ] = useFetchArticleData(language, props);
     scrollToTop();
-    const author = article.author;
     return (
         <section id='article'>
             {
@@ -29,13 +27,13 @@ export const ArticleComponent = (props) => {
                     article.status === 'success' ? (
                         <div className="container separator-margin" data-aos="fade-up" data-aos-duration="1000">
                             <Link className="goback" to='/blog'>
-                                <i class="fas fa-chevron-circle-left"></i>
+                                <i className="fas fa-chevron-circle-left"></i>
                                 {" "}<FormattedMessage id="article.goback" />
                             </Link>
                             <div className="row">
                                 <div className="col-12 post-info">
                                     <h2><label dangerouslySetInnerHTML={{__html: article.title}}></label></h2>
-                                    <p class="h5 description" dangerouslySetInnerHTML={{__html: article.description}}></p>
+                                    <p className="h5 description" dangerouslySetInnerHTML={{__html: article.description}}></p>
 
                                     {
                                         typeof article.author != 'string' ?
@@ -45,7 +43,7 @@ export const ArticleComponent = (props) => {
                                                     <p>
                                                         <i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />:
                                                         {article.tags &&
-                                                            article.tags.map(t => (<Link className="tag" to={`/blog/tags/${t}`}>{t}</Link>))
+                                                            article.tags.map(t => (<Link key={t} className="tag" to={`/blog/tags/${t}`}>{t}</Link>))
                                                         }
                                                     </p>
                                                 </div>
@@ -57,9 +55,9 @@ export const ArticleComponent = (props) => {
                                                         <div className="col-12 col-lg-8 px-0 d-block" style={{minHeight:"120px"}}>
                                                             <div className="team-member p-2 text-right">
                                                                 <div className="user-data">
-                                                                    <img src={ author.image } alt={ author.name }/>
-                                                                    <span className="name">{ author.name }</span>
-                                                                    <span className="position">{ author.position }</span>
+                                                                    <img src={ article.author.image } alt={ article.author.name }/>
+                                                                    <span className="name">{ article.author.name }</span>
+                                                                    <span className="position">{ article.author.position }</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -70,10 +68,7 @@ export const ArticleComponent = (props) => {
                                         :
                                         (
                                             <>
-                                                <p><i className="fas fa-user mr-2"></i>{" "}<FormattedMessage id="article.author" />: 
-                                                    {typeof article.author === 'string' 
-                                                    ? article.author 
-                                                    : article.author.name}
+                                                <p><i className="fas fa-user mr-2"></i>{" "}<FormattedMessage id="article.author" />: {article.author}
                                                 </p>
                                                 <p>
                                                     <i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />:
