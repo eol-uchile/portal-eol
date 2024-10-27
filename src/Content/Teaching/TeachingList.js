@@ -114,9 +114,8 @@ export const TeachingListComponent = () => {
                 <div className="container">
                     <TeachingItem teaching={teachings[16]} />
                 </div>
+                <SeparatorTopComponent background="light" />
             </div>
-
-            <SeparatorTopComponent background="light" />
         </section>
     )
 }
