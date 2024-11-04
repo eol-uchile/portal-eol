@@ -26,7 +26,7 @@
     background-position: center;
     background-size: cover;
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     top: 0;
     bottom: 0;
     left: 0;
@@ -49,6 +49,6 @@
     padding-right: 0.2em;
 }
 
-#teachingslist > div:nth-last-child(2){
+#teachingslist > div:nth-last-child(1){
     padding-bottom:120px !important;
 }

@@ -13,7 +13,6 @@ export const ArticleComponent = (props) => {
 
     const [ article, content ] = useFetchArticleData(language, props);
     scrollToTop();
-  
     return (
         <section id='article'>
             {
@@ -27,19 +26,58 @@ export const ArticleComponent = (props) => {
                     article.status === 'success' ? (
                         <div className="container separator-margin" data-aos="fade-up" data-aos-duration="1000">
                             <Link className="goback" to='/blog'>
-                                <i class="fas fa-chevron-circle-left"></i>
+                                <i className="fas fa-chevron-circle-left"></i>
                                 {" "}<FormattedMessage id="article.goback" />
                             </Link>
                             <div className="row">
                                 <div className="col-12 post-info">
-                                    <h2>{article.title}</h2>
-                                    <p class="h5 description" dangerouslySetInnerHTML={{__html: article.description}}></p>
-                                    <p><i className="fas fa-user mr-2"></i>{" "}<FormattedMessage id="article.author" />: {article.author}</p>
-                                    <p><i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />:
-                                        {article.tags &&
-                                            article.tags.map(t => (<Link className="tag" to={`/blog/tags/${t}`}>{t}</Link>))
-                                        }
-                                    </p>
+                                    <h2 dangerouslySetInnerHTML={{__html: article.title}}></h2>
+                                    <p className="h5 description" dangerouslySetInnerHTML={{__html: article.description}}></p>
+
+                                    {
+                                        typeof article.author === 'string' ?
+                                        (
+                                            <>
+                                                <p><i className="fas fa-user mr-2"></i>{" "}<FormattedMessage id="article.author" />: {article.author}
+                                                </p>
+                                                <p>
+                                                    <i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />:
+                                                    {article.tags &&
+                                                        article.tags.map(t => (<Link className="tag" to={`/blog/tags/${t}`}>{t}</Link>))
+                                                    }
+                                                </p>
+                                            </>
+                                        )
+                                        :
+                                        (
+                                            <div className="row d-flex justify-content-end px-3 my-4"  data-aos="zoom-in" data-aos-duration="1000">
+                                                <div className="col-12 col-md-6 d-flex align-items-center px-0 pr-3">
+                                                    <p>
+                                                        <i className="fas fa-tags"></i>{" "}<FormattedMessage id="article.tags" />:
+                                                        {article.tags &&
+                                                            article.tags.map(t => (<Link key={t} className="tag" to={`/blog/tags/${t}`}>{t}</Link>))
+                                                        }
+                                                    </p>
+                                                </div>
+                                                <div className="col-12 col-md-6">
+                                                    <div className="row">
+                                                        <div className="col-12 col-lg-4 text-left text-lg-right px-0">
+                                                            <p style={{margin:"7px"}}>Escrito por:</p>
+                                                        </div>
+                                                        <div className="col-12 col-lg-8 px-0 d-block" style={{minHeight:"120px"}}>
+                                                            <div className="team-member p-2 text-right">
+                                                                <div className="user-data">
+                                                                    <img src={ article.author.image } alt={ article.author.name }/>
+                                                                    <span className="name">{ article.author.name }</span>
+                                                                    <span className="position">{ article.author.position }</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        )
+                                    }
                                 </div>
                             </div>
                             <div className="row">
