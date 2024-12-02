@@ -17,6 +17,14 @@ export const team_members_data = {
             }
         },
         {
+            'name': 'Javiera Klein M.',
+            'position': 'Líder de Iniciativas abiertas',
+            'image': "/images/team/G_Javiera.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/javiera-klein/'
+            }
+        },
+        {
             'name'          : 'Paulina Gatica M.',
             'position'      : 'Líder de Producción',
             'image'         : "/images/team/G_Paulina.jpg",
