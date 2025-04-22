@@ -73,22 +73,6 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Carolina Millacaris C.',
-            'position'      : 'Diseñadora Instruccional',
-            'image'         : "/images/team/DI_CarolinaMillacaris.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/carolina-millacaris-campos-792b8011a/'
-            }
-        },
-        {
-            'name': 'Estrella Cortés V.',
-            'position': 'Diseñadora Instruccional',
-            'image': "/images/team/DI_EstrellaCortes.jpg",
-            'links': {
-                'linkedin': 'https://www.linkedin.com/in/sonicbba'
-            }
-        },
-        {
             'name': 'Ecarinne González R.',
             'position': 'Diseñadora Instruccional',
             'image': "/images/team/DI_Ecarinne.jpg",
@@ -145,15 +129,6 @@ export const team_members_data = {
             'image'         : "/images/team/TI_Jorge.jpg",
             'links'         : {
                 'github'    : 'https://github.com/jjorgeb'
-            }
-        },
-        {
-            'name'          : 'Matías Cárdenas P.',
-            'position'      : 'Desarrollador DevOps.',
-            'image'         : "/images/team/TI_Matias.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/matiasua/',
-                'github'    : 'https://github.com/matiasua'
             }
         },
         {
