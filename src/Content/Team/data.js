@@ -139,6 +139,15 @@ export const team_members_data = {
                 'linkedin': 'https://www.linkedin.com/in/felipe-sologuren-guti%C3%A9rrez-784b45b3/',
                 'github': 'https://github.com/fsologureng'
             }
+        },
+        {
+            'name': 'Vicente Astorga V.',
+            'position': 'Desarrollador DevOps.',
+            'image': "/images/team/TI_Vicente.jpg",
+            'links': {
+                'linkedin': 'https://www.linkedin.com/in/vicente-astorga',
+                'github': 'https://github.com/vicente-astorga'
+            }
         }
     ]
 }
