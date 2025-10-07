@@ -57,14 +57,6 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Francisco Sereño A.',
-            'position'      : 'Líder de Diseño Instruccional',
-            'image'         : "/images/team/DI_Francisco.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
-            }
-        },
-        {
             'name'          : 'Catalina Marilao C.',
             'position'      : 'Diseñadora Instruccional',
             'image'         : "/images/team/DI_Catalina.jpg",
