@@ -19,7 +19,7 @@ export const FooterComponent = () => {
                                 <a href="https://twitter.com/vti_uchile" target="_blank" rel="noreferrer">
                                     <i className="fa fa-twitter mx-2 fa-2x"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/company/vti-uchile/?viewAsMember=true" target="_blank" rel="noreferrer">
+                                <a href="https://www.linkedin.com/company/open-uchile/posts/?feedView=all" target="_blank" rel="noreferrer">
                                     <i className="fa fa-linkedin mx-2 fa-2x"></i>
                                 </a>
                             </li>
