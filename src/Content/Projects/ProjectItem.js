@@ -1,5 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const ProjectItem = ({project, side="img-left"}) => {
     return (
@@ -60,6 +62,15 @@ export const ProjectItem = ({project, side="img-left"}) => {
                                 <FormattedMessage id="projects.participants" />:
                             </strong>
                             {project.participants}
+                        </li>
+                    ) }
+                    { project.link && (
+                        <li>
+                            <Link to={{ pathname:`${project.link}`}} target="_blank">  
+                                <Button className="show-more">
+                                    <FormattedMessage id="projects.showmore" />
+                                </Button>
+                            </Link>
                         </li>
                     ) }
                 </ul>

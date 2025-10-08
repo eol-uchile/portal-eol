@@ -57,14 +57,6 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Francisco Sereño A.',
-            'position'      : 'Líder de Diseño Instruccional',
-            'image'         : "/images/team/DI_Francisco.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/franciscosereno/'
-            }
-        },
-        {
             'name'          : 'Catalina Marilao C.',
             'position'      : 'Diseñadora Instruccional',
             'image'         : "/images/team/DI_Catalina.jpg",
@@ -102,8 +94,7 @@ export const team_members_data = {
             'position'      : 'Audiovisualista',
             'image'         : "/images/team/AV_Juan.jpg",
             'links'         : {
-                'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
-                'behance'   : 'https://www.behance.net/cocalderon'
+                'linkedin'  : 'https://www.linkedin.com/in/juanguzm%C3%A1n5329052b/'
             }
         },
         {

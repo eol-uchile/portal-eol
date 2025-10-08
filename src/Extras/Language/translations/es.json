@@ -71,7 +71,7 @@
     "videos.empty": "Aún no tenemos noticias en nuestro blog",
     "tweets.error": "No se ha podido cargar los últimos tweets",
     "videos.showmore": "Cargar más",
-    "footer.rrss": "RRSS VTI",
+    "footer.rrss": "RRSS",
     "footer.platforms": "Plataformas",
     "footer.contact": "Contacto",
     "footer.copyright": "© 2025 Oficina de Educación Online, Vicerrectoría de Tecnologías de la Información, Universidad de Chile. Todos los derechos reservados.",
@@ -97,6 +97,7 @@
     "projects.description": "Descripción",
     "projects.courses": "Cursos",
     "projects.participants": "Participantes",
+    "projects.showmore": "Ver más",
     "projects.header": "Introducción",
     "projects.content": "La Oficina de Educación Online, en colaboración con los organismos de la Universidad de Chile y con entidades externas, ha participado en la creación de una amplia gama de proyectos educativos online a nivel de pregrado, postgrado, educación continua, extensión y capacitación; orientados a estudiantes, académicos(as) y funcionarios(as) de la Universidad de Chile, como también personas externas que han participado en instancias formativas disponibles en nuestra plataforma. A continuación, destacamos algunos de nuestros proyectos.",
     "teachings.teaching": "Curso",
@@ -105,6 +106,7 @@
     "teachings.tier": "Clasificación",
     "teachings.description": "Descripción",
     "teachings.participants": "Participantes",
+    "teachings.showmore": "Ver más",
     "teachings.header": "Introducción",
     "teachings.content": "La Oficina de Educación Online (EOL) de la Universidad de Chile ofrece una serie de cursos diseñados para fortalecer las habilidades de los docentes en la implementación de la Educación Mediada por Tecnologías (EMT). Estos cursos abarcan desde los fundamentos teóricos y conceptuales de la EMT hasta el uso práctico de herramientas tecnológicas específicas para la comunicación, la interacción y la evaluación en entornos virtuales de aprendizaje. "
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export const TeachingItem = ({teaching, side="img-left"}) => {
 
@@ -53,6 +55,15 @@ export const TeachingItem = ({teaching, side="img-left"}) => {
                                 <FormattedMessage id="teachings.participants" />:
                             </strong>
                             {teaching.participants}
+                        </li>
+                    ) }
+                    { teaching.link && (
+                        <li>
+                            <Link to={{ pathname:`${teaching.link}`}} target="_blank">  
+                                <Button className="show-more">
+                                    <FormattedMessage id="teachings.showmore" />
+                                </Button>
+                            </Link>
                         </li>
                     ) }
                 </ul>

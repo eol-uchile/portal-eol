@@ -1,12 +1,8 @@
 #projectslist {
     text-align: justify;
     word-spacing:-2px;
-    background-color: #535353;
 }
 
-#projectslist .light-background {
-    background-color: #ffff;
-}
 
 #projectslist .dark-background {
     background-color: #535353;
