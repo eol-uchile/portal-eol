@@ -30,7 +30,7 @@ export const ProjectsListComponent = () => {
             </div>
 
             <div
-                className="light-background"
+                className="light2-background"
             >
                 <div className="container">
                     <ProjectItem project={projects[2]} />
@@ -41,7 +41,7 @@ export const ProjectsListComponent = () => {
             </div>
 
             <div
-                className="light2-background"
+                className="dark-background"
             >
                 <div className="container">
                     <ProjectItem project={projects[4]} />
@@ -54,7 +54,7 @@ export const ProjectsListComponent = () => {
                 </div>
             </div>
             <div
-                className="dark-background mb-5"
+                className="light-background  mb-5"
                 style={{backgroundImage: "url(/images/nodos_background.png)" }}
             >
                 <div className="container">
