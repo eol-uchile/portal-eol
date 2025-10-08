@@ -32,10 +32,6 @@ export const FooterComponent = () => {
                         <ul data-aos="fade-up" data-aos-duration="1000">
                             <li><a href="https://eol.uchile.cl/" target="_blank" rel="noreferrer">Educación Online (EOL)</a></li>
                             <li><a href="https://open.uchile.cl/" target="_blank" rel="noreferrer">Open UChile</a></li>
-                            <li><a href="https://cmmeduformacion.uchile.cl/" target="_blank" rel="noreferrer">CMM Edu Formación</a></li>
-                            <li><a href="https://uabierta.uchile.cl/" target="_blank" rel="noreferrer">UAbierta</a></li>
-                            <li><a href="https://virtual-labx.uchile.cl/" target="_blank" rel="noreferrer">Virtual LabX</a></li>
-                            <li><a href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">Virtual LabX - Caja Los Andes</a></li>
                         </ul>
                     </div>
                     <div className="col-md-4 pt-4 px-2 text-center">
@@ -47,7 +43,7 @@ export const FooterComponent = () => {
                                     <tbody>
                                         <tr className="mb-2">
                                             <td className="pr-2"><i className="fas fa-map-marker-alt mx-auto"></i></td>
-                                            <td>Diagonal Paraguay 265, Torre 15,<br/>Oficina 1004, Santiago, Chile</td>
+                                            <td>Diagonal Paraguay 265, Torre 15,<br/>Oficina 2003, Santiago, Chile</td>
                                         </tr>
                                         <tr className="mb-2">
                                             <td className="pr-2"><i className="far fa-envelope mx-auto"></i></td>
