@@ -16,6 +16,8 @@ jobs:
         with:
           app-id: ${{ vars.EOLITO_BOT_APP_ID }}
           private-key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
+          owner: eol-uchile
+          repositories: argocd-config
 
       - name: Trigger second repository
         run: |
