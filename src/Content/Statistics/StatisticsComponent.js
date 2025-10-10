@@ -21,7 +21,7 @@ export const StatisticsComponent = () => {
                             className="img-fluid"
                         />
                         <p className="number mt-4 px-3">
-                            <CountUp end={310000} delay={0} separator="." prefix="+">
+                            <CountUp end={580000} delay={0} separator="." prefix="+">
                                 {({ countUpRef, start }) => (
                                     <VisibilitySensor onChange={start} delayedCall>
                                         <span ref={countUpRef} />
@@ -40,7 +40,7 @@ export const StatisticsComponent = () => {
                             className="img-fluid"
                         />
                         <p className="number mt-4 px-3">
-                            <CountUp end={440} delay={0} separator="." prefix="+">
+                            <CountUp end={2000} delay={0} separator="." prefix="+">
                                 {({ countUpRef, start }) => (
                                     <VisibilitySensor onChange={start} delayedCall>
                                         <span ref={countUpRef} />
@@ -59,7 +59,7 @@ export const StatisticsComponent = () => {
                             className="img-fluid"
                         />
                         <p className="number mt-4 px-3">
-                            <CountUp end={390000} delay={0} separator="." prefix="+">
+                            <CountUp end={25000} delay={0} separator="." prefix="+">
                                 {({ countUpRef, start }) => (
                                     <VisibilitySensor onChange={start} delayedCall>
                                         <span ref={countUpRef} />
