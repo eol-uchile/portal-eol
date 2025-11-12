@@ -1,44 +1,6 @@
 export const blog_data = {
   es: [
     {
-      id: 1,
-      title:
-        "EOL y CEAMED ofrecen curso para ayudantes enfocado en el manejo de la plataforma EOL",
-      date: "29/09/2021",
-      author: "Equipo Diseño Instruccional, Oficina Educación Online",
-      description:
-        "Esta iniciativa busca ser una guía para los ayudantes que trabajan en la plataforma eol, ofreciéndoles las herramientas necesarias para el manejo de este entorno virtual de aprendizaje.",
-      post: "/posts/2021_09_29_herramientas_para_estudiantes/post_es.html",
-      img: "/posts/2021_09_29_herramientas_para_estudiantes/image_square.jpg",
-      img_large:
-        "/posts/2021_09_29_herramientas_para_estudiantes/image_large.jpg",
-      tags: ["EOL", "CEAMED", "Testimonios"],
-    },
-    {
-      id: 2,
-      title:
-        "Ment.io: la herramienta de foro que está abriendo nuevas posibilidades de interacción en la plataforma EOL",
-      date: "29/09/2021",
-      author: "Equipo Diseño Instruccional, Oficina Educación Online",
-      description:
-        "Veterinaria, Medicina, Derecho, ICEI, Docencia, Beauchef, FACSO, son algunas de las facultades y unidades de la universidad que durante este semestre estarán llevando a cabo el pilotaje de la herramienta Ment.io en algunos cursos de la plataforma EOL",
-      post: "/posts/2021_09_29_piloto_mentio/post_es.html",
-      img: "/posts/2021_09_29_piloto_mentio/image_square.jpg",
-      img_large: "/posts/2021_09_29_piloto_mentio/image_large.jpg",
-      tags: ["Ment.io"],
-    },
-    {
-      id: 3,
-      title: "Herramienta de discusión Ment.io",
-      date: "29/09/2021",
-      author: "Equipo Diseño Instruccional, Oficina Educación Online",
-      description: "Para conocer más del uso de la herramienta",
-      post: "/posts/2021_09_29_intro_mentio/post_es.html",
-      img: "/posts/2021_09_29_intro_mentio/image_01.png",
-      img_large: "/posts/2021_09_29_intro_mentio/image_large.jpg",
-      tags: ["Ment.io"],
-    },
-    {
       id: 4,
       title:
         "Innovar, participar, educar y aprender, son verbos poderosos en la Universidad de Chile",
@@ -63,18 +25,6 @@ export const blog_data = {
       img_large:
         "/posts/2021_10_27_orientaciones_docencia_universitaria/image.jpg",
       tags: ["EOL", "VTI", "VAA", "Docencia"],
-    },
-    {
-      id: 6,
-      title: "¿Qué es Genial.ly y para qué sirve?",
-      date: "13/06/2022",
-      author: "Oficina Educación Online",
-      description:
-        "",
-      post: "/posts/2022_06_13_que_es_genially/post_es.html",
-      img: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
-      img_large: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
-      tags: ["EOL", "VTI", "Herramienta", "Docencia"],
     },
     {
       id: 7,
@@ -181,11 +131,7 @@ export const blog_data = {
       id: 16,
       title: "Más allá de la pantalla: La clave del aprendizaje en e-learning y m-learning",
       date: "10/09/2024",
-      author:  {
-        'name'          : 'Estrella Cortés V.',
-        'position'      : 'Diseñadora Instruccional',
-        'image'         : "/images/team/DI_EstrellaCortes.jpg"
-      },
+      author: 'Estrella Cortés V.',
       description: "",
       post: "/posts/2024_09_10_mas_alla_de_pantalla/post_es.html",
       img: "/posts/2024_09_10_mas_alla_de_pantalla/img/m-learning.jpg",
@@ -196,11 +142,7 @@ export const blog_data = {
       id: 17,
       title: "Inteligencia Artificial en el Diseño Instruccional: Más allá de ChatGPT, ¿Qué herramientas están revolucionando el aprendizaje?",
       date: "10/09/2024",
-      author:  {
-        'name'          : 'Carolina Millacaris C.',
-        'position'      : 'Diseñadora Instruccional',
-        'image'         : "/images/team/DI_CarolinaMillacaris.jpg"
-      },
+      author: 'Carolina Millacaris C.',
       description: "",
       post: "/posts/2024_09_10_inteligencia_artificial_en_di/post_es.html",
       img: "/posts/2024_09_10_inteligencia_artificial_en_di/img/ia_en_di.jpg",
@@ -211,11 +153,7 @@ export const blog_data = {
       id: 18,
       title: "El Metaverso en la educación: ¿Cómo el diseño instruccional puede aprovechar este nuevo mundo virtual?",
       date: "10/09/2024",
-      author:  {
-        'name'          : 'Catalina Marilao C.',
-        'position'      : 'Diseñadora Instruccional',
-        'image'         : "/images/team/DI_Catalina.jpg"
-      },
+      author:  'Catalina Marilao C.',
       description: "",
       post: "/posts/2024_09_10_metaverso/post_es.html",
       img: "/posts/2024_09_10_metaverso/img/wengylin2024_2.jpg",
@@ -226,11 +164,7 @@ export const blog_data = {
       id: 19,
       title: "Microlearning: El Secreto del Aprendizaje Rápido y Eficaz en Internet",
       date: "10/09/2024",
-      author:  {
-        'name'          : 'Ecarinne González R.',
-        'position'      : 'Diseñadora Instruccional',
-        'image'         : "/images/team/DI_Ecarinne.jpg"
-      },
+      author:  'Ecarinne González R.',
       description: "",
       post: "/posts/2024_09_10_microlearning/post_es.html",
       img: "/posts/2024_09_10_microlearning/img/microlearning.jpg",
@@ -241,16 +175,24 @@ export const blog_data = {
       id: 20,
       title: "Realidad Virtual y Aumentada en la educación: Explorando las posibilidades y desafíos",
       date: "10/09/2024",
-      author:  {
-        'name'          : 'Francisco Sereño A.',
-        'position'      : 'Líder de Diseño Instruccional',
-        'image'         : "/images/team/DI_Francisco.jpg"
-      },
+      author:  'Francisco Sereño A.',
       description: "",
       post: "/posts/2024_09_10_realidad_virtual_y_aumentada/post_es.html",
       img: "/posts/2024_09_10_realidad_virtual_y_aumentada/img/fs1.png",
       img_large: "posts/2024_09_10_realidad_virtual_y_aumentada/img/fs1.png",
       tags: ["EOL", "VTI", "Docencia"],
+    },
+    {
+      id: 21,
+      title: "¿Qué es Genial.ly y para qué sirve?",
+      date: "13/06/2022",
+      author: "Oficina Educación Online",
+      description:
+        "",
+      post: "/posts/2022_06_13_que_es_genially/post_es.html",
+      img: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
+      img_large: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
+      tags: ["EOL", "VTI", "Herramienta", "Docencia"],
     },
   ],
 };
