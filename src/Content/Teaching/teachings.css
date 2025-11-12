@@ -52,3 +52,9 @@
 #teachingslist > div:nth-last-child(1){
     padding-bottom:120px !important;
 }
+
+.video-ratio{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}

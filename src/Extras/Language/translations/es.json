@@ -108,5 +108,5 @@
     "teachings.participants": "Participantes",
     "teachings.showmore": "Ver más",
     "teachings.header": "Introducción",
-    "teachings.content": "La Oficina de Educación Online (EOL) de la Universidad de Chile ofrece una serie de cursos diseñados para fortalecer las habilidades de los docentes en la implementación de la Educación Mediada por Tecnologías (EMT). Estos cursos abarcan desde los fundamentos teóricos y conceptuales de la EMT hasta el uso práctico de herramientas tecnológicas específicas para la comunicación, la interacción y la evaluación en entornos virtuales de aprendizaje. "
+    "teachings.content": ["La Oficina de Educación Online (EOL) de la Universidad de Chile ofrece una serie de cursos diseñados para fortalecer las habilidades de los docentes en la implementación de la Educación Mediada por Tecnologías (EMT).", " Su objetivo es habilitar a docentes, académicos y personal que realiza actividades de docencia en la Universidad de Chile, con las competencias necesarias para integrar la tecnología en su práctica pedagógica, permitiéndoles diseñar experiencias de aprendizaje significativas en entornos virtuales alineadas con el Modelo Educativo de nuestra Universidad."," Para conocer más sobre esta propuesta, te invitamos a ver el siguiente vídeo:  "]
 }
