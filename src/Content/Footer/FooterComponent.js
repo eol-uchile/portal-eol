@@ -13,11 +13,11 @@ export const FooterComponent = () => {
                         </h4>
                         <ul data-aos="fade-up" data-aos-duration="1000">
                             <li>
-                                <a href="https://www.instagram.com/vti_uchile/" target="_blank" rel="noreferrer">
+                                <a href="https://www.instagram.com/openuchile.eol/" target="_blank" rel="noreferrer">
                                     <i className="fa fa-instagram mx-2 fa-2x"></i>
                                 </a>
-                                <a href="https://twitter.com/vti_uchile" target="_blank" rel="noreferrer">
-                                    <i className="fa fa-twitter mx-2 fa-2x"></i>
+                                <a href="https://www.youtube.com/@educaciononlineuniversidad8305" target="_blank" rel="noreferrer">
+                                    <i className="fa fa-youtube mx-2 fa-2x"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/company/open-uchile/posts/?feedView=all" target="_blank" rel="noreferrer">
                                     <i className="fa fa-linkedin mx-2 fa-2x"></i>
