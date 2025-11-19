@@ -13,6 +13,18 @@ export const testimonials_data = {
             "img": '/images/testimonials/06_testimonios_RodrigoPascual.jpg'
         },
         {
+            "name": 'Anónimo 1',
+            "position": 'Estudiante del curso Introducción al Álgebra, versión primer semestre 2025',
+            "text": 'El EOL es buenísimo, es una increíble plataforma que desearía con todo mi corazón que hubiera estado en otros ramos como Intro al Cálculo.',
+            "img": '/images/testimonials/00_testimonio_anonimo_blanco.svg'
+        },
+        {
+            "name": 'Anónimo 2',
+            "position": 'Estudiante del curso Introducción al Álgebra, versión primer semestre 2025',
+            "text": 'Primero me gustaría destacar la metodología de aula invertida junto con el EOL, creo que una vez que uno se acostumbra a estudiar la materia previo a la cátedra entiende todo con mucha más facilidad y termina siendo un proceso mucho más eficiente.',
+            "img": '/images/testimonials/00_testimonio_anonimo_azul.svg'
+        },
+        {
             "name": 'Pamela Rojas',
             "position": 'Coordinadora de capacitacion y onboarding (HRBP) de la Facultad de Economía de Negocios UCH' ,
             "text": '(...) tuvimos que migrar a la inducción online, entonces, ahí llegamos a EOL, en donde tuvimos un trabajo muy dedicado con las personas de EOL en donde pudimos crear todo lo que nosotros queríamos en ese momento transmitirle los nuevos ingresos dentro de la facultad. Para nosotros, tener la educación en línea, en este caso para la inducción, es algo súper práctico, es algo súper bueno y yo creo que hay que seguir avanzando hacia eso, porque de hecho también nosotros vamos a seguir generando más cápsulas en temas que son muy administrativos que finalmente la idea es disminuir las preguntas de correo electrónico. Entonces, todo esto no ayuda enormemente.',
@@ -23,6 +35,19 @@ export const testimonials_data = {
             "position": 'Directora Ejecutiva del Programa de Reducción de Riesgos y Desastres (CITRID) UCH' ,
             "text": 'Hemos realizado distintos cursos y en eso nos ha ayudado EOL, porque en la temática de reducción de riesgo de desastre es súper importante poder capacitar a la población sobre distintos temas y ese trabajo de capacitación lo hemos logrado hacer a través de la plataforma de EOL. Ya tenemos dos experiencias con EOL [...] la verdad fue muy bueno y los dos cursos fueron bastante masivos a nivel nacional. Se inscribieron personas de todas partes de Chile con distintos niveles educativos y todos pudieron acceder la plataforma, en general sin problemas, y fue una gran experiencia la verdad, porque te da muchas opciones para poder interactuar con los estudiantes y también la plataforma es bastante manejable por parte del docente una vez que aprendí a hacerlo.',
             "img": '/images/testimonials/08_testimonios_DanielaEjsmentewicz .jpg'
+        },
+
+        {
+            "name": 'Anónimo 3',
+            "position": 'Estudiante del curso Parasitología Teórica Virtual para Tecnología Médica, versión primer semestre 2025',
+            "text": '(...) el uso de la plataforma me permitió gestionar mis recursos y mi tiempo para poder aplicarlos en mis métodos de estudio y de esa manera mejorar mi rendimiento.',
+            "img": '/images/testimonials/00_testimonio_anonimo_blanco.svg'
+        },
+        {
+            "name": 'Anónimo 4',
+            "position": 'Estudiante del curso Parasitología Teórica Virtual para Tecnología Médica, versión primer semestre 2025',
+            "text": 'El hecho de que el material se encuentre accesible en todo momento es muy bueno ya que tengo total libertad de verlo y revisarlo cuando sea necesario, pienso que este tipo de modelo de curso es muy eficiente ya que se tiene mucho control de los tiempos libres con el que uno cuenta, además, siento que realmente al haber buena retroalimentación de parte de los docentes y ayudantes del curso que además está disponible en EOL es muy bueno para comprender bien los temas que estamos estudiando.',
+            "img": '/images/testimonials/00_testimonio_anonimo_azul.svg'
         },
         {
             "name": 'Francisca Morales',
@@ -35,6 +60,18 @@ export const testimonials_data = {
             "position": 'Doctor en Biología UCH y profesor USACh',
             "text": 'El trabajo docente a través de EOL se presenta inicialmente como un desafío creativo, en donde las oportunidades en la generación de material y promoción de la interactividad crecen en la medida que nos interiorizamos en las herramientas y posibilidades de la plataforma. Destaco de EOL las opciones que ofrece en reemplazo del aula presencial. Extraño muchísimo la interacción en el aula, no obstante, esta plataforma a diferencia de otros medios nos permite insertar los maravillosos <iframe> (juegos temáticos, infografías interactivas, y otros que nos alejan del clásico PPT, PDF o clase grabada.MP4), desarrollar discusiones en foros, evaluar y entregar contenidos en diversos formatos.  Mención especial al equipo de la VTI que nos ha instruido gentilmente en este mundo, sin su guía no podríamos. Finalmente, sólo espero que las/los/les estudiantes disfruten tanto como nosotros de esta experiencia.',
             "img": '/images/testimonials/02_testimonios_IsaacPeña.jpg'
+        },
+        {
+            "name": 'Anónimo 5',
+            "position": 'Estudiante del curso Parasitología Teórica Virtual para Tecnología Médica, versión primer semestre 2025',
+            "text": 'Siento que todo es muy accesible y creo que la plataforma no necesita mejoras, está bastante bien hecha.',
+            "img": '/images/testimonials/00_testimonio_anonimo_blanco.svg'
+        },
+        {
+            "name": 'Anónimo 6',
+            "position": 'Estudiante del curso Parasitología Teórica Virtual para Tecnología Médica, versión primer semestre 2025',
+            "text": 'Se aprecia mucho que las notas sean entregadas de inmediato, ya que ayudan a darse una idea de que áreas hay que mejorar como estudiante, para las próximas evaluaciones.',
+            "img": '/images/testimonials/00_testimonio_anonimo_azul.svg'
         },
         {
             "name": 'Fernando Ulloa',
