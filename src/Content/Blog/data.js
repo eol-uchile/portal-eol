@@ -185,13 +185,12 @@ export const blog_data = {
     {
       id: 21,
       title: "¿Qué es Genial.ly y para qué sirve?",
-      date: "13/06/2022",
+      date: "01/12/2025",
       author: "Oficina Educación Online",
-      description:
-        "",
-      post: "/posts/2022_06_13_que_es_genially/post_es.html",
-      img: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
-      img_large: "/posts/2022_06_13_que_es_genially/genially-logo.jpeg",
+      description: "",
+      post: "/posts/2025_01_12_que_es_genially/post_es.html",
+      img: "/posts/2025_01_12_que_es_genially/img/genially-logo.jpg",
+      img_large: "/posts/2025_01_12_que_es_genially/img/genially-logo-2.jpg",
       tags: ["EOL", "VTI", "Herramienta", "Docencia"],
     },
   ],
