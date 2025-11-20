@@ -33,12 +33,8 @@ export const functionalities_data = {
             'desc'  : 'Es posible integrar nuestra plataforma a los cursos que se imparten a través de U-Cursos.'
         },
         {
-            'title' : 'Pasaporte UChile',
+            'title' : 'Cuenta Pasaporte UChile.',
             'desc'  : 'Nuestra plataforma se integra con la Cuenta Pasaporte UChile, permitiendo el inicio de sesión a través de ésta.'
-        },
-        {
-            'title' : 'Clave Única',
-            'desc'  : 'Nuestra plataforma se integra con los sistemas de Clave Única del Gobierno de Chile, permitiendo iniciar sesión en nuestra plataforma a través de este sistema.'
         },
         {
             'title' : 'Google Docs',
@@ -59,14 +55,6 @@ export const functionalities_data = {
         {
             'title' : 'Sence',
             'desc'  : 'Nuestra plataforma permite la realización de cursos y capacitaciones Sence.'
-        },
-        {
-            'title' : 'Corfo',
-            'desc'  : 'Integración con los programas de emprendimiento ofrecidas por CORFO, permitiendo la realización de los cursos en nuestra plataforma para posteriormente ser validados con CORFO.'
-        },
-        {
-            'title' : 'Perusall',
-            'desc'  : 'Una manera de promover y reforzar el aprendizaje autónomo, la discusión, y el análisis crítico, es a través de la herramienta Perusall, la cual da la posibilidad de convertir tareas de lectura solitaria en actividades colectivas, apoyando la preparación previa de los estudiantes para cada clase. Nuestra plataforma permite la integración de esta herramienta en cualquiera de los cursos que impartimos.'
         },
         {
             'title' : 'Sistemas de pago Webpay/Paypal',
