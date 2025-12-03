@@ -1,8 +1,11 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import "./about.css";
+import { VideoItemComponent } from '../Videos/VideoItemComponent';
+import { useIntl } from 'react-intl';
 
 export const AboutTeachingComponent = () => {
+    const intl = useIntl();
     return (
         <section id="about-teaching">
             <div className="container text-center">
@@ -13,9 +16,14 @@ export const AboutTeachingComponent = () => {
                         </h2>
                     </div>
                     <div className="content-info col-12" data-aos="zoom-in" data-aos-duration="1000">
-                        <p>
-                            <FormattedMessage id="teachings.content" />
-                        </p>
+                        {intl.messages["teachings.content"].map((line, index) => (
+                            <p key={index}>
+                                {line}
+                            </p>
+                        ))}
+                    </div>
+                    <div className='w-100 mt-5'>
+                          <VideoItemComponent url={"https://www.youtube.com/watch?v=aPjUWgGW6ZI "}/>
                     </div>
                 </div>
             </div>

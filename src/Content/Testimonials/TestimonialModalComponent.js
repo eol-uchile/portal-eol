@@ -22,26 +22,30 @@ export const TestimonialModalComponent = ( {showModal, data, setModalData} ) => 
             className="testimonialModal"
         >
             <Modal.Body>
-                <h4 className="text-center pt-3">
-                    <FormattedMessage id="testimonials.modal.header" values={{name:name}} />
-                </h4>
-                <p className="text-center text-uppercase subtitle">{ position }</p>
+                <img src="/images/testimonials/doble_quotation.svg" alt="" className='double-quotation'/>
+                <div className='d-flex justify-content-end'>
+                    <Button className="close-button" variant="primary" onClick={handleClose}>
+                        X
+                    </Button>
+                </div>
+      
                 <Container>
                     <Row>
-                        <Col lg={12} className="modal-col">
-                            <p className="text-justify">
-                                <img className="img-fluid float-left mr-4" src={ img } alt={ name }/>
-                                { text }
-                            </p>
+                        <Col lg={6} className="modal-col pl-5 pr-4">
+                            <p className="text-start">{ text }</p>
+                        </Col>
+                        <Col lg={6} className="modal-col text-start">
+                            <div className='text-center'>
+                                <img className="img-fluid  mb-4" src={ img } alt={ name }/>
+                                <h4 className="text-center pt-3 text-uppercase">
+                                    {name}
+                                    </h4>
+                                <p className="text-center subtitle">{ position }</p>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
             </Modal.Body>
-            <Modal.Footer>
-                <Button variant="primary" onClick={handleClose}>
-                    <FormattedMessage id="testimonials.modal.close" />
-                </Button>
-            </Modal.Footer>
         </Modal>
     )
 }

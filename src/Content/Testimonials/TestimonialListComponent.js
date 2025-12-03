@@ -38,7 +38,7 @@ export const TestimonialListComponent = React.memo(( {setModalData} ) => {
                 items: 3,
             },
             1300: {
-                items: 4,
+                items: 3,
             }
         }
     }

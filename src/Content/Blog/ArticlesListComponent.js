@@ -63,7 +63,7 @@ export const ArticlesListComponent = (props) => {
                             <div data-aos="fade-up" data-aos-duration="1000"><FormattedMessage id="articles.empty" /></div>
                 }
             </div>
-            {props.match.params.tag && <SeparatorTopComponent />}
+            <SeparatorTopComponent />
         </section>
     )
 }

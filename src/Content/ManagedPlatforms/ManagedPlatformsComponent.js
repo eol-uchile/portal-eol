@@ -61,17 +61,6 @@ export const ManagedPlatformsComponent = () => {
                                     </Card.Header>
                                 </Card>
                             </a>
-                            <a className="mb-3" href="https://virtual-labx.uchile.cl/" target="_blank" rel="noreferrer">
-                                <Card>
-                                    <Card.Header>
-                                        <Card.Title>
-                                            <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
-                                            <i className="fas fa-link"></i>
-                                            <FormattedMessage id="mp.virtuallabx.title" />
-                                        </Card.Title>
-                                    </Card.Header>
-                                </Card>
-                            </a>
                             <a className="mb-3" href="https://cajalosandes.virtual-labx.cl/" target="_blank" rel="noreferrer">
                                 <Card>
                                     <Card.Header>
@@ -79,6 +68,28 @@ export const ManagedPlatformsComponent = () => {
                                             <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
                                             <i className="fas fa-link"></i>
                                             <FormattedMessage id="mp.virtuallabx-caja.title" />
+                                        </Card.Title>
+                                    </Card.Header>
+                                </Card>
+                            </a>
+                            <a className="mb-3" href="https://alpha.medicina.uchile.cl/" target="_blank" rel="noreferrer">
+                                <Card>
+                                    <Card.Header>
+                                        <Card.Title>
+                                            <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
+                                            <i className="fas fa-link"></i>
+                                            <FormattedMessage id="mp.alpha.title" />
+                                        </Card.Title>
+                                    </Card.Header>
+                                </Card>
+                            </a>
+                            <a className="mb-3" href="https://cursos.umce.cl/" target="_blank" rel="noreferrer">
+                                <Card>
+                                    <Card.Header>
+                                        <Card.Title>
+                                            <span className="toggle-arrow"><i className="fas fa-external-link-alt"></i></span>
+                                            <i className="fas fa-link"></i>
+                                            <FormattedMessage id="mp.umce.title" />
                                         </Card.Title>
                                     </Card.Header>
                                 </Card>
