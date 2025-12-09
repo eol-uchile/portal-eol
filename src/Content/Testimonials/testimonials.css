@@ -109,7 +109,7 @@ section#testimonials .owl-carousel .nav-btn prev-slide{
 section#testimonials .card-text {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 11;
     -webkit-box-orient: vertical;
     font-size: 25px;
     line-height: 32px;
