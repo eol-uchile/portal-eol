@@ -45,9 +45,6 @@ export const TeachingListComponent = () => {
                 <div className="container">
                     <TeachingItem teaching={teachings[4]} />
                 </div>
-                <div className="container">
-                    <TeachingItem teaching={teachings[5]} side="img-right" />
-                </div>
                 <SeparatorTopComponent background="light" />
             </div>
         </section>
