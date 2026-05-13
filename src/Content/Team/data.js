@@ -1,16 +1,8 @@
 export const team_members_data = {
     'es' : [
         {
-            'name'          : 'Cecilia Saint-Pierre C.',
-            'position'      : 'Directora',
-            'image'         : "/images/team/D_CeciliaSP.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/csaintpierre'
-            }
-        },
-        {
             'name'          : 'Darío Riquelme Z.',
-            'position'      : 'Subdirector',
+            'position'      : 'Director',
             'image'         : "/images/team/D_Dario.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow-8701781b/'
@@ -81,12 +73,11 @@ export const team_members_data = {
             }
         },
         {
-            'name'          : 'Consuelo Calderón F.',
-            'position'      : 'Diseñadora Gráfica y UX',
-            'image'         : "/images/team/DG_Consuelo.jpg",
+            'name'          : 'Anahí Aguirre S.',
+            'position'      : 'Diseñadora Multimedia',
+            'image'         : "/images/team/DG_Anahi.jpg",
             'links'         : {
-                'linkedin'  : 'http://www.linkedin.com/in/consuelo-calder%C3%B3n-fuentealba-50aa6014a/',
-                'behance'   : 'https://www.behance.net/cocalderon'
+                'linkedin'  : 'https://www.linkedin.com/in/nhsls/',
             }
         },
         {
