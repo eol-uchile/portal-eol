@@ -23,7 +23,7 @@ export const AboutTeachingComponent = () => {
                         ))}
                     </div>
                     <div className='w-100 mt-5'>
-                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/-OZu0dlpyR0?si=LvKGtQYdSBptAggP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/RLpjZ6aFg_E?si=QwL8qh2SEuRdsqbm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

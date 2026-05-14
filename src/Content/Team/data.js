@@ -98,7 +98,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Catalina M. A. Ilabaca',
-            'position'      : 'Desarrolladora',
+            'position'      : 'Ingeniera de software',
             'image'         : "/images/team/TI_Catalina.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/catalina-araya-ilabaca-1a4bba1b9/',
@@ -107,7 +107,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Jorge Barraza A.',
-            'position'      : 'Desarrollador',
+            'position'      : 'Ingeniero de software ',
             'image'         : "/images/team/TI_Jorge.jpg",
             'links'         : {
                 'github'    : 'https://github.com/jjorgeb'
@@ -115,7 +115,7 @@ export const team_members_data = {
         },
         {
             'name': 'Felipe Sologuren G.',
-            'position': 'Desarrollador DevOps.',
+            'position': 'DevOps',
             'image': "/images/team/TI_Felipe.jpg",
             'links': {
                 'linkedin': 'https://www.linkedin.com/in/felipe-sologuren-guti%C3%A9rrez-784b45b3/',
@@ -124,7 +124,7 @@ export const team_members_data = {
         },
         {
             'name': 'Vicente Astorga V.',
-            'position': 'Desarrollador DevOps.',
+            'position': 'DevOps',
             'image': "/images/team/TI_Vicente.jpg",
             'links': {
                 'linkedin': 'https://www.linkedin.com/in/vicente-astorga',
