@@ -5,7 +5,7 @@ export const team_members_data = {
             'position'      : 'Director',
             'image'         : "/images/team/D_Dario.jpg",
             'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow-8701781b/'
+                'linkedin'  : 'https://www.linkedin.com/in/dario-riquelme-zornow/'
             }
         },
         {
@@ -90,7 +90,7 @@ export const team_members_data = {
         },
         {
             'name'          : 'Thomas Peet M.',
-            'position'      : 'Líder de Ingenieria',
+            'position'      : 'Líder de Ingeniería',
             'image'         : "/images/team/TI_Thomas.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/thomaspeet/'
@@ -101,7 +101,7 @@ export const team_members_data = {
             'position'      : 'Ingeniera de software',
             'image'         : "/images/team/TI_Catalina.jpg",
             'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/catalina-araya-ilabaca-1a4bba1b9/',
+                'linkedin'  : 'https://www.linkedin.com/in/catalina-ilabaca/',
                 'github'    : 'https://github.com/cmaraya'
             }
         },
