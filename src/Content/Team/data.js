@@ -10,18 +10,10 @@ export const team_members_data = {
         },
         {
             'name': 'Javiera Klein M.',
-            'position': 'Líder de Iniciativas abiertas',
+            'position': 'Líder de Gestión y Proyectos',
             'image': "/images/team/G_Javiera.jpg",
             'links': {
                 'linkedin': 'https://www.linkedin.com/in/javiera-klein/'
-            }
-        },
-        {
-            'name'          : 'Paulina Gatica M.',
-            'position'      : 'Líder de Producción',
-            'image'         : "/images/team/G_Paulina.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
             }
         },
         {
@@ -33,19 +25,11 @@ export const team_members_data = {
             }
         },
         {
-            'name': 'Silvia Carozzi V.',
-            'position': 'Megatutora y Soporte',
-            'image': "/images/team/G_Silvia.jpg",
-            'links': {
-                'linkedin': 'https://www.linkedin.com/in/'
-            }
-        },
-        {
-            'name': 'Ludmila Kalasnikova.',
-            'position': 'EMI Academic Coordinator',
-            'image': "/images/team/G_Mila.jpg",
-            'links': {
-                'linkedin': 'https://www.linkedin.com/in/ludmilakalasnikova/'
+            'name'          : 'Paulina Gatica M.',
+            'position'      : 'Líder de Producción',
+            'image'         : "/images/team/G_Paulina.jpg",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/paulina-gatica-mondaca/'
             }
         },
         {
@@ -62,6 +46,14 @@ export const team_members_data = {
             'image': "/images/team/DI_Ecarinne.jpg",
             'links': {
                 'linkedin': 'https://www.linkedin.com/in/ecarinne-gonz%C3%A1lez-rodr%C3%ADguez-33282b10b/'
+            }
+        },
+         {
+            'name'          : 'Karla Cabello O.',
+            'position'      : 'Diseñadora Instruccional',
+            'image'         : "/images/team/DI_Karla.jpg",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/karla-cabello-orellana/'
             }
         },
         {
@@ -94,23 +86,6 @@ export const team_members_data = {
             'image'         : "/images/team/TI_Thomas.jpg",
             'links'         : {
                 'linkedin'  : 'https://www.linkedin.com/in/thomaspeet/'
-            }
-        },
-        {
-            'name'          : 'Catalina M. A. Ilabaca',
-            'position'      : 'Ingeniera de software',
-            'image'         : "/images/team/TI_Catalina.jpg",
-            'links'         : {
-                'linkedin'  : 'https://www.linkedin.com/in/catalina-ilabaca/',
-                'github'    : 'https://github.com/cmaraya'
-            }
-        },
-        {
-            'name'          : 'Jorge Barraza A.',
-            'position'      : 'Ingeniero de software ',
-            'image'         : "/images/team/TI_Jorge.jpg",
-            'links'         : {
-                'github'    : 'https://github.com/jjorgeb'
             }
         },
         {
