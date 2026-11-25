@@ -25,6 +25,14 @@ export const team_members_data = {
             }
         },
         {
+            'name'          : 'Juan Carlos Bustamante B.',
+            'position'      : 'Analista de Experiencia de Usuario',
+            'image'         : "/images/team/D_JuanCa.jpg",
+            'links'         : {
+                'linkedin'  : 'https://www.linkedin.com/in/juancabustamante/'
+            }
+        },
+        {
             'name'          : 'Paulina Gatica M.',
             'position'      : 'Líder de Producción',
             'image'         : "/images/team/G_Paulina.jpg",
